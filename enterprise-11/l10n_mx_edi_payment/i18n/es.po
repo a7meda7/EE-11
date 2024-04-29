@@ -1,0 +1,41 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * l10n_mx_edi_payment
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~14+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-24 00:38+0000\n"
+"PO-Revision-Date: 2018-05-24 00:38+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_mx_edi_payment
+#: model:ir.model.fields,field_description:l10n_mx_edi_payment.field_account_payment_l10n_mx_edi_expedition_date
+msgid "Expedition Date"
+msgstr "Fecha de Expedición"
+
+#. module: l10n_mx_edi_payment
+#: model:ir.model.fields,help:l10n_mx_edi_payment.field_account_payment_l10n_mx_edi_time_payment
+msgid "Keep empty to use the current Mexico central time"
+msgstr "Deje este campo vacío para usar la hora central actual de México"
+
+#. module: l10n_mx_edi_payment
+#: model:ir.model,name:l10n_mx_edi_payment.model_account_payment
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: l10n_mx_edi_payment
+#: model:ir.model.fields,help:l10n_mx_edi_payment.field_account_payment_l10n_mx_edi_expedition_date
+msgid "Save the expedition date of the CFDI that according to the SAT documentation must be the date when the CFDI is issued."
+msgstr "Guarda la fecha de expedición del CFDI la cual, según la documentación del SAT, debe ser la fecha cuando es emitido en CFDI."
+
+#. module: l10n_mx_edi_payment
+#: model:ir.model.fields,field_description:l10n_mx_edi_payment.field_account_payment_l10n_mx_edi_time_payment
+msgid "Time payment"
+msgstr "Hora del pago"

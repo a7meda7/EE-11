@@ -1,0 +1,292 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * account_accountant
+# 
+# Translators:
+# Paulius Sladkevičius <paulius@versada.eu>, 2017
+# UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2017
+# digitouch UAB <digitouchagencyeur@gmail.com>, 2017
+# Martin Trigaux, 2017
+# Linas Versada <linaskrisiukenas@gmail.com>, 2018
+# Silvija Butko <silvija.butko@gmail.com>, 2018
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-02 11:49+0000\n"
+"PO-Revision-Date: 2017-09-20 11:38+0000\n"
+"Last-Translator: Silvija Butko <silvija.butko@gmail.com>, 2018\n"
+"Language-Team: Lithuanian (https://www.transifex.com/odoo/teams/41243/lt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: lt\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#. module: account_accountant
+#: model:ir.ui.menu,name:account_accountant.menu_account_group
+msgid "Account Groups"
+msgstr "DK sąskaitų grupės"
+
+#. module: account_accountant
+#: model:ir.ui.menu,name:account_accountant.account_tag_menu
+msgid "Account Tags"
+msgstr "Sąskaitų žymos"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
+msgid "Account used when transferring between banks"
+msgstr "Sąskaita, kuri naudojama atliekant pavedimus tarp bankų"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_partner_view_form
+msgid "Accounting"
+msgstr "Apskaita"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_res_config_settings_use_anglo_saxon
+msgid "Anglo-Saxon Accounting"
+msgstr "Anglo-Saxon apskaita"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
+msgid "Cancel"
+msgstr "Atšaukti"
+
+#. module: account_accountant
+#: model:ir.model,name:account_accountant.model_account_change_lock_date
+msgid "Change lock date"
+msgstr "Pakeisti užrakinimo datą"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date_create_uid
+msgid "Created by"
+msgstr "Sukūrė"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date_create_date
+msgid "Created on"
+msgstr "Sukurta"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date_display_name
+msgid "Display Name"
+msgstr "Rodomas pavadinimas"
+
+#. module: account_accountant
+#: model:ir.ui.menu,name:account_accountant.menu_account_financial_reports_tree
+msgid "Financial Reports"
+msgstr "Finansinės ataskaitos"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
+msgid "Fiscal Period Closing"
+msgstr "Finansinio periodo uždarymas"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
+msgid "Fiscal Year"
+msgstr "Finansiniai metai"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_res_config_settings_fiscalyear_last_day
+msgid "Fiscalyear Last Day"
+msgstr "Finansinių metų paskutinė diena"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_res_config_settings_fiscalyear_last_month
+msgid "Fiscalyear Last Month"
+msgstr "Finansinių metų paskutinis mėnuo"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date_id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
+msgid "Inter-Banks Transfers"
+msgstr "Tarpbankiniai pavedimai"
+
+#. module: account_accountant
+#: model:ir.model.fields,help:account_accountant.field_res_config_settings_transfer_account_id
+msgid ""
+"Intermediary account used when moving money from a liquidity account to "
+"another"
+msgstr ""
+"Tarpinė sąskaita, kuri naudojama pinigų perkelimams iš likvidumo į kitą "
+"sąskaitą "
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
+msgid "Last Day"
+msgstr "Paskutinė diena"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date___last_update
+msgid "Last Modified on"
+msgstr "Paskutinį kartą keista"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date_write_uid
+msgid "Last Updated by"
+msgstr "Paskutinį kartą atnaujino"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date_write_date
+msgid "Last Updated on"
+msgstr "Paskutinį kartą atnaujinta"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
+msgid "Last day of your fiscal year, for automatic opening entries"
+msgstr "Paskutinė finansinių metų diena, automatiniam DK įrašų sukūrimui"
+
+#. module: account_accountant
+#. openerp-web
+#: code:addons/account_accountant/static/src/js/tour.js:26
+#, python-format
+msgid "Let's start with a new customer invoice."
+msgstr "Pradėkime nuo kliento sąskaitos faktūros."
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date_fiscalyear_lock_date
+#: model:ir.model.fields,field_description:account_accountant.field_res_config_settings_fiscalyear_lock_date
+msgid "Lock Date for All Users"
+msgstr "Užrakinti datą visiems naudotojams"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date_period_lock_date
+#: model:ir.model.fields,field_description:account_accountant.field_res_config_settings_period_lock_date
+msgid "Lock Date for Non-Advisers"
+msgstr "Užrakinti datą ne apskaitininkams"
+
+#. module: account_accountant
+#: model:ir.ui.menu,name:account_accountant.menu_action_change_lock_date
+msgid "Lock Dates"
+msgstr "Užrakinti datas"
+
+#. module: account_accountant
+#: model:ir.actions.act_window,name:account_accountant.action_view_account_change_lock_date
+msgid "Lock your Fiscal Period"
+msgstr "Užrakinti savo finansinį periodą"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
+msgid "Lock your fiscal period"
+msgstr "Užrakinti savo finansinį periodą"
+
+#. module: account_accountant
+#. openerp-web
+#: code:addons/account_accountant/static/src/js/tour.js:17
+#, python-format
+msgid "Make your system ready to invoice in a few steps."
+msgstr "Paruoškite savo sistemą darbui su sąskaitomis keliais žingsniais."
+
+#. module: account_accountant
+#: model:ir.model.fields,help:account_accountant.field_account_change_lock_date_fiscalyear_lock_date
+#: model:ir.model.fields,help:account_accountant.field_res_config_settings_fiscalyear_lock_date
+msgid ""
+"No users, including Advisers, can edit accounts prior to and inclusive of "
+"this date. Use it for fiscal year locking for example."
+msgstr ""
+"Nei vienas naudotojas, įskaitant ir apskaitininkus, negali keisti sąskaitų "
+"iki ir įskaitant šią datą. Naudokite šią datą finansinių metų uždarymui, "
+"pavyzdžiui."
+
+#. module: account_accountant
+#: model:ir.model.fields,help:account_accountant.field_res_config_settings_period_lock_date
+msgid ""
+"Only users with the 'Adviser' role can edit accounts prior to and inclusive "
+"of this date. Use it for period locking inside an open fiscal year, for "
+"example."
+msgstr ""
+"Tik apskaitininko rolę turintys naudotojai gali redaguoti sąskaitas iki ir "
+"įskaitant šią datą. Naudokite ją periodo uždarymui einamųjų finansinių metų "
+"intervale, pavyzdžiui."
+
+#. module: account_accountant
+#: model:ir.model.fields,help:account_accountant.field_account_change_lock_date_period_lock_date
+msgid ""
+"Only users with the Adviser role can edit accounts prior to and inclusive of"
+" this date. Use it for period locking inside an open fiscal year, for "
+"example."
+msgstr ""
+"Tik apskaitininko rolę turintys naudotojai gali redaguoti sąskaitas iki ir "
+"įskaitant šią datą. Naudokite ją periodo uždarymui einamųjų finansinių metų "
+"intervale, pavyzdžiui."
+
+#. module: account_accountant
+#: model:ir.ui.menu,name:account_accountant.menu_product_product_categories
+msgid "Product Categories"
+msgstr "Produktų kategorijos"
+
+#. module: account_accountant
+#. openerp-web
+#: code:addons/account_accountant/static/src/js/tour.js:13
+#, python-format
+msgid ""
+"Ready to discover your new favorite <b>accounting app</b>? Get started by "
+"clicking here."
+msgstr ""
+"Pasiruošti atrasti savo naują mėgstamiausią <b>apskaitos programą</b>? "
+"Pradėkite paspausdami čia."
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
+msgid "Record cost of goods sold in your journal entries"
+msgstr "Registruokite prekių savikainas DK įrašuose."
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
+msgid "Save"
+msgstr "Išsaugoti"
+
+#. module: account_accountant
+#: model:ir.model.fields,help:account_accountant.field_res_config_settings_fiscalyear_last_day
+#: model:ir.model.fields,help:account_accountant.field_res_config_settings_fiscalyear_last_month
+msgid ""
+"The last day of the month will be taken if the chosen day doesn't exist."
+msgstr ""
+"Bus paimta paskutinė mėnesio diena, jei pasirinkta diena neegzistuoja."
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_res_config_settings_transfer_account_id
+msgid "Transfer Account"
+msgstr "Perkėlimo sąskaita"
+
+#. module: account_accountant
+#. openerp-web
+#: code:addons/account_accountant/static/src/js/tour.js:31
+#, python-format
+msgid ""
+"Use the path to quickly click back to <b>previous screens</b>, without "
+"reloading the page."
+msgstr ""
+"Naudokite šį kelią norint greitai sugrįžti atgal į <b>ansktensius "
+"langus</b>, išvengiant puslapio perkrovimo."
+
+#. module: account_accountant
+#. openerp-web
+#: code:addons/account_accountant/static/src/js/tour.js:21
+#, python-format
+msgid "When you're ready, close this planner to continue the tour."
+msgstr "Kai būsite pasirengę, uždarykite planuoklį ir tęskite turą."
+
+#. module: account_accountant
+#. openerp-web
+#: code:addons/account_accountant/static/src/js/tour.js:35
+#, python-format
+msgid ""
+"Your reports are available in real time. <i>No need to close a fiscal year "
+"to get a Profit &amp; Loss statement or view the Balance Sheet.</i>"
+msgstr ""
+"Jūsų ataskaitos veikia reliuoju metu. <i>Nereikia pasirinkti finansinių "
+"metų, kad būtų galima peržiūrėti pelno ir nuostolio bei balanso "
+"ataskaitas.</i>"
+
+#. module: account_accountant
+#: model:ir.model,name:account_accountant.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"

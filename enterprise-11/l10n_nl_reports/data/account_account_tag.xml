@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="l10n_nl.tag_nl_40" model="account.account.tag">
+            <field name="name">ICP: Product</field>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="l10n_nl.tag_nl_41" model="account.account.tag">
+            <field name="name">ICP: Dienst</field>
+            <field name="applicability">taxes</field>
+        </record>
+    </data>
+</odoo>

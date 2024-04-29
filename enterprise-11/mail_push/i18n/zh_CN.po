@@ -1,0 +1,147 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * mail_push
+# 
+# Translators:
+# Martin Trigaux, 2017
+# liAnGjiA <liangjia@qq.com>, 2017
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2017
+# e2f_cn c7 <e2f_cn_c7@outlook.com>, 2017
+# waveyeung <waveyeung@qq.com>, 2017
+# Michael Chong <michaelchong2005@gmail.com>, 2017
+# e2f_cn c5 <jarvisn@ecinnovations.com>, 2018
+# e2f <projects@e2f.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-20 11:33+0000\n"
+"PO-Revision-Date: 2017-09-20 11:33+0000\n"
+"Last-Translator: e2f <projects@e2f.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: mail_push
+#: model:ir.ui.view,arch_db:mail_push.res_config_settings_view_form
+msgid "<i class=\"fa fa-fw fa-arrow-right\"/>Generate API and Sender ID"
+msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>生成 API 和发送者 ID"
+
+#. module: mail_push
+#: model:ir.ui.view,arch_db:mail_push.res_config_settings_view_form
+msgid "API Key"
+msgstr "API Key"
+
+#. module: mail_push
+#: model:ir.model,name:mail_push.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: mail_push
+#: model:ir.model.fields,field_description:mail_push.field_mail_push_device_create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: mail_push
+#: model:ir.model.fields,field_description:mail_push.field_mail_push_device_create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: mail_push
+#: model:ir.model.fields,field_description:mail_push.field_mail_push_device_name
+msgid "Device Name"
+msgstr "设备名称"
+
+#. module: mail_push
+#: model:ir.model.fields,field_description:mail_push.field_res_partner_device_identity_ids
+#: model:ir.model.fields,field_description:mail_push.field_res_users_device_identity_ids
+msgid "Device identities"
+msgstr "设备标识"
+
+#. module: mail_push
+#: model:ir.model,name:mail_push.model_mail_channel
+msgid "Discussion channel"
+msgstr "讨论频道"
+
+#. module: mail_push
+#: model:ir.model.fields,field_description:mail_push.field_mail_push_device_display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: mail_push
+#: model:ir.ui.view,arch_db:mail_push.res_config_settings_view_form
+msgid "Get notifications on Android phones"
+msgstr "在 Android 手机上获取通知"
+
+#. module: mail_push
+#: model:ir.model,name:mail_push.model_ir_http
+msgid "HTTP routing"
+msgstr "HTTP 路由"
+
+#. module: mail_push
+#: model:ir.model.fields,field_description:mail_push.field_mail_push_device_id
+msgid "ID"
+msgstr "ID"
+
+#. module: mail_push
+#: model:ir.model.fields,field_description:mail_push.field_mail_push_device___last_update
+msgid "Last Modified on"
+msgstr "最后修改时间"
+
+#. module: mail_push
+#: model:ir.model.fields,field_description:mail_push.field_mail_push_device_write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: mail_push
+#: model:ir.model.fields,field_description:mail_push.field_mail_push_device_write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: mail_push
+#: model:ir.ui.view,arch_db:mail_push.res_config_settings_view_form
+msgid "Mobile App"
+msgstr "移动应用"
+
+#. module: mail_push
+#: model:ir.model.fields,field_description:mail_push.field_mail_push_device_service_type
+msgid "Notification Service"
+msgstr "通知服务"
+
+#. module: mail_push
+#: model:ir.model.fields,field_description:mail_push.field_res_config_settings_mail_push_notification
+msgid "Notifications"
+msgstr "通知"
+
+#. module: mail_push
+#: model:ir.model.fields,field_description:mail_push.field_mail_push_device_partner_id
+msgid "Partner"
+msgstr "业务伙伴"
+
+#. module: mail_push
+#: model:ir.model.fields,field_description:mail_push.field_res_config_settings_fcm_project_id
+msgid "Sender ID"
+msgstr "发送者 ID"
+
+#. module: mail_push
+#: model:ir.model.fields,field_description:mail_push.field_res_config_settings_fcm_api_key
+msgid "Server API Key"
+msgstr "服务器 API 密钥"
+
+#. module: mail_push
+#: model:ir.model.fields,field_description:mail_push.field_mail_push_device_subscription_id
+msgid "Subscription ID"
+msgstr "订阅 ID"
+
+#. module: mail_push
+#: model:ir.model,name:mail_push.model_mail_push_device
+msgid "mail_push.device"
+msgstr "mail_push.device"
+
+#. module: mail_push
+#: model:ir.model,name:mail_push.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"

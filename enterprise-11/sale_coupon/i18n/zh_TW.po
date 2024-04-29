@@ -1,0 +1,1257 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * sale_coupon
+# 
+# Translators:
+# Martin Trigaux, 2017
+# Michael Yeung, 2017
+# Bill Hsu <hcm86@icloud.com>, 2018
+# 敬雲 林 <chingyun@yuanchih-consult.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-19 14:22+0000\n"
+"PO-Revision-Date: 2018-02-19 14:22+0000\n"
+"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2018\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_reward.py:70
+#, python-format
+msgid "%s %% discount on %s"
+msgstr ""
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_reward.py:72
+#, python-format
+msgid "%s %% discount on cheapest product"
+msgstr ""
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_reward.py:68
+#, python-format
+msgid "%s %% discount on total amount"
+msgstr ""
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_reward.py:75
+#, python-format
+msgid "%s %s discount on total amount"
+msgstr "於總額中之%s %s 折扣"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_created_coupon_email_template
+msgid ") during your next purchase to receive this discount:"
+msgstr ""
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,help:sale_coupon.sale_coupon_program_action_coupon_program
+msgid ""
+"<br>\n"
+"                A coupon is applied by entering a valid code if the program rules are met and if the\n"
+"                reward is already in the order lines."
+msgstr ""
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,help:sale_coupon.sale_coupon_program_action_promo_program
+msgid ""
+"<br>\n"
+"                You may choose to apply the program reward immediatly on the sales order or to propose the reward for a next order. In the second case a coupon will be generated at the order confirmation for the customer to use it later."
+msgstr ""
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_promo_program_form
+msgid ""
+"<span class=\"oe_grey\">\n"
+"                        <b>Apply on Current Order -</b> Reward will be applied on current order.<br/>\n"
+"                        <b>Apply on Next Order -</b> Generate a coupon for a next order.\n"
+"                    </span>"
+msgstr ""
+"<span class=\"oe_grey\"><b>在目前的訂單</b>申請獎勵將被應用在目前的訂單。<br/>\n"
+"\n"
+"<b>適用於下一個訂單</b>生成下一級的優惠券</span>"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form
+msgid "<span class=\"oe_grey\">if 0, infinite use</span>"
+msgstr ""
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form_common
+msgid "<span class=\"oe_grey\">if 0, no limit</span>"
+msgstr "<span class=\"oe_grey\">如果0，沒有限制</span>"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_promo_program_form
+msgid ""
+"<span> Orders</span>\n"
+"                    <span class=\"oe_grey\"> if 0, infinite use</span>"
+msgstr ""
+"<span>預定</span>\n"
+"<span class=\"oe_grey\">如果０，無限使用</span>"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.view_sale_coupon_program_kanban
+msgid "<strong>Active</strong>"
+msgstr "<strong>主動</strong>"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.view_sale_coupon_program_kanban
+msgid "<strong>Coupons</strong>"
+msgstr " <strong>優惠券</strong>"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.view_sale_coupon_program_kanban
+msgid "<strong>Sales</strong>"
+msgstr "<strong>銷售</strong>"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon.py:71
+#, python-format
+msgid "A Coupon is already applied for the same reward"
+msgstr "優惠券已經申請相同的回報"
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,help:sale_coupon.sale_coupon_program_action_coupon_program
+#: model:ir.actions.act_window,help:sale_coupon.sale_coupon_program_action_promo_program
+msgid "A combination of the preceeding points."
+msgstr ""
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon.py:65
+#: code:addons/sale_coupon/models/sale_coupon_program.py:138
+#, python-format
+msgid "A minimum of %s %s should be purchased to get the reward"
+msgstr "至少%s%s應該購買得到的獎勵"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_active
+msgid "A program is available for the customers when active"
+msgstr "一個程序在啟動的時候可有效的給客戶用"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_promo_code
+msgid ""
+"A promotion code is a code that is associated with a marketing discount. For"
+" example, a retailer might tell frequent customers to enter the promotion "
+"code 'THX001' to receive a 10%% discount on their whole order."
+msgstr "一個促銷代碼是一個代碼，是一個行銷折扣相關。例如，零售商可能跟頻繁的客戶輸入促銷代碼「thx001對整個訂單獲得10%%的折扣。"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_program_type
+msgid ""
+"A promotional program can be either a limited promotional offer without code (applied automatically)\n"
+"                or with a code (displayed on a magazine for example) that may generate a discount on the current\n"
+"                order or create a coupon for a next order.\n"
+"\n"
+"                A coupon program generates coupons with a code that can be used to generate a discount on the current\n"
+"                order or create a coupon for a next order."
+msgstr ""
+"促銷計劃可以是一個有限的促銷沒有代碼（自動申請）\n"
+"\n"
+"或用一個代碼（例如在雜誌上顯示），可能會對目前的折扣。\n"
+"\n"
+"訂購或創建下一個訂單的優惠券。\n"
+"\n"
+"優惠券程序生成優惠券，其中的代碼可以用來產生目前的折扣。\n"
+"\n"
+"訂購或創建下一個訂單的優惠券。"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_active
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_promo_program_search
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_search
+msgid "Active"
+msgstr "啟用"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_promo_applicability
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_rule_id
+msgid "Applicability"
+msgstr "適用範圍"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_order_applied_coupon_ids
+msgid "Applied Coupons"
+msgstr "申請優惠券"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_order_no_code_promo_program_ids
+msgid "Applied Immediate Promo Programs"
+msgstr "應用即時促銷計劃"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_order_code_promo_program_id
+msgid "Applied Promo Program"
+msgstr "應用促銷計劃"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_sales_order_id
+msgid "Applied on order"
+msgstr "應用順序"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_order_promo_code
+msgid "Applied program code"
+msgstr "應用程序代碼"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_apply_code_view_form
+#: model:ir.ui.view,arch_db:sale_coupon.sale_order_view_form
+msgid "Apply Coupon"
+msgstr "使用優惠券"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form_common
+msgid "Apply Discount"
+msgstr "應用折扣"
+
+#. module: sale_coupon
+#: selection:sale.coupon.program,promo_applicability:0
+msgid "Apply On Current Order"
+msgstr "按目前訂單應用"
+
+#. module: sale_coupon
+#: selection:sale.coupon.program,promo_applicability:0
+msgid "Apply On Next Order"
+msgstr "應用於下一個訂單"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_apply_code_view_form
+msgid "Apply coupon"
+msgstr "使用優惠券"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_promo_program_form
+msgid "Apply on First"
+msgstr "適用於第一"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon.py:82
+#: code:addons/sale_coupon/models/sale_coupon_program.py:159
+#, python-format
+msgid "At least one of the required conditions is not met to get the reward!"
+msgstr "在規定的條件下至少有一個是不符合獲得獎勵！"
+
+#. module: sale_coupon
+#: selection:sale.coupon.program,promo_code_usage:0
+msgid "Automatically Applied"
+msgstr "自動應用"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_promo_code_usage
+msgid ""
+"Automatically Applied - No code is required, if the program rules are met, the reward is applied (Except the global discount or the free shipping rewards which are not cumulative)\n"
+"Use a code - If the program rules are met, a valid code is mandatory for the reward to be applied\n"
+msgstr ""
+"自動應用-不需要代碼，如果滿足程序規則，則應用獎勵（除非全球折扣或免費送貨獎勵不累計）。\n"
+"\n"
+"使用代碼-如果滿足了程序規則，則必須為應用程序提供有效的代碼。\n"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_rule_partners_domain
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_rule_rule_partners_domain
+msgid "Based on Customers"
+msgstr "根據客戶"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_rule_products_domain
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_rule_rule_products_domain
+msgid "Based on Products"
+msgstr "根據產品"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_apply_code_view_form
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_generate_view_form
+msgid "Cancel"
+msgstr "取消"
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,help:sale_coupon.sale_coupon_program_action_coupon_program
+msgid "Click here to create a new coupon program."
+msgstr ""
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,help:sale_coupon.sale_coupon_program_action_promo_program
+msgid "Click here to create a new promotion program."
+msgstr ""
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_promo_program_search
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_search
+msgid "Closed"
+msgstr "已關閉"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_promo_program_search
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_search
+msgid "Closed Programs"
+msgstr "關閉程序"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_code
+msgid "Code"
+msgstr "編號"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form_common
+msgid "Conditions"
+msgstr "條件"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_created_coupon_email_template
+msgid "Congratulations!"
+msgstr "恭喜！"
+
+#. module: sale_coupon
+#: selection:sale.coupon,state:0
+msgid "Consumed"
+msgstr "已投料"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_apply_code_coupon_code
+msgid "Coupon"
+msgstr "優惠券"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_coupon_count
+msgid "Coupon Count"
+msgstr "息數"
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,name:sale_coupon.sale_coupon_program_action_coupon_program
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form_common
+#: selection:sale.coupon.program,program_type:0
+msgid "Coupon Program"
+msgstr "優惠券計劃"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form
+msgid "Coupon Program Name..."
+msgstr "優惠券節目名稱…"
+
+#. module: sale_coupon
+#: model:ir.ui.menu,name:sale_coupon.menu_coupon_type_config
+#: model:ir.ui.view,arch_db:sale_coupon.res_config_settings_view_form
+msgid "Coupon Programs"
+msgstr "優惠券規劃"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_rule_date_to
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_rule_rule_date_to
+msgid "Coupon program end date"
+msgstr "優惠券節目結束日期"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_rule_date_from
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_rule_rule_date_from
+msgid "Coupon program start date"
+msgstr "優惠券程序開始日期"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_sequence
+msgid ""
+"Coupon program will be applied based on given sequence if multiple programs "
+"are defined on same condition(For minimum amount)"
+msgstr "如果多個程序在相同條件下定義（最小數量），則將根據給定的序列應用優惠券程序。"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_rule_partners_domain
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_rule_rule_partners_domain
+msgid "Coupon program will work for selected customers only"
+msgstr "優惠券計劃將只為選定的客戶"
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,name:sale_coupon.sale_coupon_action
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_promo_program_form
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_view_form
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_view_tree
+msgid "Coupons"
+msgstr "優惠券"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_apply_code_create_uid
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_create_uid
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_generate_create_uid
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_create_uid
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_create_uid
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_rule_create_uid
+msgid "Created by"
+msgstr "建立者"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_apply_code_create_date
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_create_date
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_generate_create_date
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_create_date
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_create_date
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_rule_create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_currency_id
+msgid "Currency"
+msgstr "貨幣"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_generate_partners_domain
+msgid "Customer"
+msgstr "客戶"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form
+msgid "Days"
+msgstr "天數"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_reward_product_uom_id
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_reward_reward_product_uom_id
+msgid "Default Unit of Measure used for all stock operation."
+msgstr "所有庫存作業的預設計量單位"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_discount_percentage
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_discount_percentage
+#: selection:sale.coupon.reward,reward_type:0
+msgid "Discount"
+msgstr "折扣"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_reward_type
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_reward_reward_type
+msgid ""
+"Discount - Reward will be provided as discount.\n"
+"Free Product - Free product will be provide as reward \n"
+"Free Shipping - Free shipping will be provided as reward (Need delivery module)"
+msgstr ""
+"折扣獎勵將提供折扣。\n"
+"\n"
+"免費的產品-免費產品將提供獎勵\n"
+"\n"
+"免費送貨，免費送貨將提供獎勵（需要交付模組）"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_discount_apply_on
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_discount_apply_on
+msgid "Discount Apply On"
+msgstr "折扣"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_discount_max_amount
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_discount_max_amount
+msgid "Discount Max Amount"
+msgstr "最多數量折扣"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_discount_type
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_discount_type
+msgid "Discount Type"
+msgstr "折扣類型"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_reward.py:52
+#, python-format
+msgid "Discount percentage should be between 1-100"
+msgstr "貼現率應該是1-100之間"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_apply_code_display_name
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_display_name
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_generate_display_name
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_display_name
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_display_name
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_rule_display_name
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_rule_date_to
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_rule_rule_date_to
+msgid "End Date"
+msgstr "結束日期"
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,name:sale_coupon.sale_coupon_apply_code_action
+msgid "Enter Coupon Code"
+msgstr "輸入優惠券代碼"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_created_coupon_email_template
+msgid "Enter the following coupon code ("
+msgstr ""
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_expiration_date
+msgid "Expiration Date"
+msgstr "有效日期"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_search
+#: selection:sale.coupon,state:0
+msgid "Expired"
+msgstr "過期"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_search
+msgid "Expired Programs"
+msgstr "過期專案"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_discount_fixed_amount
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_discount_fixed_amount
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form_common
+#: selection:sale.coupon.reward,discount_type:0
+msgid "Fixed Amount"
+msgstr "固定金額"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_partner_id
+msgid "For Customer"
+msgstr "對於客戶"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_reward_product_id
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_reward_product_id
+#: selection:sale.coupon.reward,reward_type:0
+msgid "Free Product"
+msgstr "免費產品"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_reward.py:63
+#, python-format
+msgid "Free Product - %s"
+msgstr "免費產品－%s"
+
+#. module: sale_coupon
+#: selection:sale.coupon.reward,reward_type:0
+msgid "Free Shipping"
+msgstr "免費送貨"
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,help:sale_coupon.sale_coupon_program_action_coupon_program
+msgid ""
+"Free products or discounts if some conditions on products or purchased "
+"amount are met."
+msgstr ""
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_generate_view_form
+msgid "Generate"
+msgstr "生成"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form
+msgid "Generate Coupon"
+msgstr "生成優惠券"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_generate_view_form
+msgid "Generate Coupons"
+msgstr "生成優惠券"
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,help:sale_coupon.sale_coupon_program_action_coupon_program
+msgid "Generate coupons for a customers group."
+msgstr ""
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_coupon_ids
+msgid "Generated Coupons"
+msgstr "生成的優惠券"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_generate_generation_type
+msgid "Generation Type"
+msgstr "生成類型"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon.py:73
+#, python-format
+msgid "Global discounts are not cumulable."
+msgstr "全球折扣不累計的。"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_program.py:150
+#, python-format
+msgid "Global discounts are not cumulative."
+msgstr "全球折扣不是累積的。"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_apply_code_id
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_generate_id
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_id
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_id_11533
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_id
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_rule_id
+msgid "ID"
+msgstr "編號"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon.py:69
+#, python-format
+msgid "Invalid partner."
+msgstr "無效的合作夥伴。"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_order_line_is_reward_line
+msgid "Is a program reward line"
+msgstr "是一個節目獎勵線"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon___last_update
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_apply_code___last_update
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_generate___last_update
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program___last_update
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward___last_update
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_rule___last_update
+msgid "Last Modified on"
+msgstr "最後修改:"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_apply_code_write_uid
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_generate_write_uid
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_write_uid
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_write_uid
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_rule_write_uid
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_write_uid
+msgid "Last Updated by"
+msgstr "最後更新："
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_apply_code_write_date
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_generate_write_date
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_write_date
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_write_date
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_rule_write_date
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_write_date
+msgid "Last Updated on"
+msgstr "最後更新於"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form_common
+msgid "Max Discount Amount"
+msgstr "最大折扣數"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_maximum_use_number
+msgid "Maximum Use Number"
+msgstr "最大使用數量"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_discount_max_amount
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_reward_discount_max_amount
+msgid "Maximum amount of discount that can be provided"
+msgstr "可以提供的最大數量的折扣"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_maximum_use_number
+msgid "Maximum number of sales orders in which reward can be provided"
+msgstr "對於提供最大的銷售訂單號可以獎勵的"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form_common
+msgid "Minimum Purchase Of"
+msgstr "最低購買"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_rule_min_quantity
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_rule_rule_min_quantity
+msgid "Minimum Quantity"
+msgstr "最小數量"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_rules.py:39
+#, python-format
+msgid "Minimum purchased amount should be greater than 0"
+msgstr "最低購買量應該大於０"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_rules.py:44
+#, python-format
+msgid "Minimum quantity should be greater than 0"
+msgstr "最小數量應大於0"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_rule_minimum_amount
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_rule_rule_minimum_amount
+msgid "Minimum required amount to get the reward"
+msgstr "獲得獎勵所需的最低金額"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_rule_min_quantity
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_rule_rule_min_quantity
+msgid "Minimum required product quantity to get the reward"
+msgstr "最低要求的產品數量獲得獎勵"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_name
+msgid "Name"
+msgstr "名稱"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_generate_nbr_coupons
+#: selection:sale.coupon.generate,generation_type:0
+msgid "Number of Coupons"
+msgstr "一些優惠券"
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,name:sale_coupon.sale_coupon_generate_action
+msgid "Number of Coupons To Generate"
+msgstr "生成優惠券的數量"
+
+#. module: sale_coupon
+#: selection:sale.coupon.generate,generation_type:0
+msgid "Number of Selected Customers"
+msgstr "選定客戶數"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_generate_nbr_coupons
+msgid "Number of coupons"
+msgstr "優惠券數量"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_order_generated_coupon_ids
+msgid "Offered Coupons"
+msgstr "提供優惠券"
+
+#. module: sale_coupon
+#: selection:sale.coupon.reward,discount_apply_on:0
+msgid "On Cheapest Product"
+msgstr "在便宜的產品"
+
+#. module: sale_coupon
+#: selection:sale.coupon.reward,discount_apply_on:0
+msgid "On Order"
+msgstr "訂購"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_discount_apply_on
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_reward_discount_apply_on
+msgid ""
+"On Order - Discount on whole order\n"
+"Cheapest product - Discount on cheapest product of the order\n"
+"Specific product - Discount on selected specific product"
+msgstr ""
+"關於全訂單的訂貨折扣\n"
+"\n"
+"便宜的產品-便宜的產品訂單的折扣\n"
+"\n"
+"具體產品選擇特定的產品折扣"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_rule_products_domain
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_rule_rule_products_domain
+msgid "On Purchase of selected product, reward will be given"
+msgstr "對選定的產品購買，給予獎勵"
+
+#. module: sale_coupon
+#: selection:sale.coupon.reward,discount_apply_on:0
+msgid "On Specific Product"
+msgstr "在具體產品"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_promo_program_search
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_search
+msgid "Opened Programs"
+msgstr "打開的程序"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_order_count
+msgid "Order Count"
+msgstr "訂購數量"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_order_id
+msgid "Order Reference"
+msgstr "訂單參考"
+
+#. module: sale_coupon
+#: selection:sale.coupon.reward,discount_type:0
+msgid "Percentage"
+msgstr "百分比"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_discount_type
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_reward_discount_type
+msgid ""
+"Percentage - Entered percentage discount will be provided\n"
+"Amount - Entered fixed amount discount will be provided"
+msgstr ""
+"百分比百分比折扣將提供進入\n"
+"\n"
+"量進入固定金額的折扣將提供"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_discount_specific_product_id
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_discount_specific_product_id
+msgid "Product"
+msgstr "產品"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_discount_specific_product_id
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_reward_discount_specific_product_id
+msgid ""
+"Product that will be discounted if the discount is applied on a specific "
+"product"
+msgstr "產品會打折，如果折扣適用於一個特定的產品"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_discount_line_product_id
+msgid "Product used in the sales order to apply the discount."
+msgstr "用銷售訂單中應用折扣產品。"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_discount_line_product_id
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_reward_discount_line_product_id
+msgid ""
+"Product used in the sales order to apply the discount. Each coupon program "
+"has its own reward product for reporting purpose"
+msgstr "用銷售訂單中應用折扣產品。每個優惠券計劃呈報其目的本身的獎勵品"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_id
+msgid "Program"
+msgstr "計劃"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form_common
+msgid "Program Name"
+msgstr "計劃名稱"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_program_type
+msgid "Program Type"
+msgstr "計劃類型"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_promo_code_usage
+msgid "Promo Code Usage"
+msgstr "促銷代碼的使用"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_program.py:136
+#, python-format
+msgid "Promo code %s has been expired."
+msgstr "促銷代碼%s已經過期。"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_program.py:146
+#, python-format
+msgid "Promo code is expired"
+msgstr "促銷代碼過期"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_program.py:144
+#, python-format
+msgid "Promo code is invalid"
+msgstr "促銷代碼無效"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_promo_code
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_order_promo_code
+msgid "Promotion Code"
+msgstr "促銷代碼"
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,name:sale_coupon.sale_coupon_program_action_promo_program
+msgid "Promotion Program"
+msgstr "推廣計劃"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_promo_program_form
+msgid "Promotion Program Name..."
+msgstr "推廣計劃名稱。。。"
+
+#. module: sale_coupon
+#: model:ir.ui.menu,name:sale_coupon.menu_promotion_type_config
+#: model:ir.ui.view,arch_db:sale_coupon.res_config_settings_view_form
+msgid "Promotion Programs"
+msgstr "促銷規劃"
+
+#. module: sale_coupon
+#: selection:sale.coupon.program,program_type:0
+msgid "Promotional Program"
+msgstr "推廣計劃"
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,help:sale_coupon.sale_coupon_program_action_promo_program
+msgid "Promotional offers limited in time or a limited order number."
+msgstr ""
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,help:sale_coupon.sale_coupon_program_action_coupon_program
+msgid "Promotional offers limited in time."
+msgstr ""
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_program.py:148
+#, python-format
+msgid "Promotionals codes are not cumulative."
+msgstr "促銷代碼不累積。"
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,help:sale_coupon.sale_coupon_program_action_promo_program
+msgid "Public code printed in advertisements, magasines, etc."
+msgstr ""
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_reward_product_quantity
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_reward_product_quantity
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form_common
+msgid "Quantity"
+msgstr "數量"
+
+#. module: sale_coupon
+#: model:ir.model,name:sale_coupon.model_sale_order
+msgid "Quotation"
+msgstr "報價單"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_rule_partner_ids
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_rule_rule_partner_ids
+msgid "Related Partners"
+msgstr ""
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_rule_product_ids
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_rule_rule_product_ids
+msgid "Related Products"
+msgstr ""
+
+#. module: sale_coupon
+#: selection:sale.coupon,state:0
+msgid "Reserved"
+msgstr "已預留"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_reward_id
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_reward_type
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_reward_type
+msgid "Reward"
+msgstr "獎勵"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_order_reward_amount
+msgid "Reward Amount"
+msgstr "獎勵金額"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_reward_description
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_reward_description
+msgid "Reward Description"
+msgstr "獎勵說明"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_discount_line_product_id
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_discount_line_product_id
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_discount_line_product_id
+msgid "Reward Line Product"
+msgstr "獎勵線產品"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_reward_product_id
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_reward_reward_product_id
+msgid "Reward Product"
+msgstr "獎勵產品"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_reward_product_quantity
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_reward_reward_product_quantity
+msgid "Reward product quantity"
+msgstr "獎勵產品數量"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form_common
+msgid "Rewards"
+msgstr "獎勵"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_rule_minimum_amount
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_rule_rule_minimum_amount
+msgid "Rule Minimum Amount"
+msgstr "規定的最低金額"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_rule_minimum_amount_tax_inclusion
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_rule_rule_minimum_amount_tax_inclusion
+msgid "Rule Minimum Amount Tax Inclusion"
+msgstr "最低含稅規則"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form_common
+msgid "Sales"
+msgstr "銷售"
+
+#. module: sale_coupon
+#: model:ir.model,name:sale_coupon.model_sale_coupon
+msgid "Sales Coupon"
+msgstr "銷售優惠券"
+
+#. module: sale_coupon
+#: model:ir.model,name:sale_coupon.model_sale_coupon_program
+msgid "Sales Coupon Program"
+msgstr "銷售優惠計劃"
+
+#. module: sale_coupon
+#: model:ir.model,name:sale_coupon.model_sale_coupon_reward
+msgid "Sales Coupon Reward"
+msgstr "銷售券獎勵"
+
+#. module: sale_coupon
+#: model:ir.model,name:sale_coupon.model_sale_coupon_rule
+msgid "Sales Coupon Rule"
+msgstr "優惠券銷售規則"
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,name:sale_coupon.sale_order_action
+msgid "Sales Order"
+msgstr "銷貨單"
+
+#. module: sale_coupon
+#: model:ir.model,name:sale_coupon.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "銷售訂單細項"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_program.py:115
+#, python-format
+msgid "Sales Orders"
+msgstr "銷貨單"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form_common
+msgid "Select company"
+msgstr "選擇公司"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_promo_program_form
+msgid "Select customer"
+msgstr "選擇客戶"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form_common
+msgid "Select product"
+msgstr "選擇產品"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form_common
+msgid "Select reward product"
+msgstr "選擇獎勵產品"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_sequence
+msgid "Sequence"
+msgstr "序列"
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,help:sale_coupon.sale_coupon_program_action_coupon_program
+#: model:ir.actions.act_window,help:sale_coupon.sale_coupon_program_action_promo_program
+msgid "Specific offers based on a customers group or a product set."
+msgstr ""
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_rule_date_from
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_rule_rule_date_from
+msgid "Start Date"
+msgstr "開始日期"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_state
+msgid "State"
+msgstr "州/省"
+
+#. module: sale_coupon
+#: selection:sale.coupon.rule,rule_minimum_amount_tax_inclusion:0
+msgid "Tax Excluded"
+msgstr "不含稅"
+
+#. module: sale_coupon
+#: selection:sale.coupon.rule,rule_minimum_amount_tax_inclusion:0
+msgid "Tax Included"
+msgstr "含稅"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/wizard/sale_coupon_apply_code.py:49
+#, python-format
+msgid "The code %s is invalid"
+msgstr "代碼%s無效"
+
+#. module: sale_coupon
+#: sql_constraint:sale.coupon:0
+msgid "The coupon code must be unique!"
+msgstr "優惠券代碼必須是唯一的！"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon.py:67
+#, python-format
+msgid "The coupon program for %s is in draft or closed state"
+msgstr "優惠券計劃草案或是關閉狀態"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon.py:77
+#: code:addons/sale_coupon/models/sale_coupon_program.py:154
+#, python-format
+msgid "The customer doesn't have access to this reward."
+msgstr "客戶並沒有獲得這些獎勵。"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_discount_fixed_amount
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_reward_discount_fixed_amount
+msgid "The discount in fixed amount"
+msgstr "固定金額折扣"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_discount_percentage
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_reward_discount_percentage
+msgid "The discount in percentage, between 1 to 100"
+msgstr "固定金額折扣"
+
+#. module: sale_coupon
+#: sql_constraint:sale.coupon.program:0
+msgid "The program code must be unique!"
+msgstr "程序代碼必須是唯一的！"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_program.py:140
+#, python-format
+msgid "The promo code is already applied on this order"
+msgstr "促銷代碼已經應用在這個訂單上"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_program.py:142
+#, python-format
+msgid "The promotional offer is already applied on this order"
+msgstr "促銷提供已經應用此訂單上"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon.py:75
+#: code:addons/sale_coupon/models/sale_coupon_program.py:152
+#, python-format
+msgid ""
+"The reward products should be in the sales order lines to apply the "
+"discount."
+msgstr "獎勵的產品應在銷售訂單行申請貼現。"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_order_id
+msgid "The sales order from which coupon is generated"
+msgstr "銷售訂單，生成優惠券"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_sales_order_id
+msgid "The sales order on which the coupon is applied"
+msgstr "銷售訂單，應用優惠券"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_rules.py:32
+#, python-format
+msgid "The start date must be before the end date"
+msgstr "開始日期必須在結束日期之前。"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon.py:63
+#, python-format
+msgid "This coupon %s exists but the origin sales order is not validated yet."
+msgstr " 此優惠券存%s在但源來的銷售訂單不驗證。"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon.py:61
+#, python-format
+msgid "This coupon %s has been used or is expired."
+msgstr "此優惠券%s已使用或已過期。"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_reward_product_uom_id
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward_reward_product_uom_id
+msgid "Unit of Measure"
+msgstr "量度單位"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_order_view_form
+msgid "Update Promotions"
+msgstr "更新促銷"
+
+#. module: sale_coupon
+#: selection:sale.coupon.program,promo_code_usage:0
+msgid "Use a code"
+msgstr "使用代碼"
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,help:sale_coupon.sale_coupon_program_action_coupon_program
+msgid "Using coupon programs allows you to propose to your customers:<br>"
+msgstr ""
+
+#. module: sale_coupon
+#: model:ir.actions.act_window,help:sale_coupon.sale_coupon_program_action_promo_program
+msgid "Using promotion programs allows you to propose to your customers:<br>"
+msgstr ""
+
+#. module: sale_coupon
+#: selection:sale.coupon,state:0
+msgid "Valid"
+msgstr "有效"
+
+#. module: sale_coupon
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form_common
+msgid "Validity"
+msgstr "驗證"
+
+#. module: sale_coupon
+#: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_program_validity_duration
+#: model:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form
+msgid "Validity Duration"
+msgstr "有效期"
+
+#. module: sale_coupon
+#: model:ir.model.fields,help:sale_coupon.field_sale_coupon_program_validity_duration
+msgid "Validity duration for a coupon after its generation"
+msgstr "在其生成的優惠券有效期"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_program.py:101
+#, python-format
+msgid "You can not delete a program in active state"
+msgstr "不能刪除處於活動狀態的程序。"
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon.py:79
+#, python-format
+msgid ""
+"You don't have the required product quantities on your sales order. All the "
+"products should be recorded on the sales order. (Example: You need to have 3"
+" T-shirts on your sales order if the promotion is 'Buy 2, Get 1 Free'."
+msgstr ""
+
+#. module: sale_coupon
+#: code:addons/sale_coupon/models/sale_coupon_program.py:156
+#, python-format
+msgid ""
+"You don't have the required product quantities on your sales order. If the "
+"reward is same product quantity, please make sure that all the products are "
+"recorded on the sales order (Example: You need to have 3 T-shirts on your "
+"sales order if the promotion is 'Buy 2, Get 1 Free'."
+msgstr ""
+"您不在您的銷售訂單所需的產品數量。如果獎勵是相同的產品數量，請確保所有的產品都記錄在銷售訂單（例如：您需要有3件T恤在您的銷售訂單，如果促銷是「買2，得到1免費」。"
+
+#. module: sale_coupon
+#: model:ir.model,name:sale_coupon.model_sale_coupon_apply_code
+msgid "sale.coupon.apply.code"
+msgstr ""
+
+#. module: sale_coupon
+#: model:ir.model,name:sale_coupon.model_sale_coupon_generate
+msgid "sale.coupon.generate"
+msgstr ""

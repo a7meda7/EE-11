@@ -1,0 +1,107 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * mrp_workorder
+# 
+# Translators:
+# Martin Trigaux, 2017
+# Michael Yeung, 2017
+# 敬雲 林 <chingyun@yuanchih-consult.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-02 11:50+0000\n"
+"PO-Revision-Date: 2017-10-02 11:50+0000\n"
+"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2018\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: mrp_workorder
+#: model:ir.model,name:mrp_workorder.model_mrp_production
+msgid "Manufacturing Order"
+msgstr "製造訂單"
+
+#. module: mrp_workorder
+#: model:ir.ui.menu,name:mrp_workorder.mrp_production_menu_planning
+#: model:ir.ui.view,arch_db:mrp_workorder.mrp_production_tree_view_planning
+msgid "Manufacturing Orders"
+msgstr "製造訂單"
+
+#. module: mrp_workorder
+#: model:ir.actions.server,name:mrp_workorder.production_order_unplan_server_action
+msgid "Mrp: Unplan Production Orders"
+msgstr "Mrp:未計劃生產訂單"
+
+#. module: mrp_workorder
+#: model:ir.ui.menu,name:mrp_workorder.menu_mrp_production_plan
+msgid "Orders to Plan"
+msgstr ""
+
+#. module: mrp_workorder
+#: model:ir.ui.view,arch_db:mrp_workorder.mrp_production_view_form_inherit_planning
+msgid "Plan"
+msgstr "計劃"
+
+#. module: mrp_workorder
+#: model:ir.ui.menu,name:mrp_workorder.menu_mrp_workorder_production
+msgid "Planning by Production"
+msgstr "按生產規劃"
+
+#. module: mrp_workorder
+#: model:ir.ui.menu,name:mrp_workorder.menu_mrp_workorder_workcenter
+msgid "Planning by Workcenter"
+msgstr "按工作中心規劃"
+
+#. module: mrp_workorder
+#: model:ir.ui.view,arch_db:mrp_workorder.mrp_production_tree_view_planning
+msgid "Quantity"
+msgstr "數量"
+
+#. module: mrp_workorder
+#: model:ir.ui.view,arch_db:mrp_workorder.mrp_production_view_form_inherit_planning
+msgid "Scheduled Date"
+msgstr "預定日期"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_production_date_planned_finished_wo
+msgid "Scheduled End Date"
+msgstr "計劃的結束日期"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_production_date_planned_start_wo
+msgid "Scheduled Start Date"
+msgstr "計劃的開始日期"
+
+#. module: mrp_workorder
+#: model:ir.ui.view,arch_db:mrp_workorder.mrp_production_tree_view_planning
+msgid "Total Qty"
+msgstr "總數量"
+
+#. module: mrp_workorder
+#: model:ir.ui.view,arch_db:mrp_workorder.mrp_production_tree_view_planning
+msgid "Unit of Measure"
+msgstr "量度單位"
+
+#. module: mrp_workorder
+#: model:ir.ui.view,arch_db:mrp_workorder.mrp_production_view_form_inherit_planning
+msgid "Unplan"
+msgstr "取消計劃"
+
+#. module: mrp_workorder
+#: model:ir.ui.menu,name:mrp_workorder.menu_mrp_production_pending
+msgid "Waiting for Material Availability"
+msgstr ""
+
+#. module: mrp_workorder
+#: model:ir.ui.menu,name:mrp_workorder.mrp_workorder_menu_planning
+msgid "Work Orders"
+msgstr "工單"
+
+#. module: mrp_workorder
+#: model:ir.ui.view,arch_db:mrp_workorder.mrp_production_view_form_inherit_planning
+msgid "to"
+msgstr "到"

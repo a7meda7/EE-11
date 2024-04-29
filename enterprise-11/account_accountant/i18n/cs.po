@@ -1,0 +1,283 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * account_accountant
+# 
+# Translators:
+# Martin Trigaux, 2017
+# Jan Horzinka <jan.horzinka@centrum.cz>, 2018
+# trendspotter, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-02 11:49+0000\n"
+"PO-Revision-Date: 2017-10-02 11:49+0000\n"
+"Last-Translator: trendspotter, 2018\n"
+"Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: cs\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#. module: account_accountant
+#: model:ir.ui.menu,name:account_accountant.menu_account_group
+msgid "Account Groups"
+msgstr "Účetní Skupiny"
+
+#. module: account_accountant
+#: model:ir.ui.menu,name:account_accountant.account_tag_menu
+msgid "Account Tags"
+msgstr "Účetní značky"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
+msgid "Account used when transferring between banks"
+msgstr "Účet používaný při převodu mezi bankami"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_partner_view_form
+msgid "Accounting"
+msgstr "Účetnictví"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_res_config_settings_use_anglo_saxon
+msgid "Anglo-Saxon Accounting"
+msgstr "Anglosaské účetnictví"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
+msgid "Cancel"
+msgstr "Zrušit"
+
+#. module: account_accountant
+#: model:ir.model,name:account_accountant.model_account_change_lock_date
+msgid "Change lock date"
+msgstr "Změnit datum uzamčení"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date_create_uid
+msgid "Created by"
+msgstr "Vytvořil(a)"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date_create_date
+msgid "Created on"
+msgstr "Vytvořeno"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date_display_name
+msgid "Display Name"
+msgstr "Zobrazovaný název"
+
+#. module: account_accountant
+#: model:ir.ui.menu,name:account_accountant.menu_account_financial_reports_tree
+msgid "Financial Reports"
+msgstr "Finanční reporty"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
+msgid "Fiscal Period Closing"
+msgstr "Uzavření fiskálního období"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
+msgid "Fiscal Year"
+msgstr "Fiskální rok"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_res_config_settings_fiscalyear_last_day
+msgid "Fiscalyear Last Day"
+msgstr "Poslední den Fiskálního roku "
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_res_config_settings_fiscalyear_last_month
+msgid "Fiscalyear Last Month"
+msgstr "Poslední měsíc Fiskálního roku"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date_id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
+msgid "Inter-Banks Transfers"
+msgstr "Převody mezi bankami"
+
+#. module: account_accountant
+#: model:ir.model.fields,help:account_accountant.field_res_config_settings_transfer_account_id
+msgid ""
+"Intermediary account used when moving money from a liquidity account to "
+"another"
+msgstr ""
+"Zprostředkovatelský účet používaný při přesouvání peněz z účtu likvidity na "
+"jiný"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
+msgid "Last Day"
+msgstr "Poslední den"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date___last_update
+msgid "Last Modified on"
+msgstr "Naposled upraveno"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date_write_uid
+msgid "Last Updated by"
+msgstr "Naposled upraveno"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date_write_date
+msgid "Last Updated on"
+msgstr "Naposled upraveno"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
+msgid "Last day of your fiscal year, for automatic opening entries"
+msgstr "Poslední den vašeho fiskálního roku pro automatické otevření"
+
+#. module: account_accountant
+#. openerp-web
+#: code:addons/account_accountant/static/src/js/tour.js:26
+#, python-format
+msgid "Let's start with a new customer invoice."
+msgstr "Začněme s novou fakturou zákazníkovi."
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date_fiscalyear_lock_date
+#: model:ir.model.fields,field_description:account_accountant.field_res_config_settings_fiscalyear_lock_date
+msgid "Lock Date for All Users"
+msgstr "Datum uzamčení pro všechny uživatele"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date_period_lock_date
+#: model:ir.model.fields,field_description:account_accountant.field_res_config_settings_period_lock_date
+msgid "Lock Date for Non-Advisers"
+msgstr "Datum uzamčení pro uživatele kteří nejsou poradci"
+
+#. module: account_accountant
+#: model:ir.ui.menu,name:account_accountant.menu_action_change_lock_date
+msgid "Lock Dates"
+msgstr "Datumy Uzávěrky"
+
+#. module: account_accountant
+#: model:ir.actions.act_window,name:account_accountant.action_view_account_change_lock_date
+msgid "Lock your Fiscal Period"
+msgstr "Uzamknout své fiskální období"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
+msgid "Lock your fiscal period"
+msgstr "Uzamknout své fiskální období"
+
+#. module: account_accountant
+#. openerp-web
+#: code:addons/account_accountant/static/src/js/tour.js:17
+#, python-format
+msgid "Make your system ready to invoice in a few steps."
+msgstr "Připravte svůj systém k fakturaci v několika krocích."
+
+#. module: account_accountant
+#: model:ir.model.fields,help:account_accountant.field_account_change_lock_date_fiscalyear_lock_date
+#: model:ir.model.fields,help:account_accountant.field_res_config_settings_fiscalyear_lock_date
+msgid ""
+"No users, including Advisers, can edit accounts prior to and inclusive of "
+"this date. Use it for fiscal year locking for example."
+msgstr ""
+"Žádní uživatelé, včetně poradců, nemohou upravovat účty před a včetně tohoto"
+" data. Použijte jej například pro uzavření fiskálního roku."
+
+#. module: account_accountant
+#: model:ir.model.fields,help:account_accountant.field_res_config_settings_period_lock_date
+msgid ""
+"Only users with the 'Adviser' role can edit accounts prior to and inclusive "
+"of this date. Use it for period locking inside an open fiscal year, for "
+"example."
+msgstr ""
+"Pouze uživatelé s rolí \"poradce\" mohou upravit účty před tímto datem "
+"včetně. Použijte ji například pro uzamčení v otevřeném fiskálním roce."
+
+#. module: account_accountant
+#: model:ir.model.fields,help:account_accountant.field_account_change_lock_date_period_lock_date
+msgid ""
+"Only users with the Adviser role can edit accounts prior to and inclusive of"
+" this date. Use it for period locking inside an open fiscal year, for "
+"example."
+msgstr ""
+"Pouze uživatelé s rolí poradce mohou upravovat účty před a včetně tohoto "
+"data. Použijte ji například pro uzamčení v otevřeném fiskálním roce."
+
+#. module: account_accountant
+#: model:ir.ui.menu,name:account_accountant.menu_product_product_categories
+msgid "Product Categories"
+msgstr "kategorie produktů"
+
+#. module: account_accountant
+#. openerp-web
+#: code:addons/account_accountant/static/src/js/tour.js:13
+#, python-format
+msgid ""
+"Ready to discover your new favorite <b>accounting app</b>? Get started by "
+"clicking here."
+msgstr ""
+"Připraveni objevit Vaší nejoblíbenější <b>účetní aplikaci</b>? Začněte "
+"kliknutím zde."
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
+msgid "Record cost of goods sold in your journal entries"
+msgstr "Zapsat náklady na prodané zboží do vašich deníkových záznamů"
+
+#. module: account_accountant
+#: model:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
+msgid "Save"
+msgstr "Uložit"
+
+#. module: account_accountant
+#: model:ir.model.fields,help:account_accountant.field_res_config_settings_fiscalyear_last_day
+#: model:ir.model.fields,help:account_accountant.field_res_config_settings_fiscalyear_last_month
+msgid ""
+"The last day of the month will be taken if the chosen day doesn't exist."
+msgstr "Bude vybrán poslední den v měsíci, pokud zvolený den neexistuje."
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_res_config_settings_transfer_account_id
+msgid "Transfer Account"
+msgstr "Převodní účet"
+
+#. module: account_accountant
+#. openerp-web
+#: code:addons/account_accountant/static/src/js/tour.js:31
+#, python-format
+msgid ""
+"Use the path to quickly click back to <b>previous screens</b>, without "
+"reloading the page."
+msgstr ""
+"Používejte ukazetel postupu, abyste se rychle dostali na  <b>předchozí "
+"obrazovku</b>, bez znovunačtení stránky."
+
+#. module: account_accountant
+#. openerp-web
+#: code:addons/account_accountant/static/src/js/tour.js:21
+#, python-format
+msgid "When you're ready, close this planner to continue the tour."
+msgstr "Až budete připraveni, zavřete plánovač a pokračujte v prohlídce."
+
+#. module: account_accountant
+#. openerp-web
+#: code:addons/account_accountant/static/src/js/tour.js:35
+#, python-format
+msgid ""
+"Your reports are available in real time. <i>No need to close a fiscal year "
+"to get a Profit &amp; Loss statement or view the Balance Sheet.</i>"
+msgstr ""
+"Vaše přehledy jsou dostupné okamžitě. <i>Není potřeba uzavírat fiskální rok,"
+" abyste zjistili zisk &amp; ztrátu nebo rozvahu .</i>"
+
+#. module: account_accountant
+#: model:ir.model,name:account_accountant.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"

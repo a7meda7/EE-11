@@ -1,0 +1,1244 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * hr_contract_salary
+# 
+# Translators:
+# Nicolás Broggi <rnbroggi@gmail.com>, 2017
+# Martin Trigaux, 2017
+# Luis M. Ontalba <luis.martinez@tecnativa.com>, 2017
+# Pedro M. Baeza <pedro.baeza@gmail.com>, 2017
+# Carlos Eduardo Rodriguez Rossi <crodriguez@samemotion.com>, 2017
+# Jesus Zapata <jesus@vauxoo.com>, 2017
+# RGB Consulting <odoo@rgbconsulting.com>, 2017
+# Alejandro Santana <alejandrosantana@anubia.es>, 2017
+# Jose Manuel <admin@jaboweb.com>, 2017
+# Antonio Trueba, 2017
+# Gustavo Valverde, 2017
+# Eric Antones <eantones@users.noreply.github.com>, 2017
+# David de León <leceda09@gmail.com>, 2017
+# Daniel Blanco <daniel@blancomartin.com.ar>, 2017
+# Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2017
+# Sergio Flores <vitavitae1@gmail.com>, 2017
+# Daniel Santibáñez Polanco <dansanti@gmail.com>, 2018
+# e2f_EPV Translator <e2f_EPV@outlook.com>, 2018
+# ES R1 <e2fes@hotmail.com>, 2018
+# e2f <projects@e2f.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-19 14:22+0000\n"
+"PO-Revision-Date: 2018-02-19 14:22+0000\n"
+"Last-Translator: e2f <projects@e2f.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: hr_contract_salary
+#: model:mail.template,subject:hr_contract_salary.mail_template_send_offer
+msgid "${object.company_id.name} : Job Offer - ${object.name}"
+msgstr "${object.company_id.name}: Oferta de trabajo - ${object.name}"
+
+#. module: hr_contract_salary
+#: model:mail.template,subject:hr_contract_salary.mail_template_data_notification_email_send_offer
+msgid "${object.subject}"
+msgstr "${object.subject}"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "+ International Communication"
+msgstr "+ Comunicación internacional"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "+32 2 290 34 90"
+msgstr "+32 2 290 34 90"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "00.00.00-000.00"
+msgstr "00.00.00-000.00"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "110 €"
+msgstr "110 €"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "150 €"
+msgstr "150 €"
+
+#. module: hr_contract_salary
+#: model:mail.template,body_html:hr_contract_salary.mail_template_send_offer
+msgid ""
+"<?xml version=\"1.0\"?>\n"
+"<div>\n"
+"                    <h2>Congratulations!</h2>\n"
+"                    <p>You can configure your salary package by clicking on the link below.</p>\n"
+"                    <br/><br/>\n"
+"                    <center>\n"
+"                        <a href=\"${ctx.get('salary_package_url')}\" target=\"_blank\" style=\"background-color: #1abc9c; padding: 20px; text-decoration: none; color: #fff; border-radius: 5px; font-size: 16px;\" class=\"o_default_snippet_text\">Configure your package</a>\n"
+"                        <br/><br/><br/>\n"
+"                    </center>\n"
+"\n"
+"                </div>\n"
+"            "
+msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<div>\n"
+"                    <h2>¡Enhorabuena!</h2>\n"
+"                    <p>Puede configurar su paquete salarial haciendo clic en el enlace que aparece a continuación.</p>\n"
+"                    <br/><br/>\n"
+"                    <center>\n"
+"                        <a href=\"${ctx.get('salary_package_url')}\" target=\"_blank\" style=\"background-color: #1abc9c; padding: 20px; text-decoration: none; color: #fff; border-radius: 5px; font-size: 16px;\" class=\"o_default_snippet_text\">Configure su paquete</a>\n"
+"                        <br/><br/><br/>\n"
+"                    </center>\n"
+"\n"
+"                </div>\n"
+"            "
+
+#. module: hr_contract_salary
+#: model:mail.template,body_html:hr_contract_salary.mail_template_data_notification_email_send_offer
+msgid ""
+"<?xml version=\"1.0\"?>\n"
+"<html>\n"
+"                <head/>\n"
+"                % set record = ctx.get('record')\n"
+"                % set company = record and record.company_id or user.company_id\n"
+"                <body style=\"margin: 0; padding: 0;\">\n"
+"                <table border=\"0\" width=\"100%\" cellpadding=\"0\" bgcolor=\"#ededed\" style=\"padding: 20px; background-color: #ededed\" summary=\"o_mail_notification\">\n"
+"                    <tbody>\n"
+"\n"
+"                      <!-- HEADER -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px;\">\n"
+"                            <tr>\n"
+"                              <td valign=\"middle\">\n"
+"                                  <span style=\"font-size:20px; color:white; font-weight: bold;\">\n"
+"                                      ${object.record_name}\n"
+"                                  </span>\n"
+"                              </td>\n"
+"                              <td valign=\"middle\" align=\"right\">\n"
+"                                  <img src=\"/logo.png?company=${company.id}\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${company.name}\"/>\n"
+"                              </td>\n"
+"                            </tr>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"\n"
+"                      <!-- CONTENT -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#ffffff\" style=\"min-width: 590px; background-color: rgb(255, 255, 255); padding: 20px;\">\n"
+"                            <tbody>\n"
+"                              <td valign=\"top\" style=\"font-family:Arial,Helvetica,sans-serif; color: #555; font-size: 14px;\">\n"
+"                                ${object.body | safe}\n"
+"                              </td>\n"
+"                            </tbody>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"\n"
+"                      <!-- FOOTER -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px;\">\n"
+"                            <tr>\n"
+"                              <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                                ${company.name}<br/>\n"
+"                                ${company.phone or ''}\n"
+"                              </td>\n"
+"                              <td valign=\"middle\" align=\"right\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                                % if company.email:\n"
+"                                <a href=\"mailto:${company.email}\" style=\"text-decoration:none; color: white;\">${company.email}</a><br/>\n"
+"                                % endif\n"
+"                                % if company.website:\n"
+"                                    <a href=\"${company.website}\" style=\"text-decoration:none; color: white;\">\n"
+"                                        ${company.website}\n"
+"                                    </a>\n"
+"                                % endif\n"
+"                              </td>\n"
+"                            </tr>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"                      <tr>\n"
+"                        <td align=\"center\">\n"
+"                            Powered by <a target=\"_blank\" href=\"https://www.odoo.com\">Odoo</a>.\n"
+"                        </td>\n"
+"                      </tr>\n"
+"                    </tbody>\n"
+"                </table>\n"
+"                </body>\n"
+"                </html>\n"
+"            "
+msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<html>\n"
+"                <head/>\n"
+"                % set record = ctx.get('record')\n"
+"                % set company = record and record.company_id or user.company_id\n"
+"                <body style=\"margin: 0; padding: 0;\">\n"
+"                <table border=\"0\" width=\"100%\" cellpadding=\"0\" bgcolor=\"#ededed\" style=\"padding: 20px; background-color: #ededed\" summary=\"o_mail_notification\">\n"
+"                    <tbody>\n"
+"\n"
+"                      <!-- HEADER -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px;\">\n"
+"                            <tr>\n"
+"                              <td valign=\"middle\">\n"
+"                                  <span style=\"font-size:20px; color:white; font-weight: bold;\">\n"
+"                                      ${object.record_name}\n"
+"                                  </span>\n"
+"                              </td>\n"
+"                              <td valign=\"middle\" align=\"right\">\n"
+"                                  <img src=\"/logo.png?company=${company.id}\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${company.name}\"/>\n"
+"                              </td>\n"
+"                            </tr>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"\n"
+"                      <!-- CONTENT -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#ffffff\" style=\"min-width: 590px; background-color: rgb(255, 255, 255); padding: 20px;\">\n"
+"                            <tbody>\n"
+"                              <td valign=\"top\" style=\"font-family:Arial,Helvetica,sans-serif; color: #555; font-size: 14px;\">\n"
+"                                ${object.body | safe}\n"
+"                              </td>\n"
+"                            </tbody>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"\n"
+"                      <!-- FOOTER -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px;\">\n"
+"                            <tr>\n"
+"                              <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                                ${company.name}<br/>\n"
+"                                ${company.phone or ''}\n"
+"                              </td>\n"
+"                              <td valign=\"middle\" align=\"right\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                                % if company.email:\n"
+"                                <a href=\"mailto:${company.email}\" style=\"text-decoration:none; color: white;\">${company.email}</a><br/>\n"
+"                                % endif\n"
+"                                % if company.website:\n"
+"                                    <a href=\"${company.website}\" style=\"text-decoration:none; color: white;\">\n"
+"                                        ${company.website}\n"
+"                                    </a>\n"
+"                                % endif\n"
+"                              </td>\n"
+"                            </tr>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"                      <tr>\n"
+"                        <td align=\"center\">\n"
+"                            Con la tecnología de <a target=\"_blank\" href=\"https://www.odoo.com\">Odoo</a>.\n"
+"                        </td>\n"
+"                      </tr>\n"
+"                    </tbody>\n"
+"                </table>\n"
+"                </body>\n"
+"                </html>\n"
+"            "
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-car fa-fw\"/> Transport"
+msgstr "<i class=\"fa fa-1x fa-car fa-fw\"/>Transporte"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-crosshairs fa-fw fa-lg\"/> Commissions"
+msgstr "<i class=\"fa fa-1x fa-crosshairs fa-fw fa-lg\"/>Comisiones"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-cutlery fa-fw\"/> Meal Vouchers"
+msgstr "<i class=\"fa fa-1x fa-cutlery fa-fw\"/>Cupones de comida"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-gift fa-fw fa-lg\"/> 13<sup>th</sup> Month"
+msgstr "<i class=\"fa fa-1x fa-gift fa-fw fa-lg\"/>Prima de fin de año"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-globe fa-fw fa-lg\"/> Internet Subscription"
+msgstr "<i class=\"fa fa-1x fa-globe fa-fw fa-lg\"/>Suscripción a internet"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-leaf fa-fw\"/> Eco Vouchers"
+msgstr "<i class=\"fa fa-1x fa-leaf fa-fw\"/>Cupones Eco"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-male fa-fw fa-lg\"/> Representation Fees"
+msgstr "<i class=\"fa fa-1x fa-male fa-fw fa-lg\"/>Costes de representación"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-minus fa-fw\"/> Benefit in Kind (Company Car)"
+msgstr "<i class=\"fa fa-1x fa-minus fa-fw\"/>Beneficio (Vehículo de la compañía)"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-minus fa-fw\"/> Benefit in Kind (Internet)"
+msgstr "<i class=\"fa fa-1x fa-minus fa-fw\"/>Beneficio (Internet)"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<i class=\"fa fa-1x fa-minus fa-fw\"/> Benefit in Kind (Phone Subscription)"
+msgstr "<i class=\"fa fa-1x fa-minus fa-fw\"/>Beneficio (Suscripción de Teléfono)"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-minus fa-fw\"/> Meal Vouchers"
+msgstr "<i class=\"fa fa-1x fa-minus fa-fw\"/>Cupones de comida"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-minus fa-fw\"/> Social contribution"
+msgstr "<i class=\"fa fa-1x fa-minus fa-fw\"/>Contribución social"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-minus fa-fw\"/> Special social contribution"
+msgstr "<i class=\"fa fa-1x fa-minus fa-fw\"/>Contribución social especial"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-minus fa-fw\"/> Withholding Tax"
+msgstr "<i class=\"fa fa-1x fa-minus fa-fw\"/>Retención fiscal"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-mobile fa-fw fa-lg\"/> Phone Subscription"
+msgstr ""
+"<i class=\"fa fa-1x fa-mobile fa-fw fa-lg\"/>Suscripción al servicio "
+"telefónico"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-plus fa-fw\"/> Benefit in Kind (Company Car)"
+msgstr "<i class=\"fa fa-1x fa-plus fa-fw\"/>Beneficio (Vehículo de la compañía)"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-plus fa-fw\"/> Benefit in Kind (Internet)"
+msgstr "<i class=\"fa fa-1x fa-plus fa-fw\"/>Beneficio (Internet)"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-plus fa-fw\"/> Benefit in Kind Phone (Subscription)"
+msgstr "<i class=\"fa fa-1x fa-plus fa-fw\"/>Beneficio (Suscripción de teléfono)"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-plus fa-fw\"/> Commissions on Target"
+msgstr "<i class=\"fa fa-1x fa-plus fa-fw\"/>Comisiones sobre el objetivo"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-plus fa-fw\"/> Employment Bonus"
+msgstr "<i class=\"fa fa-1x fa-plus fa-fw\"/>Bono de empleo"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-plus fa-fw\"/> Representation Fees"
+msgstr "<i class=\"fa fa-1x fa-plus fa-fw\"/>Costes de representación"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-plus fa-fw\"/> Withholding Tax Reductions"
+msgstr "<i class=\"fa fa-1x fa-plus fa-fw\"/>Reducciones de la retención fiscal"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-suitcase fa-fw\"/> Holiday Bonus"
+msgstr "<i class=\"fa fa-1x fa-suitcase fa-fw\"/>Bonificación de vacaciones"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-suitcase fa-fw\"/> Legal Leaves"
+msgstr "<i class=\"fa fa-1x fa-suitcase fa-fw\"/>Ausencias legales"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-tint fa-fw\"/> Fuel Card"
+msgstr "<i class=\"fa fa-1x fa-tint fa-fw\"/>Tarjeta para combustible"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package_thank_you
+msgid "<i class=\"fa fa-check-circle-o mr8\"/>Congratulations"
+msgstr "<i class=\"fa fa-check-circle-o mr8\"/>Enhorabuena"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block mt8\" id=\"internet_tooltip\">Your internet "
+"subscription will be paid up to this amount.</span>"
+msgstr ""
+"<span class=\"help-block mt8\" id=\"internet_tooltip\">Su suscripción a "
+"internet se pagará hasta este importe.</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block mt8\" id=\"mobile_tooltip\">Your mobile phone "
+"subscription will be paid up to this amount.</span>"
+msgstr ""
+"<span class=\"help-block mt8\" id=\"mobile_tooltip\">Su suscripción al "
+"servicio de telefonía móvil se pagará hasta este importe.</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block mt8\" name=\"holidays_20_days\" style=\"display: inline;\"> You will receive 20 days of paid leaves. However, if you only use </span>\n"
+"                                                        <span class=\"help-block\" style=\"display: inline;\" name=\"holidays_amount\">X</span>\n"
+"                                                        <span class=\"help-block\" style=\"display: inline;\"> days by the end of the year, you will receive a compensation of approximately </span>\n"
+"                                                        <span class=\"help-block\" style=\"display: inline;\" name=\"compensation_amount\">x</span>\n"
+"                                                        <span class=\"help-block\" style=\"display: inline;\"> €.</span><br/>"
+msgstr ""
+"<span class=\"help-block mt8\" name=\"holidays_20_days\" style=\"display: inline;\"> Tendrá 20 días de vacaciones. Sin embargo, si solo ha gastado </span>\n"
+"                                                        <span class=\"help-block\" style=\"display: inline;\" name=\"holidays_amount\">X</span>\n"
+"                                                        <span class=\"help-block\" style=\"display: inline;\"> días para finales de año, recibirá una compensación de aproximadamente </span>\n"
+"                                                        <span class=\"help-block\" style=\"display: inline;\" name=\"compensation_amount\">x</span>\n"
+"                                                        <span class=\"help-block\" style=\"display: inline;\"> €.</span><br/>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block mt8\">Enter the monthly amount you spend on public "
+"transportation to go to work. The approximative amount reimbursed by the "
+"employer is calculated accordingly.</span>"
+msgstr ""
+"<span class=\"help-block mt8\">Introduzca el importe mensual que gasta en "
+"transporte público para ir a trabajar. El importe aproximado reembolsado por"
+" la empresa se calcula en consecuencia.</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block mt8\">The cost of a car is depreciated by 8% per "
+"year, for 7 years. So, your gross salary increases automatically to keep the"
+" same employee budget. Once a car has 7 years, the car is fully depreciated "
+"and the only remaining costs are the maintenance, insurances and "
+"taxes.</span>"
+msgstr ""
+"<span class=\"help-block mt8\">El coste de un automóvil se deprecia un 8% "
+"por año, durante 7 años. Por lo tanto, su salario bruto aumenta "
+"automáticamente para mantener el mismo presupuesto para empleados. Una vez "
+"que un automóvil tiene 7 años, el automóvil está completamente depreciado y "
+"los únicos costes restantes son el mantenimiento, los seguros y los "
+"impuestos.</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block\">Every month, you'll get 7.45€ per worked day on your meal voucher card.\n"
+"</span>"
+msgstr ""
+"<span class=\"help-block\">Recibirá 7,45 € al mes por día trabajado en la tarjeta de los cupones de comida.\n"
+"</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block\">This is a monthly net amount, taken into account "
+"in your payslip.</span>"
+msgstr ""
+"<span class=\"help-block\">Esta es una cantidad neta mensual, que se tiene "
+"en cuenta en su boleta de pago.</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block\">You'll receive this amount around December. This "
+"amount may be different based on your working schedule and the number of "
+"worked days during the year.</span>"
+msgstr ""
+"<span class=\"help-block\">Recibirá el dinero alrededor del mes de "
+"diciembre. Este importe podrá variar en función de su horario de trabajo y "
+"del número de días trabajados durante el año.</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block\">You'll receive this amount around June. This "
+"amount may be different based on your working schedule and the number of "
+"worked days during the year.</span>"
+msgstr ""
+"<span class=\"help-block\">Recibirá el dinero alrededor del mes de junio. "
+"Este importe podrá variar en función de su horario de trabajo y del número "
+"de días trabajados durante el año.</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block\">You'll receive this amount in the form of Eco "
+"Vouchers around June. This amount may be different based on your working "
+"schedule and the number of worked days during the year. </span>"
+msgstr ""
+"<span class=\"help-block\">Recibirá el dinero en forma de cupones Eco "
+"alrededor del mes de junio. Este importe podrá variar en función de su "
+"horario de trabajo y del número de días trabajados durante el año.</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_applicant_view_form
+msgid "<span class=\"o_stat_text\">Contracts</span>"
+msgstr "<span class=\"o_stat_text\">Contratos</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
+msgid "<span class=\"o_stat_text\">Signature Requests</span>"
+msgstr "<span class=\"o_stat_text\">Peticiones de firma</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
+msgid "Accept Request"
+msgstr "Aceptar solicitud"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_access_token_end_date
+msgid "Access Token Validity Date"
+msgstr "Fecha de vencimiento del token de acceso"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_active_employee
+msgid "Active"
+msgstr "Activo"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_employee_additional_note
+msgid "Additional Note"
+msgstr "Nota adicional"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Address"
+msgstr "Dirección"
+
+#. module: hr_contract_salary
+#: model:ir.model,name:hr_contract_salary.model_hr_applicant
+msgid "Applicant"
+msgstr "Candidato"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "BASIC SALARY"
+msgstr "SALARIO BÁSICO"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "BE10 3631 0709 4104"
+msgstr "BE10 3631 0709 4104"
+
+#. module: hr_contract_salary
+#: selection:hr.employee,certificate:0
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Bachelor"
+msgstr "Licenciado"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Bank account"
+msgstr "Cuenta Bancaria"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Batman"
+msgstr "Batman"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Birthdate"
+msgstr "Fecha de nacimiento"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "CO2 Emission: <span name=\"co2\"/>"
+msgstr "Emisión de CO2:"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Cash"
+msgstr "Efectivo"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Certificate"
+msgstr "Certificado"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_employee_certificate
+msgid "Certificate Level"
+msgstr "Nivel de certificado"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "City"
+msgstr "Ciudad"
+
+#. module: hr_contract_salary
+#: model:ir.actions.act_window,help:hr_contract_salary.action_hr_contract_templates
+msgid "Click here to create new contracts."
+msgstr "Haga clic para crear un nuevo contrato."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Company Car"
+msgstr "Empresa de coches"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Computer Science"
+msgstr "Informática"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_access_token_consumed
+msgid "Consumed Access Token"
+msgstr "Token de acceso consumido"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Contact Information"
+msgstr "Información de contacto"
+
+#. module: hr_contract_salary
+#: model:ir.actions.act_window,name:hr_contract_salary.action_hr_contract_templates
+#: model:ir.ui.menu,name:hr_contract_salary.hr_menu_contract_templates
+msgid "Contract Templates"
+msgstr "Plantillas de contrato"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_job_contract_update_template_id
+msgid "Contract Update Document Template"
+msgstr "Plantilla del documento de actualización del contrato"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_signature_request_template_id
+msgid "Contract template that the employee will have to sign."
+msgstr "Plantilla del contrato que el empleado tendrá que firmar."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Country"
+msgstr "País"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_applicant_view_form
+msgid "Create Offer"
+msgstr "Crear oferta"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Customize your salary"
+msgstr "Personalice su sueldo"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_res_config_settings_access_token_validity
+msgid "Default Access Token Validity Duration"
+msgstr "Periodo de vencimiento por defecto del token de acceso"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_applicant_default_contract_id
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_job_default_contract_id
+msgid "Default Contract for New Employees"
+msgstr "Contrato por defecto para nuevos empleados"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,help:hr_contract_salary.field_hr_applicant_default_contract_id
+#: model:ir.model.fields,help:hr_contract_salary.field_hr_job_default_contract_id
+msgid "Default contract used when making an offer to an applicant."
+msgstr ""
+"Contrato por defecto que se utiliza al hacer una oferta a un candidato."
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,help:hr_contract_salary.field_hr_job_signature_request_template_id
+msgid ""
+"Default document that the applicant will have to sign to accept a contract "
+"offer."
+msgstr ""
+"Documento por defecto que el candidato tendrá que firmar para aceptar una "
+"oferta de trabajo."
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,help:hr_contract_salary.field_hr_job_contract_update_template_id
+msgid ""
+"Default document that the employee will have to sign to update his contract."
+msgstr ""
+"Documento por defecto que el empleado tendrá que firmar para actualizar su "
+"contrato."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Details"
+msgstr "Detalles"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Disabled"
+msgstr "Con discapacidad"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Disabled Children"
+msgstr "Niños discapacitados"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Disabled Spouse"
+msgstr "Cónyuge discapacitado"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Disabled people <span class=\"help-block\">&amp;le; 65 years old</span>"
+msgstr ""
+"Personas con discapacidad <span class=\"help-block\">&amp;le; 65 años</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Disabled seniors <span class=\"help-block\">&amp;ge; 65 years old</span>"
+msgstr ""
+"Personas mayores con discapacidad<span class=\"help-block\">&amp;ge; 65 "
+"años</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Divorced"
+msgstr "Divorciado"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_signature_request_template_id
+msgid "Document Template"
+msgstr "Plantilla del documento"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Doors Number: <span name=\"door_number\"/>"
+msgstr "Número de puertas: <span name=\"door_number\"/>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_employee_view_form
+msgid "Education"
+msgstr "Educación"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Email"
+msgstr "Correo electrónico"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_employee_emergency_contact
+msgid "Emergency Contact"
+msgstr "Contacto de emergencia"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_employee_emergency_phone
+msgid "Emergency Phone"
+msgstr "Teléfono de emergencia"
+
+#. module: hr_contract_salary
+#: model:ir.model,name:hr_contract_salary.model_hr_employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: hr_contract_salary
+#: model:ir.model,name:hr_contract_salary.model_hr_contract
+msgid "Employee Contract"
+msgstr "Contrato de empleado"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Employer Cost"
+msgstr "Coste del empleaso"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Female"
+msgstr "Mujer"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_employee_study_field
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Field of Study"
+msgstr "Ámbito de estudio"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Fuel Type: <span name=\"fuel_type\"/>"
+msgstr "Tipo de combustible: <span name=\"fuel_type\"/>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Full time equivalent employer cost"
+msgstr "Coste para el empleador equivalente a tiempo completo"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "GROSS SALARY"
+msgstr "SALARIO BRUTO"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Gross"
+msgstr "Bruto"
+
+#. module: hr_contract_salary
+#: model:signature.item.party,name:hr_contract_salary.signature_item_party_job_responsible
+msgid "HR Responsible"
+msgstr "Responsable de RRHH"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package_thank_you
+msgid ""
+"He/She will review your contract.<br/> Feel free to contact him/her if you "
+"have further questions."
+msgstr ""
+"Revisará su contrato<br/>. No dude en consultarle si tiene más preguntas."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Hide <i class=\"fa fa-chevron-up\"/>"
+msgstr "Ocultar<i class=\"fa fa-chevron-up\"/>"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_active_employee
+msgid ""
+"If the active field is set to False, it will allow you to hide the resource "
+"record without removing it."
+msgstr ""
+"Si el campo activo se establece a False, permite ocultar el registro del "
+"recurso sin eliminarlo."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Immatriculation Date: <span name=\"immatriculation\"/>"
+msgstr "Fecha de Inmatriculación: <span name=\"immatriculation\"/>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "In case of emergency"
+msgstr "En caso de emergencia"
+
+#. module: hr_contract_salary
+#: model:ir.model,name:hr_contract_salary.model_hr_job
+msgid "Job Position"
+msgstr "Puesto de trabajo"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Last Odometer: <span name=\"odometer\"/>"
+msgstr "Último cuentakilómetros: <span name=\"odometer\"/>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Legal Leaves"
+msgstr "Ausencias legales"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Male"
+msgstr "Hombre"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Marital Status"
+msgstr "Estado civil"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Married / Legal Cohabitant"
+msgstr "Conviviente casado/legal"
+
+#. module: hr_contract_salary
+#: selection:hr.employee,certificate:0
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Master"
+msgstr "Maestro"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Monthly Advantages"
+msgstr "Ventajas mensuales"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Monthly Advantages in Cash"
+msgstr "Complementos mensuales en efectivo"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Monthly Advantages in Net"
+msgstr "Ventajas mensuales en la red"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Monthly Benefit in Kind"
+msgstr "Beneficios mensuales"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Monthly Equivalent"
+msgstr "Equivalente mensual"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Monthly Salary"
+msgstr "Salario mensual"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "NET SALARY"
+msgstr "SALARIO NETO"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Name"
+msgstr "Nombre"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "National Identification Number"
+msgstr "Número de identificación nacional"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Nationality"
+msgstr "Nacionalidad"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Nature"
+msgstr "Naturaleza"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Net"
+msgstr "Neto"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Net calculation"
+msgstr "Cálculo neto"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_job_signature_request_template_id
+msgid "New Contract Document Template"
+msgstr "Plantilla del nuevo documento del contrato"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "No"
+msgstr "No"
+
+#. module: hr_contract_salary
+#: code:addons/hr_contract_salary/controllers/main.py:293
+#, python-format
+msgid ""
+"No HR responsible defined on the job position. Please contact an "
+"administrator."
+msgstr ""
+"No se ha indicado un responsable de RR. HH. para el puesto de trabajo. "
+"Contacte con un administrador."
+
+#. module: hr_contract_salary
+#: code:addons/hr_contract_salary/models/hr_contract.py:110
+#, python-format
+msgid "No home address defined on the employee!"
+msgstr "No se ha indicado ninguna dirección de residencia del empleado."
+
+#. module: hr_contract_salary
+#: code:addons/hr_contract_salary/controllers/main.py:290
+#, python-format
+msgid ""
+"No signature template defined on the job position. Please contact the HR "
+"responsible."
+msgstr ""
+"No se ha indicado ninguna plantilla de firma en el puesto de trabajo. "
+"Contacte con el responsable de RR. HH."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Number of Dependent Children"
+msgstr "Número de hijos dependientes"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Number of Disabled Children"
+msgstr "Número de hijos con discapacidad"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_origin_contract_id
+msgid "Origin Contract"
+msgstr "Contrato de origen"
+
+#. module: hr_contract_salary
+#: selection:hr.employee,certificate:0
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Other"
+msgstr "Otro"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Other Dependent People"
+msgstr "Otras personas dependientes"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "People <span class=\"help-block\">&amp;le; 65 years old</span>"
+msgstr "Personas <span class=\"help-block\">&amp;le; 65 años</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Person to call"
+msgstr "Persona de contacto"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Phone number"
+msgstr "Número de teléfono"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"Please note that this information may be inaccurate and should be used for "
+"reference only.<br/> The amounts are calculated  based on a full time "
+"permanent contract."
+msgstr ""
+"Tenga en cuenta que esta información puede que no sea exacta y debe usarse "
+"solo como referencia<br/>. Los importes se calculan en función de un "
+"contrato indefinido a jornada completa."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_job_view_form
+msgid "Preview Contract"
+msgstr "Vista previa del contrato"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_applicant_proposed_contracts
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_applicant_view_form
+msgid "Proposed Contracts"
+msgstr "Contratos propuestos"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_applicant_proposed_contracts_count
+msgid "Proposed Contracts Count"
+msgstr "Número de contratos propuestos"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Public Transportation"
+msgstr "Transporte público"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
+msgid "Refuse Request"
+msgstr "Rechazar solicitud"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_signature_request_ids
+msgid "Requested Signatures"
+msgstr "Firmas solicitadas"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Review Contract &amp; Sign"
+msgstr "Revisión del contrato y firma"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.res_config_settings_view_form
+msgid "Salary Package Configurator"
+msgstr "Configurador del paquete salarial"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_employee_study_school
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "School"
+msgstr "Escuela"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_access_token
+msgid "Security Token"
+msgstr "Token de seguridad"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
+msgid "Send Contract Link"
+msgstr "Enviar el enlace al contrato"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
+msgid "Send Offer"
+msgstr "Enviar oferta"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Seniors <span class=\"help-block\">&amp;ge; 65 years old</span>"
+msgstr "Personas mayores<span class=\"help-block\">&amp;ge; 65 años</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Show <i class=\"fa fa-chevron-down\"/>"
+msgstr "Mostrar<i class=\"fa fa-chevron-down\"/>"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_signature_request_count
+msgid "Signature Request Count"
+msgstr "Número de peticiones de firma"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Single"
+msgstr "Soltero(a)"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Spouse Net Revenue"
+msgstr "Ingresos netos del cónyuge"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Spouse Other Net Revenue"
+msgstr "Otros ingresos netos del cónyuge"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "State"
+msgstr "Estado"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Street"
+msgstr "Calle"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Street 2"
+msgstr "Calle 2"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "TAXABLE INCOME"
+msgstr "INGRESOS IMPONIBLES"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Tax status for spouse"
+msgstr "Estado del impuesto para el cónyuge"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_origin_contract_id
+msgid "The contract from which this contract has been duplicated."
+msgstr "El contrato desde el que se ha duplicado este contrato."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"The number of days you get depends on your working schedule, the number of "
+"days used in your previous job and the number of months worked previously."
+msgstr ""
+"El número de días que tenga dependerá de su horario de trabajo, del número "
+"de días utilizados en su trabajo anterior y del número de meses trabajados "
+"anteriormente."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"This commission is only effective if the target is reached. The commissions "
+"are paid using warrants that you receive every three months. This results to"
+" a net warrant value of"
+msgstr ""
+"Esta comisión solo es efectiva si se alcanza el objetivo. Las comisiones se "
+"pagan utilizando garantías que recibe cada tres meses. Esto da como "
+"resultado un valor neto de garantía de"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"This cost simulation is only for information. If you want to choose another "
+"car model, please contact your HR manager."
+msgstr ""
+"Esta simulación de costes es solo para información. Si desea elegir otro "
+"modelo de automóvil, comuníquese con su gerente de RRHH."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Total"
+msgstr "Total"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.res_config_settings_view_form
+msgid "Validity duration for salary package requests for new applicants"
+msgstr ""
+"Periodo de vencimiento de las solicitudes del paquete salarial para nuevos "
+"candidatos"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Widower"
+msgstr "Viudo(a)"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "With Income"
+msgstr "Con ingresos"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Without Income"
+msgstr "Sin ingresos"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Yearly Advantages"
+msgstr "Ventajas anuales"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Yearly Advantages in Cash"
+msgstr "Ventajas anuales en efectivo"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Yes"
+msgstr "Sí"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Your Personal Information"
+msgstr "Su información personal"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package_thank_you
+msgid "Your contract has been sent to:"
+msgstr "Se ha enviado su contrato a:"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Zip Code"
+msgstr "Código postal"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "day(s)"
+msgstr "dia(s)"
+
+#. module: hr_contract_salary
+#: model:ir.model,name:hr_contract_salary.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"

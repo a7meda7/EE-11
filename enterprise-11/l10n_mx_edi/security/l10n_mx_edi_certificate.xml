@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record id="sat_digital_certificate" model="ir.rule">
+        <field name="name">SAT Digital Certificate</field>
+        <field name="model_id" ref="l10n_mx_edi.model_l10n_mx_edi_certificate"/>
+        <field name="active">True</field>
+        <field name="perm_read">True</field>
+        <field name="perm_write">False</field>
+        <field name="perm_create">False</field>
+        <field name="perm_unlink">False</field>
+        <field name="domain_force">[('id','in',user.company_id.l10n_mx_edi_certificate_ids.ids)]</field>
+    </record>
+</odoo>

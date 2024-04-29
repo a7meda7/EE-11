@@ -1,0 +1,467 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * project_forecast
+# 
+# Translators:
+# Martin Trigaux, 2017
+# Rivo Zängov <eraser@eraser.ee>, 2017
+# Eneli Õigus <enelioigus@gmail.com>, 2017
+# Arma Gedonsky <armagedonsky@hot.ee>, 2017
+# Martin Aavastik <martin@avalah.ee>, 2017
+# Wanradt Koell <wanradt@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-20 11:33+0000\n"
+"PO-Revision-Date: 2017-09-20 11:33+0000\n"
+"Last-Translator: Wanradt Koell <wanradt@gmail.com>, 2017\n"
+"Language-Team: Estonian (https://www.transifex.com/odoo/teams/41243/et/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.project_forecast_view_form
+msgid "% Time"
+msgstr "% Ajast"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.project_view_kanban_inherit_project_forecast
+msgid "<span class=\"o_label\">Forecast</span>"
+msgstr "<span class=\"o_label\">Prognoos</span>"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.project_view_form_inherit_project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.task_view_form_inherit_project_forecast
+msgid "<span>Forecast</span>"
+msgstr "<span>Prognoos</span>"
+
+#. module: project_forecast
+#: code:addons/project_forecast/models/project_forecast.py:152
+#, python-format
+msgid ""
+"A project must have a start date to use a forecast grid, found no start date"
+" for {project.display_name}"
+msgstr ""
+"A project must have a start date to use a forecast grid, found no start date"
+" for {project.display_name}"
+
+#. module: project_forecast
+#: code:addons/project_forecast/models/project_forecast.py:170
+#, python-format
+msgid ""
+"A project must have an end date to use a forecast grid, found no end date "
+"for {project.display_name}"
+msgstr ""
+"A project must have an end date to use a forecast grid, found no end date "
+"for {project.display_name}"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_active
+msgid "Active"
+msgstr "Aktiivne"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_task_allow_forecast
+#: model:ir.ui.view,arch_db:project_forecast.project_view_form_inherit_project_forecast
+msgid "Allow Forecast"
+msgstr "Luba prognoos"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_project_allow_forecast
+msgid "Allow forecast"
+msgstr "Luba prognoos"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.project_forecast_view_search
+msgid "Archived"
+msgstr "Arhiveeritud"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.project_forecast_grid
+msgid "Assign"
+msgstr "Assign"
+
+#. module: project_forecast
+#: model:ir.actions.act_window,name:project_forecast.action_project_forecast_assign
+msgid "Assign user on a task"
+msgstr "Assign user on a task"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.view_project_forecast_assign
+msgid "Assign user on task"
+msgstr "Assign user on task"
+
+#. module: project_forecast
+#: model:ir.ui.menu,name:project_forecast.menu_project_forecast_grid_by_project
+#: model:ir.ui.menu,name:project_forecast.project_forecast_group_by_project
+msgid "By Project"
+msgstr "Projekti järgi"
+
+#. module: project_forecast
+#: model:ir.ui.menu,name:project_forecast.menu_project_forecast_grid_by_user
+#: model:ir.ui.menu,name:project_forecast.project_forecast_group_by_user
+msgid "By User"
+msgstr "By User"
+
+#. module: project_forecast
+#: code:addons/project_forecast/models/project.py:28
+#, python-format
+msgid ""
+"Can only be used for forecasts not spanning multiple months, found "
+"%(forecast_count)d forecast(s) spanning across months in %(project_name)s"
+msgstr ""
+"Can only be used for forecasts not spanning multiple months, found "
+"%(forecast_count)d forecast(s) spanning across months in %(project_name)s"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_color
+msgid "Color"
+msgstr "Värv"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.view_project_forecast_assign
+msgid "Create"
+msgstr "Loo"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.task_view_form_inherit_project_forecast
+msgid "Create a forecast"
+msgstr "Loo prognoos"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_assignment_create_uid
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_create_uid
+msgid "Created by"
+msgstr "Loonud"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_assignment_create_date
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_create_date
+msgid "Created on"
+msgstr "Loomise kuupäev"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_assignment_display_name
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_display_name
+msgid "Display Name"
+msgstr "Näidatav nimi"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_assignment_employee_id
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_employee_id
+#: model:ir.ui.view,arch_db:project_forecast.project_forecast_view_search
+msgid "Employee"
+msgstr "Töötaja"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_end_date
+msgid "End Date"
+msgstr "Lõppkuupäev"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_exclude
+msgid "Exclude"
+msgstr "Välista"
+
+#. module: project_forecast
+#: code:addons/project_forecast/models/project.py:50
+#: model:ir.actions.act_window,name:project_forecast.project_forecast_action_from_task
+#: model:ir.ui.menu,name:project_forecast.project_forecast_menu
+#: model:ir.ui.view,arch_db:project_forecast.project_view_kanban_inherit_project_forecast
+#, python-format
+msgid "Forecast"
+msgstr "Prognoos"
+
+#. module: project_forecast
+#: model:ir.actions.act_window,name:project_forecast.project_forecast_action_report_activities
+#: model:ir.ui.menu,name:project_forecast.project_forecast_report_activities
+msgid "Forecast Analysis"
+msgstr "Prognoosi analüüs"
+
+#. module: project_forecast
+#: model:ir.actions.act_window,name:project_forecast.action_project_forecast_grid_by_project
+msgid "Forecast By Project"
+msgstr "Prognoosi projekti lõikes"
+
+#. module: project_forecast
+#: model:ir.actions.act_window,name:project_forecast.action_project_forecast_grid_by_user
+msgid "Forecast By User"
+msgstr "Prognoosi kasutaja lõikes"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.project_forecast_view_form
+msgid "Forecast Form"
+msgstr "Prognoosi vorm"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.project_forecast_view_tree
+msgid "Forecast List"
+msgstr "Ennustuste nimekiri"
+
+#. module: project_forecast
+#: model:ir.actions.act_window,name:project_forecast.project_forecast_action_by_project
+msgid "Forecast by project"
+msgstr "Prognoosi projekti lõikes"
+
+#. module: project_forecast
+#: model:ir.actions.act_window,name:project_forecast.project_forecast_action_by_user
+msgid "Forecast by user"
+msgstr "Prognoosi kasutaja lõikes"
+
+#. module: project_forecast
+#: code:addons/project_forecast/models/project_forecast.py:97
+#, python-format
+msgid "Forecasted time must be positive"
+msgstr "Prognoositav aeg peab olema positiivne"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.view_project_set_dates
+msgid ""
+"Forecasting on a project requires that the project\n"
+"                        have start and end dates"
+msgstr ""
+"Projekti prognoosi koostamiseks peab projektil olema\n"
+"                        alguse ja lõpu kuupäevad."
+
+#. module: project_forecast
+#: code:addons/project_forecast/models/project_forecast.py:148
+#, python-format
+msgid ""
+"Forecasting over a project only supports monthly forecasts (got step {})"
+msgstr ""
+"Forecasting over a project only supports monthly forecasts (got step {})"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.project_forecast_view_search
+msgid "Future"
+msgstr "Tulevane"
+
+#. module: project_forecast
+#: model:ir.ui.menu,name:project_forecast.project_forecast_gantt
+msgid "Gantt"
+msgstr "Gantt"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.project_forecast_view_pivot
+msgid "Graph"
+msgstr "Graafik"
+
+#. module: project_forecast
+#: model:ir.ui.menu,name:project_forecast.menu_project_forecast_grid
+msgid "Grid"
+msgstr "Võrgustik"
+
+#. module: project_forecast
+#: code:addons/project_forecast/models/project_forecast.py:186
+#, python-format
+msgid ""
+"Grid adjustment for project forecasts only supports the 'start_date' columns"
+" field and the 'resource_hours' cell field, got respectively "
+"%(column_field)r and %(cell_field)r"
+msgstr ""
+"Grid adjustment for project forecasts only supports the 'start_date' columns"
+" field and the 'resource_hours' cell field, got respectively "
+"%(column_field)r and %(cell_field)r"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.project_forecast_view_search
+msgid "Group By"
+msgstr "Rühmitamine"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_assignment_id
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_id
+msgid "ID"
+msgstr "ID"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast___last_update
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_assignment___last_update
+msgid "Last Modified on"
+msgstr "Viimati muudetud"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_assignment_write_uid
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_write_uid
+msgid "Last Updated by"
+msgstr "Viimati uuendatud (kelle poolt)"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_assignment_write_date
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_write_date
+msgid "Last Updated on"
+msgstr "Viimati uuendatud (millal)"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.view_project_forecast_grid_by_project
+#: model:ir.ui.view,arch_db:project_forecast.view_project_forecast_grid_by_user
+msgid "Month"
+msgstr "Kuu"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.project_forecast_grid
+msgid "Monthly Forecast"
+msgstr "Igakuine prognoos"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.project_forecast_view_search
+msgid "My activities"
+msgstr "Minu tegevused"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.project_forecast_view_search
+msgid "My projects"
+msgstr "Minu projektid"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_name
+msgid "Name"
+msgstr "Nimi"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.project_forecast_view_search
+msgid "Past"
+msgstr "Varasem"
+
+#. module: project_forecast
+#: model:ir.model.fields,help:project_forecast.field_project_forecast_time
+msgid "Percentage of working time"
+msgstr "Percentage of working time"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_resource_hours
+msgid "Planned hours"
+msgstr "Planeeritud tunnid"
+
+#. module: project_forecast
+#: model:ir.model,name:project_forecast.model_project_project
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_assignment_project_id
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_project_id
+#: model:ir.ui.view,arch_db:project_forecast.project_forecast_grid
+#: model:ir.ui.view,arch_db:project_forecast.project_forecast_view_search
+msgid "Project"
+msgstr "Projekt"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.view_project_set_dates
+msgid "Project Dates"
+msgstr "Project Dates"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.project_forecast_view_form
+msgid "Project Forecast"
+msgstr "Projekti prognoos"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.view_project_forecast_grid_by_project
+msgid "Project Forecast By Project"
+msgstr "Projekti prognoosi projektide lõikes"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.view_project_forecast_grid_by_user
+msgid "Project Forecast By User"
+msgstr "Projekti prognoos kasutajate lõikes"
+
+#. module: project_forecast
+#: model:ir.actions.server,name:project_forecast.project_forecast_server_action_archive
+msgid "Project Forecast: Archive/Restore forecasts"
+msgstr "Projektide prognoos: arhiveerimise/aktiveerimise prognoos"
+
+#. module: project_forecast
+#: model:ir.actions.server,name:project_forecast.action_generate_forecast
+msgid "Project: Generate Task Forecast"
+msgstr "Projekt: loo ülesannete prognoos"
+
+#. module: project_forecast
+#: model:ir.model.fields,help:project_forecast.field_project_forecast_user_id
+msgid "Related user name for the resource to manage its access."
+msgstr "Seotud kasutajanimi ressursi juurdepääsu haldamiseks."
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_start_date
+msgid "Start Date"
+msgstr "Alguskuupäev"
+
+#. module: project_forecast
+#: model:ir.model,name:project_forecast.model_project_task
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_assignment_task_id
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_task_id
+#: model:ir.ui.view,arch_db:project_forecast.project_forecast_view_search
+msgid "Task"
+msgstr "Ülesanne"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_stage_id
+msgid "Task stage"
+msgstr "Ülesande etapp"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_tag_ids
+msgid "Task tags"
+msgstr "Ülesande sildid"
+
+#. module: project_forecast
+#: code:addons/project_forecast/models/project_forecast.py:109
+#, python-format
+msgid "The start-date must be lower than end-date."
+msgstr "The start-date must be lower than end-date."
+
+#. module: project_forecast
+#: model:ir.model.fields,help:project_forecast.field_project_project_allow_forecast
+#: model:ir.model.fields,help:project_forecast.field_project_task_allow_forecast
+msgid "This feature shows the Forecast link in the kanban view"
+msgstr "See võimalus näitab prognoosi linki kanban vaates"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_forecast_user_id
+msgid "User"
+msgstr "Kasutaja"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.view_project_set_dates
+msgid "View Forecast"
+msgstr "Vaata prognoosi"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.view_project_forecast_grid_by_project
+#: model:ir.ui.view,arch_db:project_forecast.view_project_forecast_grid_by_user
+msgid "Week"
+msgstr "Nädal"
+
+#. module: project_forecast
+#: model:ir.ui.view,arch_db:project_forecast.view_project_forecast_grid_by_project
+#: model:ir.ui.view,arch_db:project_forecast.view_project_forecast_grid_by_user
+msgid "Year"
+msgstr "Aasta"
+
+#. module: project_forecast
+#: code:addons/project_forecast/models/project_forecast.py:88
+#, python-format
+msgid "You cannot set a user with no working time."
+msgstr "You cannot set a user with no working time."
+
+#. module: project_forecast
+#: code:addons/project_forecast/models/project_forecast.py:103
+#, python-format
+msgid "Your task is not in the selected project."
+msgstr "Your task is not in the selected project."
+
+#. module: project_forecast
+#: model:ir.model,name:project_forecast.model_project_forecast
+msgid "project.forecast"
+msgstr "project.forecast"
+
+#. module: project_forecast
+#: model:ir.model,name:project_forecast.model_project_forecast_assignment
+msgid "project.forecast.assignment"
+msgstr "project.forecast.assignment"
+
+#. module: project_forecast
+#: code:addons/project_forecast/models/project_forecast.py:68
+#, python-format
+msgid "undefined"
+msgstr "undefined"

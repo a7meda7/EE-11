@@ -1,0 +1,1127 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * account_sepa_direct_debit
+# 
+# Translators:
+# Erwin van der Ploeg <erwin@odooexperts.nl>, 2017
+# Cas Vissers <casvissers@brahoo.nl>, 2017
+# Yenthe Van Ginneken <yenthespam@gmail.com>, 2017
+# Eric Geens <ericgeens@yahoo.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-02 11:50+0000\n"
+"PO-Revision-Date: 2017-10-02 11:50+0000\n"
+"Last-Translator: Eric Geens <ericgeens@yahoo.com>, 2017\n"
+"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "(if applicable)"
+msgstr "(indien van toepassing)"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "(optional)"
+msgstr "(optioneel)"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Address:</strong>"
+msgstr "<strong>Adres</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>City:</strong>"
+msgstr "<strong>Plaats:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Country:</strong>"
+msgstr "<strong>Land:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Creditor identifier:</strong>"
+msgstr "<strong>Crediteur identificatie:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid ""
+"<strong>Date and place of signature:</strong> "
+"......................................"
+msgstr ""
+"<strong>Datum en plaats van handtekening:</strong> "
+"......................................"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>IBAN account number:</strong>"
+msgstr "<strong>IBAN rekeningnummer:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Mail address:</strong>"
+msgstr "<strong>E-mail adres:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Mandate identifier:</strong>"
+msgstr "<strong>Mandaat identificatie:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid ""
+"<strong>Name of the reference party:</strong> "
+"......................................"
+msgstr ""
+"<strong>Naam van de referentie partij:</strong> "
+"......................................"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Name:</strong>"
+msgstr "<strong>Naam:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Phone number:</strong>"
+msgstr "<strong>Telefoonnummer:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Signature:</strong>"
+msgstr "<strong>Handtekening:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Start date:</strong>"
+msgstr "<strong>Startdatum:</strong>"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Transaction type:</strong> recurrent"
+msgstr "<strong>Tranactie type:</strong> recurrent"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "<strong>Zip:</strong>"
+msgstr "<strong>Postcode:</strong>"
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:151
+#, python-format
+msgid "A debtor account is required to validate a SEPA Direct Debit mandate."
+msgstr ""
+"Een debiteuren rekening is benodigd om een SEPA incasso mandaat te "
+"bevestigen."
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,help:account_sepa_direct_debit.account_sepa_direct_debit_mandate_tree_act
+msgid ""
+"A mandate represents the authorization you receive from a customer\n"
+"                    to automatically collect money on her account."
+msgstr ""
+"Een mandaat stelt de autorisering voor die u krijgt van een klant\n"
+"om automatisch geld te ontvangen van haar account."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_partner_bank_id
+msgid "Account of the customer to collect payments from."
+msgstr "Bankrekening van de klant om betalingen van af te houden."
+
+#. module: account_sepa_direct_debit
+#: selection:sdd.mandate,state:0
+msgid "Active"
+msgstr "Actief"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sdd_mandate_search_view
+msgid "Active Mandates"
+msgstr "Actieve mandaten"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_download_xml_wizard_archive_id
+msgid "Archive data containing the generated XML."
+msgstr "Archiveer data die de gegenereerde XML bevat."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_archive_id
+msgid "Archive for this operation"
+msgstr "Archiveer voor deze operatie"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_xml_archive_xml_file
+msgid "Archived XML file"
+msgstr "Gearchiveerd XML bestand"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_generate_xml_form
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Cancel"
+msgstr "Annuleer"
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,help:account_sepa_direct_debit.account_sepa_direct_debit_mandate_tree_act
+msgid "Click to create a direct debit customer mandate."
+msgstr "Klik om een automatische incasso mandaat te maken."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_download_xml_form
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Close"
+msgstr "Sluiten"
+
+#. module: account_sepa_direct_debit
+#: selection:sdd.mandate,state:0
+msgid "Closed"
+msgstr "Afgesloten"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sdd_mandate_search_view
+msgid "Closed Mandates"
+msgstr "Gesloten mandaten"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_res_company
+msgid "Companies"
+msgstr "Bedrijven"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_company_id
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_company_id
+msgid "Company"
+msgstr "Bedrijf"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_generate_xml_wizard_company_id
+msgid "Company collecting the payments."
+msgstr "Bedrijf dat de betalingen verzamelt."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_company_id
+msgid "Company for whose invoices the mandate can be used."
+msgstr "Bedrijf voor welke facturen het mandaat gebruikt kan worden."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_res_partner
+msgid "Contact"
+msgstr "Contact"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_account_payment_sdd_mandate_usable
+msgid "Could a SDD mandate be used?"
+msgstr "Kan een SDD mandaat worden gebruikt?"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_create_uid
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_create_uid
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_create_uid
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_create_uid
+msgid "Created by"
+msgstr "Aangemaakt door"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_create_date
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_create_date
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_create_date
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_create_date
+msgid "Created on"
+msgstr "Aangemaakt op"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_res_config_settings_sdd_creditor_identifier
+msgid "Creditor identifier"
+msgstr "Crediteur identificatie "
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_res_config_settings_sdd_creditor_identifier
+msgid "Creditor identifier of your company within SEPA scheme."
+msgstr "Crediteur identificatie van u bedrijf voor het SEPA schema."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "Creditor information"
+msgstr "Creditor informatie"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Customer mandate"
+msgstr "Klant mandaat"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_partner_id
+msgid "Customer whose payments are to be managed by this mandate."
+msgstr "Klanten hun betaling die beheerd dient te worden met dit mandaat."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_start_date
+msgid "Date from which the mandate can be used (inclusive)."
+msgstr "Datum vanaf wanneer het mandaat gebruikt kan worden (inclusief)."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_creation_date
+msgid "Date of creation"
+msgstr "Aanmaakdatum"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_xml_archive_creation_date
+msgid "Date of creation of this XML file."
+msgstr "Aanmaken van dit XML bestand."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_end_date
+msgid "Date until which the mandate can be used (exclusive)."
+msgstr "Datum tot wanneer het mandaat gebruikt kan worden (exclusief)."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_generate_xml_wizard_required_collection_date
+msgid "Date when the company expects to be paid."
+msgstr "Datum waarop het bedrag verwacht te zijn betaald."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_partner_id
+msgid "Debtor"
+msgstr "Debiteur"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_partner_bank_id
+msgid "Debtor Account"
+msgstr "Debiteur bankrekening"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_debtor_id_code
+msgid "Debtor Identifier"
+msgstr "Debiteur indentificatie"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "Debtor information"
+msgstr "Debiteur informatie"
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,name:account_sepa_direct_debit.account_sepa_direct_debit_mandate_tree_act
+#: model:ir.actions.act_window,name:account_sepa_direct_debit.account_sepa_direct_debit_partner_mandates
+#: model:ir.ui.menu,name:account_sepa_direct_debit.account_sepa_direct_debit_customer_mandates_menu
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sdd_res_partner_view
+msgid "Direct Debit Mandates"
+msgstr "Incasso mandaten"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_account_journal_dashboard_kanban_view
+msgid "Direct Debit Payment to Collect"
+msgstr "Incassobetaling te innen"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_view_account_payment_search
+msgid "Direct Debit Payments To Collect"
+msgstr "Incassobetalingen te innen"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_payments_to_collect_nber
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_account_journal_dashboard_kanban_view
+msgid "Direct Debit Payments to Collect"
+msgstr "Incassobetalingen te innen"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_account_payment_form
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_view_account_payment_invoice_form_inherit
+msgid "Direct Debit collecting method available"
+msgstr "Incasso betalingsmethode beschikbaar"
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,name:account_sepa_direct_debit.action_sdd_payments_to_collect
+msgid "Direct debit payments to collect"
+msgstr "Incassobetaling te innen"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_display_name
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_display_name
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_display_name
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_display_name
+msgid "Display Name"
+msgstr "Schermnaam"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_download_xml_form
+msgid "Download SEPA Direct Debit XML"
+msgstr "Download SEPA incasso XML"
+
+#. module: account_sepa_direct_debit
+#: selection:sdd.mandate,state:0
+msgid "Draft"
+msgstr "Concept"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sdd_mandate_search_view
+msgid "Draft Mandates"
+msgstr "Concept mandaten"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_end_date
+msgid "End Date"
+msgstr "Einddatum"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "End date"
+msgstr "Einddatum"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_res_partner_sdd_mandate_ids
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_res_users_sdd_mandate_ids
+msgid "Every mandate belonging to this partner."
+msgstr "Iedere mandaat welke aan deze relatie toebehoort."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_original_doc_filename
+msgid "File name of original_doc."
+msgstr "Bestandsnaam van originele document."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_debtor_id_code
+msgid "Free reference identifying the debtor in your company."
+msgstr ""
+"Vrije referentie waarmee de debiteur van uw bedrijf wordt geïdentificeerd."
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,name:account_sepa_direct_debit.action_sdd_account_payment_generate_xml
+msgid "Generate Direct Debit XML"
+msgstr "Genereer incasso XML"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_generate_xml_form
+msgid "Generate XML"
+msgstr "Genereer XML"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_xml_archive_form
+msgid "Generated SDD file"
+msgstr "Gegenereerd SSD bestand"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_download_xml_wizard_xml_file
+msgid "Generated XML file"
+msgstr "Genereer SEPA bestand"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_download_xml_form
+msgid "Generated file (click to download):"
+msgstr "Gegenereerd bestand (klik om te downloaden):"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_xml_archive_tree
+msgid "History of generated SDD files"
+msgstr "Geschiedenis van gegenereerde SDD bestanden"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_id
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_id
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_id
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "Identification code"
+msgstr "Identificatie code"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_name
+msgid "Identifier"
+msgstr "Identificatie "
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/res_company.py:38
+#, python-format
+msgid "Invalid creditor identifier. Make sure you made no typo."
+msgstr ""
+"Ongeldige crediteur identificatie. Controleer of u geen typefout heeft "
+"gemaakt."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/res_company.py:40
+#, python-format
+msgid "Invalid creditor identifier. Wrong format."
+msgstr "Ongeldige crediteur identificatie: Verkeerd formaat"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_account_invoice
+msgid "Invoice"
+msgstr "Factuur"
+
+#. module: account_sepa_direct_debit
+#: model:mail.message.subtype,description:account_sepa_direct_debit.sdd_mt_invoice_paid_with_mandate
+msgid "Invoice paid via direct debit."
+msgstr "Factuur betaald via auto incasso."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_paid_invoice_ids
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Invoices Paid"
+msgstr "Betaalde facturen"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_paid_invoice_ids
+msgid "Invoices paid using this mandate."
+msgstr "Facturen betaald met dit mandaat."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Invoices paid with this mandate."
+msgstr "Facturen betaald met dit mandaat."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_account_journal
+msgid "Journal"
+msgstr "Dagboek"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_payment_journal_id
+msgid "Journal for Direct Debit Payments"
+msgstr "Dagboek voor automatische incasso's"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_payment_journal_id
+msgid ""
+"Journal to use to receive SEPA Direct Debit payments from this mandate."
+msgstr ""
+"Dagboek welke wordt gebruikt om SEPA automatische incasso's te ontvangen van"
+" dit mandaat."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard___last_update
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard___last_update
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate___last_update
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive___last_update
+msgid "Last Modified on"
+msgstr "Laatst gewijzigd op"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_write_uid
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_write_uid
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_write_uid
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_write_uid
+msgid "Last Updated by"
+msgstr "Laatst bijgewerkt door"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_write_date
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_write_date
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_write_date
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_write_date
+msgid "Last Updated on"
+msgstr "Laatst bijgewerkt op"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_view_account_payment_search
+msgid "Linked to a revoked direct debit mandate"
+msgstr "Gekoppeld aan ingetrokken automatische incasso mandaat"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_view_account_invoice_search
+msgid "Linked to revoked mandate"
+msgstr "Gekoppeld aan ingetrokken mandaat"
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.report,name:account_sepa_direct_debit.sdd_mandate_form_report_main
+msgid "Mandate form"
+msgstr "Mandaat formulier"
+
+#. module: account_sepa_direct_debit
+#: sql_constraint:sdd.mandate:0
+msgid "Mandate identifier must be unique ! Please choose another one."
+msgstr "Mandaat nummer moet uniek zijn! Kies een andere."
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.server,name:account_sepa_direct_debit.sdd_mandate_state_cron_ir_actions_server
+#: model:ir.cron,cron_name:account_sepa_direct_debit.sdd_mandate_state_cron
+#: model:ir.cron,name:account_sepa_direct_debit.sdd_mandate_state_cron
+msgid "Mandate state updater"
+msgstr "Mandaat status updater"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "Mandate validity"
+msgstr "Mandaat houdbaarheid"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_download_xml_wizard_xml_filename
+msgid "Name of the generated XML file"
+msgstr "Naam van het gegenereerd XML bestand"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_xml_archive_xml_filename
+msgid "Name of this XML file"
+msgstr "Naam van dit XML bestand"
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,help:account_sepa_direct_debit.action_sdd_payments_to_collect
+msgid "No direct debit payment to collect."
+msgstr "Geen incassobetalingen te innen."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_payments_to_collect_nber
+msgid ""
+"Number of Direct Debit payments to be collected for this mandate, that is, "
+"the number of payments that have been generated and posted thanks to this "
+"mandate and still needs their XML file to be generated and sent to the bank "
+"to debit the customer's account."
+msgstr ""
+"Aantal incasso betalingen welke geïncasseerd moeten worden voor dit mandaat,"
+" dit is het aantal betalingen dat gegenereerd en geboekt zijn dankzij dit "
+"mandaat en waar nog geen XML bestand voor gegenereerd en verstuurd is naar "
+"de bank van het debit bankrekening nummer."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_paid_invoices_nber
+msgid "Number of invoices paid with thid mandate."
+msgstr "Aantal facturen betaald met dit mandaat"
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,help:account_sepa_direct_debit.account_sepa_direct_debit_mandate_tree_act
+msgid ""
+"Once an invoice is made\n"
+"                    in Odoo for a customer having an mandate active on the invoice date,\n"
+"                    its validation will trigger its automatic payment, and you will\n"
+"                    then only have to generate a SEPA Direct Debit (SDD) XML file containing this operation\n"
+"                    and send it to your bank to effectively get paid."
+msgstr ""
+"Als een factuur is gemaakt\n"
+"                    in Odoo voor een klant met een actief incasso mandaat op de factuurdatum,\n"
+"                    zal bij de bevestiging automatisch de betalingen gemaakt worden, en zult u een\n"
+"                    SEPA Direct Debit (SDD) XML bestand moeten genereren welke deze betaling bevat\n"
+"en naar uw bank versturen om betaald te krijgen."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_account_invoice_sdd_paying_mandate_id
+msgid ""
+"Once this invoice has been paid with Direct Debit, contains the mandate that"
+" allowed the payment."
+msgstr ""
+"Wanneer de factuur is betaald met auto incasso bevat deze de mandaat dat de "
+"betaling toestond."
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,help:account_sepa_direct_debit.account_sepa_direct_debit_xml_archive_tree_act
+msgid ""
+"Once you have, you will be able to keep track here of all the files\n"
+"                    you created this way, and what their precise content was."
+msgstr ""
+"Als je dat hebt, ben je in staat om je bestanden te beheren welke je\n"
+"                    op deze manier hebt aangemaakt en wat de exacte inhoud was."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_one_off
+msgid "One-off Mandate"
+msgstr "Eenmalig mandaat"
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:137
+#, python-format
+msgid ""
+"Only IBAN account numbers can receive SEPA Direct Debit payments. Please "
+"select a journal associated to one."
+msgstr ""
+"Alleen IBAN rekeningen kunnen SEPA automatische incasso betalingen "
+"ontvangen. Selecteer een dagboek met zo'n rekening."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:88
+#, python-format
+msgid ""
+"Only mandates in draft state can be deleted from database when cancelled."
+msgstr ""
+"Alleen mandaten in concept fase kunnen worden verwijderd als deze zijn "
+"geannuleerd."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sdd_res_partner_view
+msgid "Open this partner's mandates"
+msgstr "Open de mandaten van deze relatie"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_original_doc
+msgid "Original Document"
+msgstr "Origineel document"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_original_doc_filename
+msgid "Original Document File Name"
+msgstr "Origineel document bestandsnaam"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_original_doc
+msgid ""
+"Original document into which the customer authorises the use of Direct Debit"
+" for his invoices."
+msgstr ""
+"Origineel document waarin de klant toestemming geeft om factureren te "
+"incasseren."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_account_payment_sdd_mandate_id
+msgid "Originating SEPA mandate"
+msgstr "Originele SEPA mandaten"
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:110
+#, python-format
+msgid "Paid Invoices"
+msgstr "Betaalde facturen"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_paid_invoices_nber
+msgid "Paid Invoices Number"
+msgstr "Betaalde factuurnummers"
+
+#. module: account_sepa_direct_debit
+#: model:mail.message.subtype,name:account_sepa_direct_debit.sdd_mt_invoice_paid_with_mandate
+msgid "Paid via direct debit"
+msgstr "Betaald via auto incasso"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_generate_xml_form
+msgid "Pay with mandate"
+msgstr "Betaal met mandaat"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_account_payment
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_payment_ids
+msgid "Payments"
+msgstr "Betalingen"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_payments_to_send_ids
+msgid "Payments To Send"
+msgstr "Betalingen om te versturen"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_download_xml_wizard_payment_ids
+msgid "Payments contained in the generated XML."
+msgstr "Betalingen in het gegenereerde XML bestand."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_xml_archive_payment_ids
+msgid "Payments contained in this XML file."
+msgstr "Betalingen in dit XML bestand."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Payments generated for this mandate that have not yet been collected."
+msgstr ""
+"Betalingen gegenereerd door dit mandaat welke nog niet geïncasseerd zijn."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_payment_ids
+msgid "Payments generated thanks to this mandate."
+msgstr "Betalingen aangemaakt dankzij deze mandaat."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_payments_in_exception
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_download_xml_form
+msgid "Payments in exception"
+msgstr "Betaling in foutstatus"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_payment_ids
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_payment_ids
+msgid "Payments in file"
+msgstr "Betalingen in bestand"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_download_xml_form
+msgid "Payments in this file"
+msgstr "Betalingen in dit bestand"
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:120
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+#, python-format
+msgid "Payments to Collect"
+msgstr "Betalingen te incasseren"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_download_xml_wizard_payments_in_exception
+msgid ""
+"Payments whose XML could not be generated because they had not been "
+"generated from a SEPA Direct Debit mandate."
+msgstr ""
+"Betalingen waarvoor de XML niet gegenereerd kon worden omdat deze niet door "
+"een SEPA incasso mandaat gemaakt zijn."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "Please complete your coordinates."
+msgstr "Vul de volledige coördinaten in."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_report_invoice_document
+msgid ""
+"Please do not pay it manually, the payment will be asked to your bank to be processed\n"
+"                        automatically."
+msgstr ""
+"Betaal niet handmatig, de betalingen wordt verstuurd naar uw bank om "
+"automatisch uitgevoerd te worden,."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Print"
+msgstr "Afdrukken"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_account_register_payments
+msgid "Register payments on multiple invoices"
+msgstr "Betalingen voor meerdere facturen registreren"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_generate_xml_wizard_required_collection_date
+msgid "Required collection date"
+msgstr "Gewenste incassodatum"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Revoke"
+msgstr "Intrekken"
+
+#. module: account_sepa_direct_debit
+#: selection:sdd.mandate,state:0
+msgid "Revoked"
+msgstr "Ingetrokken"
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,name:account_sepa_direct_debit.account_sepa_direct_debit_xml_archive_tree_act
+#: model:ir.ui.menu,name:account_sepa_direct_debit.account_sepa_direct_debit_sdd_payment_files_menu
+msgid "SDD Payment Files"
+msgstr "SSD betaalbestanden"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_res_company_sdd_creditor_identifier
+msgid "SDD creditor identifier"
+msgstr "SSD crediteur Identificatie "
+
+#. module: account_sepa_direct_debit
+#: model:account.payment.method,name:account_sepa_direct_debit.payment_method_sdd
+msgid "SEPA Direct Debit"
+msgstr "SEPA automatische incasso"
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "SEPA Direct Debit Mandate"
+msgstr "SEPA automatische incasso mandaat"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_res_company_sdd_creditor_identifier
+msgid ""
+"SEPA Direct Debit creditor identifier of the company, given by the bank."
+msgstr ""
+"SEPA automatische incasso creditor indentifier van het bedrijf, wordt "
+"gegeven door de bank."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:153
+#, python-format
+msgid ""
+"SEPA Direct Debit scheme only accepts IBAN account numbers. Please select an"
+" IBAN-compliant debtor account for this mandate."
+msgstr ""
+"SEPA automatische incasso schema accepteert alleen IBAN rekeningnummers. "
+"Selecteer een debiteur met een correct IBAN nummer voor dit mandaat."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_xml_file
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_xml_file
+msgid "SEPA XML file"
+msgstr "SEPA XML bestand"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_download_xml_wizard_xml_filename
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_xml_archive_xml_filename
+msgid "SEPA XML file name"
+msgstr "SEPA XML bestandsnaam"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_res_partner_sdd_mandate_ids
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_res_users_sdd_mandate_ids
+msgid "Sdd Mandate"
+msgstr "Sdd mandaat"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_account_invoice_sdd_paying_mandate_id
+msgid "Sdd Paying Mandate"
+msgstr "Sdd betaal mandaat"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_generate_xml_wizard_payments_to_send_ids
+msgid "Set of payments to (try to) put into a SDD XML file."
+msgstr ""
+"Set van betalingen welke worden (geprobeerd) om te verwerken in een SSD XML "
+"bestand."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid "Signature"
+msgstr "Handtekening"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_start_date
+msgid "Start Date"
+msgstr "Startdatum"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate_state
+msgid "State"
+msgstr "Status"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_account_payment_sdd_mandate_usable
+msgid ""
+"Technical field used to inform the end user there is a SDD mandate that "
+"could be used to register that payment"
+msgstr ""
+"Technisch veld gebruikt om de gebruiker te informeren wanneer een incasso "
+"mandaat beschikbaar is welke zou kunnen worden gebruikt om een betaling te "
+"registreren."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:139
+#, python-format
+msgid ""
+"The bank account you select for payment must be related to a bank. Please "
+"fix it first."
+msgstr ""
+"De bankrekening welke u selecteer voor de betalingen moet gerelateerd zijn "
+"tot een bank. Stel een bank in op het rekeningnummer."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:141
+#, python-format
+msgid ""
+"The bank your payment account is related to must have a BIC number. Please "
+"define one."
+msgstr ""
+"De gerelateerde bankrekening moet een BIC nummer hebben. Stel deze aub in."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/res_company.py:26
+#, python-format
+msgid "The creditor identifier exceeds the maximum length of 35 characters."
+msgstr ""
+"De crediteur identificatie  is langer dan de maximale lengte van 35 "
+"karakters."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:147
+#, python-format
+msgid ""
+"The debtor identifier you specified exceeds the limitation of 35 characters "
+"imposed by SEPA regulation"
+msgstr ""
+"De debiteur identificatie welke u heeft ingegeven heeft te veel karakters, "
+"het SEPA limiet is 35 karakters."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:131
+#, python-format
+msgid ""
+"The end date of the mandate must be posterior or equal to its start date."
+msgstr "De einddatum van het mandaat moet na of tijdens de startdatum vallen."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_download_xml_form
+msgid ""
+"The following payments could not be translated to\n"
+"                            SEPA Direct Debit XML. Either they do not belong to the company you\n"
+"                            are currently connected on, they are not related to\n"
+"                            any mandate, they have already been collected in a\n"
+"                            previously generated file or the bank encoded of their\n"
+"                            customer account does not have any BIC number defined."
+msgstr ""
+"De volgende betalingen konden niet worden vertaald naar een\n"
+"                            SEPA automatische incasso XML. Of ze behoren niet tot het bedrijf\n"
+"                            waar uw momenteel op ingelogd bent, ze zijn niet gerelateerd tot een \n"
+"                            mandaat, ze zijn reeds geïncasseerd in een\n"
+"                            gegenereerd bestand of de bank ingesteld op het \n"
+"                            de klant bankrekening heeft geen BIC nummer ingesteld."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_account_payment_sdd_mandate_id
+msgid "The mandate used to generate this payment, if any."
+msgstr "Het mandaat om deze betaling te generen, wanneer beschikbaar."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid ""
+"The mandate will only be used to pay invoices into the\n"
+"                    specified time range. If no end date is specified,\n"
+"                    you will have to contact us to stop its use."
+msgstr ""
+"Het mandaat zal alleen gebruikt worden om facturen te betalen in\n"
+"                    de gespecificeerd tijdsbestek. Wanneer geen einddatum is ingesteld,\n"
+"                    moet u contact met ons opnemen om het te stoppen."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_state
+msgid ""
+"The state this mandate is in. \n"
+"- 'draft' means that this mandate still needs to be confirmed before being usable. \n"
+"- 'active' means that this mandate can be used to pay invoices. \n"
+"- 'closed' designates a mandate that has been marked as not to use anymore without invalidating the previous transactions done with it.- 'revoked' means the mandate has been signaled as fraudulent by the customer. It cannot be used anymore, and should not ever have been. You will probably need to refund the related invoices, if any.\n"
+msgstr ""
+"De status van het mandaat is in. \n"
+"- 'concept' betekend dat het mandaat nog bevestigd moet worden voor het gebruikt kan worden,\n"
+"- 'actief' betekend dat het mandaat kan worden gebruikt om facturen te betalen.\n"
+"- 'gesloten' betekend dat het mandaat gemarkeerd is als niet meer te gebruiken.\n"
+"- 'ingetrokken' betekend dat het mandaat is gesignaleerd als fraudeleus door de klant. Het kan niet meer gebruikt worden, en zou nooit gebruikt moeten zijn. U zult waarschijnlijk de gerelateerde facturen crediteren, wanneer deze bestaan.\n"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_name
+msgid "The unique identifier of this mandate."
+msgstr "Unieke identificatie van dit mandaat."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form_document
+msgid ""
+"This form grants our company the authorization to\n"
+"                    use direct debit to pay the invoices we send to you."
+msgstr ""
+"De formulier geeft ons bedrijf toestemming om\n"
+"                    facturen welke wij u sturen te incasseren."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/account_payment.py:169
+#: code:addons/account_sepa_direct_debit/models/account_payment.py:182
+#, python-format
+msgid ""
+"This invoice cannot be paid via SEPA Direct Debit, as there is no valid "
+"mandate available for its customer at its creation date."
+msgstr ""
+"Deze factuur kan niet worden betaald met SEPA automatische incasso, dit "
+"omdat er geen correct mandaat beschikbaar is op de aanmaakdatum."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_report_invoice_document
+msgid ""
+"This invoice will be paid using direct debit and is only\n"
+"                        sent for informative purposes."
+msgstr ""
+"Deze factuur wordt betaald door gebruik te maken van automatische incasso\n"
+"en is alleen verstuurd ter informatie."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate_one_off
+msgid ""
+"True if and only if this mandate can be used for only one transaction. It "
+"will automatically go from 'active' to 'closed' after its first use in "
+"payment if this option is set.\n"
+msgstr ""
+"Aangevinkt als alleen dit mandaat alleen kan worden gebruikt voor één "
+"transactie. Het mandaat zal automatisch van 'actief' naar 'gesloten' worden "
+"gezet na de eerste betaling.\n"
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/account_payment.py:111
+#, python-format
+msgid ""
+"Trying to generate a Direct Debit XML file containing payments from another "
+"company than that file's creditor."
+msgstr ""
+"Proberen een automatische incasso XML bestand te maken welke betalingen van "
+"een bedrijf bevatten."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/account_payment.py:114
+#, python-format
+msgid ""
+"Trying to generate a Direct Debit XML for payments coming from another "
+"payment method than SEPA Direct Debit."
+msgstr ""
+"Proberen een automatische incasso XML bestand te maken welke betalingen met "
+"een andere betalingsmethode dan SEPA automatische incasso."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/account_payment.py:151
+#, python-format
+msgid ""
+"Trying to register a payment on a mandate belonging to a different partner."
+msgstr ""
+"Proberen een betaling te ontvangen voor een mandaat welke behoort tot een "
+"andere relatie."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_download_xml_form
+msgid "Unable to generate any data for the selected payments."
+msgstr "Kon geen data genereren voor de geselecteerde betalingen."
+
+#. module: account_sepa_direct_debit
+#: model:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
+msgid "Validate"
+msgstr "Bevestig"
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/account_invoice.py:32
+#, python-format
+msgid ""
+"You cannot pay an invoice with a mandate that does not cover the moment when"
+" it was issued."
+msgstr ""
+"U kan geen factuur betalen met een mandaat dat niet gedekt was voor het "
+"moment waarop het factuur was gemaakt."
+
+#. module: account_sepa_direct_debit
+#: model:ir.actions.act_window,help:account_sepa_direct_debit.account_sepa_direct_debit_xml_archive_tree_act
+msgid "You haven't generated any SDD XML payment collection file yet."
+msgstr ""
+"U heeft nog geen SDD XML bestand gegenereerd met betalingsverzamelingen."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:80
+#, python-format
+msgid ""
+"You must register this mandate's original document before validating it."
+msgstr ""
+"Uw moet het originele document van het mandaat vastleggen voordat u het kan "
+"valideren."
+
+#. module: account_sepa_direct_debit
+#: code:addons/account_sepa_direct_debit/wizard/sdd_xml_wizards.py:29
+#, python-format
+msgid ""
+"Your company must have a creditor identifier in order to issue SEPA Direct "
+"Debit payments requests. It can be defined in accounting module's settings."
+msgstr ""
+"Uw bedrijf moet een crediteur identificatie hebben om SEPA automatische "
+"incasso betalingen te versturen. Het kan ingesteld worden in het "
+"instellingen van de boekhouding module."
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_sdd_download_xml_wizard
+msgid "sdd.download.xml.wizard"
+msgstr "sdd.download.xml.wizard"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_sdd_generate_xml_wizard
+msgid "sdd.generate.xml.wizard"
+msgstr "sdd.generate.xml.wizard"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_sdd_mandate
+msgid "sdd.mandate"
+msgstr "ssd.mandaat"
+
+#. module: account_sepa_direct_debit
+#: model:ir.model,name:account_sepa_direct_debit.model_sdd_xml_archive
+msgid "sdd.xml.archive"
+msgstr "sdd.xml.archive"

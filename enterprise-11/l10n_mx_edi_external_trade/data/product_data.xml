@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="product.product_uom_dozen" model="product.uom">
+        <field name="l10n_mx_edi_code_aduana">19</field>
+    </record>
+    <record id="product.product_uom_gram" model="product.uom">
+        <field name="l10n_mx_edi_code_aduana">02</field>
+    </record>
+    <record id="product.product_uom_kgm" model="product.uom">
+        <field name="l10n_mx_edi_code_aduana">01</field>
+    </record>
+    <record id="product.product_uom_litre" model="product.uom">
+        <field name="l10n_mx_edi_code_aduana">08</field>
+    </record>
+    <record id="product.product_uom_unit" model="product.uom">
+        <field name="l10n_mx_edi_code_aduana">06</field>
+    </record>
+</odoo>

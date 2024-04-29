@@ -1,0 +1,854 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * voip
+# 
+# Translators:
+# Rona Lin <ssauapw@qq.com>, 2017
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2017
+# liAnGjiA <liangjia@qq.com>, 2017
+# 卓忆科技 <zhanghao@jointd.com>, 2017
+# e2f_cn c7 <e2f_cn_c7@outlook.com>, 2017
+# fausthuang, 2017
+# Martin Trigaux, 2017
+# Gary Wei <Gary.wei@elico-corp.com>, 2017
+# Joray <13637815@qq.com>, 2017
+# Eddie Lim <bhweelim@yahoo.com>, 2017
+# waveyeung <waveyeung@qq.com>, 2017
+# Si Ling Lau <happy8645@hotmail.com>, 2017
+# Xu Lei <xulei8@qq.com>, 2017
+# Yaorong Li <55yaorong.li@gmail.com>, 2017
+# 老窦 北京 <2662059195@qq.com>, 2018
+# e2f_cn c5 <jarvisn@ecinnovations.com>, 2018
+# e2f <projects@e2f.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-21 17:08+0000\n"
+"PO-Revision-Date: 2017-11-21 17:08+0000\n"
+"Last-Translator: e2f <projects@e2f.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/user_agent.js:207
+#, python-format
+msgid " Please check your configuration."
+msgstr "请检查你的配置"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_report_nbr
+msgid "# of Cases"
+msgstr "#案件"
+
+#. module: voip
+#: model:ir.model,name:voip.model_mail_activity
+msgid "Activity"
+msgstr "活动"
+
+#. module: voip
+#: model:ir.model,name:voip.model_mail_activity_type
+msgid "Activity Type"
+msgstr "活动类型"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users_sip_always_transfer
+msgid "Always Redirect to Handset"
+msgstr "总是重定向到话筒"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/dialing_panel.xml:49
+#, python-format
+msgid "Backspace"
+msgstr "退格键"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/dialing_panel.xml:35
+#, python-format
+msgid "CONTACTS"
+msgstr "联系人"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_call_date
+msgid "Call Date"
+msgstr "呼叫日期"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_name
+msgid "Call Name"
+msgstr "呼叫名称"
+
+#. module: voip
+#: code:addons/voip/models/voip_phonecall.py:192
+#, python-format
+msgid "Call from "
+msgstr "由谁呼叫"
+
+#. module: voip
+#: code:addons/voip/models/voip_phonecall.py:182
+#: code:addons/voip/models/voip_phonecall.py:224
+#, python-format
+msgid "Call to "
+msgstr "拨打"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/dialing_panel.js:574
+#, python-format
+msgid "Calling "
+msgstr "呼叫"
+
+#. module: voip
+#: model:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "Calls Date by Month"
+msgstr "按月份的通话日期。"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/voip_phonecall.xml:153
+#: model:ir.ui.view,arch_db:voip.wizard_transfer_call_form_view
+#, python-format
+msgid "Cancel"
+msgstr "取消"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/voip_phonecall.xml:43
+#, python-format
+msgid "Cancel the activity"
+msgstr "取消活动"
+
+#. module: voip
+#: selection:voip.phonecall,state:0 selection:voip.phonecall.report,state:0
+msgid "Cancelled"
+msgstr "已取消"
+
+#. module: voip
+#: model:ir.actions.act_window,help:voip.voip_phonecall_view
+msgid "Click to log the summary of a phonecall."
+msgstr "单击记录电话摘要。"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/dialing_panel.js:405
+#, python-format
+msgid "Click to unblock"
+msgstr "点击解除阻塞"
+
+#. module: voip
+#: model:ir.model,name:voip.model_res_partner
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_partner_id
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_report_partner_id
+msgid "Contact"
+msgstr "联系人"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_configurator_create_uid
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_create_uid
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard_create_uid
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_transfer_wizard_create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_configurator_create_date
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_create_date
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard_create_date
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_transfer_wizard_create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: voip
+#: model:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "Creation"
+msgstr "创建"
+
+#. module: voip
+#: model:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "Creation Date"
+msgstr "创建日期"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/voip_phonecall.xml:126
+#, python-format
+msgid "Customer"
+msgstr "客户"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/dialing_panel.js:390
+#, python-format
+msgid "Customer unavailable"
+msgstr "客户不可用"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_report_call_date
+msgid "Date"
+msgstr "日期   "
+
+#. module: voip
+#: selection:res.config.settings,mode:0
+msgid "Demo"
+msgstr "演示"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/dialing_panel.xml:5
+#, python-format
+msgid "Display Dialing Panel"
+msgstr "显示拨号面板"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_configurator_display_name
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_display_name
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard_display_name
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_report_display_name
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_transfer_wizard_display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: voip
+#: selection:voip.phonecall.log.wizard,reschedule_option:0
+msgid "Don't Reschedule"
+msgstr "不要重新安排"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_date_deadline
+msgid "Due Date"
+msgstr "截止日期"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_duration
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_report_duration
+msgid "Duration"
+msgstr "时长"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_voip_phonecall_duration
+msgid "Duration in minutes."
+msgstr "时长（分钟）。"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/dialing_panel.xml:48
+#, python-format
+msgid "Enter the number..."
+msgstr "输入号码..."
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_mail_activity_type_create_voip_phonecall
+msgid "Generates a voip phonecall"
+msgstr "生成网络电话"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_voip_phonecall_sequence
+msgid "Gives the sequence order when displaying a list of Phonecalls."
+msgstr "当显示电话列表时，给出序列顺序。"
+
+#. module: voip
+#: model:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "Group By"
+msgstr "分组"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users_sip_external_phone
+msgid "Handset Extension"
+msgstr "手持扩展"
+
+#. module: voip
+#: selection:voip.phonecall,state:0 selection:voip.phonecall.report,state:0
+msgid "Held"
+msgstr "挂掉"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_configurator_id
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_id
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard_id
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_report_id
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_transfer_wizard_id
+msgid "ID"
+msgstr "ID"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_mail_activity_type_create_voip_phonecall
+msgid ""
+"If set to true, when an activity of this type is scheduled, a voip phonecall"
+" is created"
+msgstr "如果设置为真，当计划该类型活动时，创建网络电话"
+
+#. module: voip
+#: selection:voip.phonecall.log.wizard,reschedule_option:0
+msgid "In 1 Week"
+msgstr "1周内"
+
+#. module: voip
+#: selection:voip.phonecall.log.wizard,reschedule_option:0
+msgid "In 15 Day"
+msgstr "15天内"
+
+#. module: voip
+#: selection:voip.phonecall.log.wizard,reschedule_option:0
+msgid "In 2 Months"
+msgstr "2个月内"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_in_queue
+msgid "In Call Queue"
+msgstr "在呼叫队列"
+
+#. module: voip
+#: model:ir.actions.act_window,help:voip.voip_phonecall_view
+msgid ""
+"In order to follow up on the call, you can trigger a request for\n"
+"        another call, a meeting."
+msgstr ""
+"为了跟进电话，您可以对 \n"
+" 其他呼叫、会议触发请求。"
+
+#. module: voip
+#: selection:voip.phonecall,type:0
+msgid "Incoming"
+msgstr "入库"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/user_agent.js:358
+#, python-format
+msgid "Incoming call from "
+msgstr "电话来自"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_mail_activity_is_call_type
+msgid "Is it a call type activity?"
+msgstr "这是呼叫类型活动吗？"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_configurator___last_update
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall___last_update
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard___last_update
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_report___last_update
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_transfer_wizard___last_update
+msgid "Last Modified on"
+msgstr "最后修改时间"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_configurator_write_uid
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard_write_uid
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_transfer_wizard_write_uid
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_configurator_write_date
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard_write_date
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_transfer_wizard_write_date
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_activity_id
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard_activity_id
+msgid "Linked Activity"
+msgstr "链接活动"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_mail_message_id
+msgid "Linked Chatter Message"
+msgstr "聊天页面内的消息链接"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_mail_activity_voip_phonecall_id
+msgid "Linked Voip Phonecall"
+msgstr "链接网络电话"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/voip_phonecall.xml:143
+#, python-format
+msgid "Log"
+msgstr "日志"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard_phonecall_id
+msgid "Logged Phonecall"
+msgstr "记录来电"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/voip_phonecall.xml:148
+#, python-format
+msgid "Mark as done"
+msgstr "标记为完成"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_mail_activity_mobile
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_mobile
+msgid "Mobile"
+msgstr "手机"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_partner_sanitized_mobile
+#: model:ir.model.fields,field_description:voip.field_res_users_sanitized_mobile
+msgid "Mobile number sanitized"
+msgstr "整理手机号码"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_config_settings_mode
+msgid "Mode"
+msgstr "模式"
+
+#. module: voip
+#: model:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "Month"
+msgstr "月"
+
+#. module: voip
+#: model:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "My Phonecalls"
+msgstr "我的电话"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/dialing_panel.xml:32
+#, python-format
+msgid "NEXT ACTIVITIES"
+msgstr "下一步活动"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/voip_phonecall.xml:136
+#, python-format
+msgid "Next"
+msgstr "下一个"
+
+#. module: voip
+#: selection:voip.phonecall,state:0 selection:voip.phonecall.report,state:0
+msgid "Not Held"
+msgstr "未挂掉"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard_note
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_note
+msgid "Note"
+msgstr "备注"
+
+#. module: voip
+#: model:ir.actions.act_window,help:voip.voip_phonecall_view
+msgid ""
+"Odoo allows you to log inbound calls on the fly to track the\n"
+"        history of the communication with a customer or to inform another\n"
+"        team member."
+msgstr ""
+"Odoo 允许您实时记录呼入电话以便追踪 \n"
+" 与客户之间沟通的历史记录或通知其他 \n"
+" 团队成员。"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/user_agent.js:152
+#, python-format
+msgid "One or more parameter is missing. Please check your configuration."
+msgstr "一个或者多个参数缺失。请检查你的配置。"
+
+#. module: voip
+#: selection:voip.phonecall,type:0
+msgid "Outgoing"
+msgstr "出向"
+
+#. module: voip
+#: model:ir.ui.view,arch_db:voip.res_user_form
+msgid "PBX Configuration"
+msgstr "PBX配置"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_config_settings_pbx_ip
+msgid "PBX Server IP"
+msgstr "PBX服务器IP"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_mail_activity_phone
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_phone
+msgid "Phone"
+msgstr "电话"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_partner_sanitized_phone
+#: model:ir.model.fields,field_description:voip.field_res_users_sanitized_phone
+msgid "Phone number sanitized"
+msgstr "整理电话号码"
+
+#. module: voip
+#: model:ir.actions.act_window,name:voip.voip_phonecall_view
+#: model:ir.ui.menu,name:voip.menu_voip_phonecall_view
+#: model:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+#: model:ir.ui.view,arch_db:voip.voip_phonecall_tree_view
+msgid "Phonecalls"
+msgstr "电话"
+
+#. module: voip
+#: model:ir.model,name:voip.model_voip_phonecall_report
+msgid "Phonecalls by user"
+msgstr "电话（按用户）"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/dialing_panel.js:155
+#, python-format
+msgid "Please check if a phone number is given for the current phonecall"
+msgstr "请检查电话号码是否存在于当前电话列表中"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/user_agent.js:245
+#, python-format
+msgid "Please check your configuration.</br> (Reason receives :"
+msgstr "请检查你的配置。</br> ( 收到的理由 :"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/user_agent.js:99
+#, python-format
+msgid ""
+"Problem during the connection. Check if the application is allowed to access"
+" your microphone from your browser."
+msgstr "链接中的问题。检查应用是否有权限允许你从你的浏览器访问你的话筒"
+
+#. module: voip
+#: selection:res.config.settings,mode:0
+msgid "Production"
+msgstr "生产"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/dialing_panel.xml:29
+#, python-format
+msgid "RECENT"
+msgstr "近期通话"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/dialing_panel.xml:23
+#, python-format
+msgid "Refresh the Panel"
+msgstr "刷新面板"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users_sip_ignore_incoming
+msgid "Reject All Incoming Calls"
+msgstr "拒绝所有呼入电话"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/voip_phonecall.xml:40
+#, python-format
+msgid "Remove from the queue"
+msgstr "从电话列表中移除"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_report_user_id
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_user_id
+#: model:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "Responsible"
+msgstr "负责"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users_sip_login
+msgid "SIP Login / Browser's Extension"
+msgstr "SIP登陆／浏览器扩展"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users_sip_password
+msgid "SIP Password"
+msgstr "SIP密码"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/voip_phonecall.xml:136
+#, python-format
+msgid "Schedule"
+msgstr "安排"
+
+#. module: voip
+#: model:ir.ui.view,arch_db:voip.res_config_settings_view_form
+msgid "Schedule &amp; make calls from CRM app"
+msgstr "使用 CRM 应用安排并打出电话"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard_reschedule_option
+msgid "Schedule A New Activity"
+msgstr "安排新活动"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/dialing_panel.xml:22
+#, python-format
+msgid "Search Phone Calls..."
+msgstr "搜索电话..."
+
+#. module: voip
+#: model:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "Search Phonecalls"
+msgstr "搜索电话"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/voip_phonecall.xml:121
+#, python-format
+msgid "Send mail"
+msgstr "发送邮件"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_sequence
+msgid "Sequence"
+msgstr "序列"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard_reschedule_date
+#: selection:voip.phonecall.log.wizard,reschedule_option:0
+msgid "Specific Date"
+msgstr "指定日"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/dialing_panel.js:574
+#, python-format
+msgid "Start Calling"
+msgstr "开始呼叫"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_start_time
+msgid "Start time"
+msgstr "开始时间"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_report_state
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_state
+msgid "Status"
+msgstr "状态"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard_summary
+msgid "Summary"
+msgstr "摘要"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_res_config_settings_pbx_ip
+msgid "The IP adress of your PBX Server"
+msgstr "你的PBX服务器的IP地址"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_res_config_settings_wsServer
+msgid "The URL of your WebSocket"
+msgstr "你的WebSocket的网址"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/dialing_panel.js:403
+#, python-format
+msgid "The customer is temporary unavailable. Please try later."
+msgstr "客户电话暂时不可用。请稍后再拨。"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/user_agent.js:460
+#, python-format
+msgid ""
+"The number is incorrect, the user credentials could be wrong or the "
+"connection cannot be made. Please check your configuration.</br> (Reason "
+"received: %s)"
+msgstr "号码不正确，有可能是用户证书出错或没有进行连接。请检查您的配置。</br>（收到的原因：%s）"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/dialing_panel.js:157
+#, python-format
+msgid "The phonecall has no number"
+msgstr "该来电没有号码"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/user_agent.js:163
+#, python-format
+msgid ""
+"The server configuration could be wrong. Please check your configuration."
+msgstr "服务器的配置估计有误。请检查你的配置。"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_voip_phonecall_state
+msgid ""
+"The status is set to To Do, when a call is created.\n"
+"When the call is over, the status is set to Held.\n"
+"If the call is not applicable anymore, the status can be set to Cancelled."
+msgstr ""
+"在创建呼叫时，状态设置为待办。\n"
+"在呼叫结束时，状态设置为保留。\n"
+"如果不再适用呼叫，状态可设置为已取消。"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/user_agent.js:201
+#, python-format
+msgid "The websocket uri could be wrong."
+msgstr "WebSocket的网址可能是错误的。"
+
+#. module: voip
+#: model:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+#: selection:voip.phonecall,state:0 selection:voip.phonecall.report,state:0
+msgid "To Do"
+msgstr "待办"
+
+#. module: voip
+#: selection:voip.phonecall.log.wizard,reschedule_option:0
+msgid "Tomorrow"
+msgstr "明天"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_transfer_wizard_transfer_choice
+msgid "Transfer Choice"
+msgstr "转账选择"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_type
+msgid "Type"
+msgstr "类型"
+
+#. module: voip
+#: model:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "Unassigned"
+msgstr "未分派"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/voip_phonecall.js:130
+#, python-format
+msgid "Unknown"
+msgstr "未知"
+
+#. module: voip
+#: model:ir.model,name:voip.model_res_users
+msgid "Users"
+msgstr "用户"
+
+#. module: voip
+#: model:ir.ui.view,arch_db:voip.view_voip_user_config
+msgid "VOIP Configuration"
+msgstr "VOIP配置"
+
+#. module: voip
+#: code:addons/voip/wizard/voip_phonecall_transfer_wizard.py:34
+#, python-format
+msgid "Warning"
+msgstr "警告"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_config_settings_wsServer
+msgid "WebSocket"
+msgstr "WebSocket"
+
+#. module: voip
+#: code:addons/voip/wizard/voip_phonecall_transfer_wizard.py:35
+#, python-format
+msgid ""
+"Wrong configuration for the call. There is no external phone number "
+"configured"
+msgstr "错误配置的呼叫。没有配置外部电话号码"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/dialing_panel.js:168
+#: code:addons/voip/static/src/js/dialing_panel.js:255
+#: code:addons/voip/static/src/js/dialing_panel.js:276
+#, python-format
+msgid "You are already in a call"
+msgstr "您已经在通话中"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/user_agent.js:94
+#, python-format
+msgid ""
+"Your browser could not support WebRTC. Please check your configuration."
+msgstr "你的浏览器不支持WebRTC。请检查你的配置。"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/voip_phonecall.xml:53
+#: code:addons/voip/static/src/xml/voip_phonecall.xml:94
+#, python-format
+msgid "min"
+msgstr "最小"
+
+#. module: voip
+#: model:ir.model,name:voip.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/xml/voip_phonecall.xml:53
+#: code:addons/voip/static/src/xml/voip_phonecall.xml:94
+#, python-format
+msgid "sec"
+msgstr "秒"
+
+#. module: voip
+#. openerp-web
+#: code:addons/voip/static/src/js/user_agent.js:244
+#, python-format
+msgid "the connection cannot be made. "
+msgstr "连接无法建立。"
+
+#. module: voip
+#: model:ir.ui.view,arch_db:voip.wizard_transfer_call_form_view
+msgid "transfer Option"
+msgstr "转移选项"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_transfer_wizard_transfer_number
+msgid "transfer To"
+msgstr "转移到"
+
+#. module: voip
+#: model:ir.ui.view,arch_db:voip.wizard_transfer_call_form_view
+msgid "transfer the Call"
+msgstr "转移电话"
+
+#. module: voip
+#: selection:voip.phonecall.transfer.wizard,transfer_choice:0
+msgid "transfer to another External Phone"
+msgstr "转移到其他外部电话"
+
+#. module: voip
+#: selection:voip.phonecall.transfer.wizard,transfer_choice:0
+msgid "transfer to your external phone"
+msgstr "转移到你的外部电话"
+
+#. module: voip
+#: model:ir.model,name:voip.model_voip_configurator
+msgid "voip.configurator"
+msgstr "voip.configurator"
+
+#. module: voip
+#: model:ir.model,name:voip.model_voip_phonecall
+msgid "voip.phonecall"
+msgstr "voip.phonecall"
+
+#. module: voip
+#: model:ir.model,name:voip.model_voip_phonecall_log_wizard
+msgid "voip.phonecall.log.wizard"
+msgstr "voip.phonecall.log.wizard"
+
+#. module: voip
+#: model:ir.model,name:voip.model_voip_phonecall_transfer_wizard
+msgid "voip.phonecall.transfer.wizard"
+msgstr "voip.phonecall.transfer.wizard"

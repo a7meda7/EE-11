@@ -1,0 +1,280 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * mail_github
+# 
+# Translators:
+# liAnGjiA <liangjia@qq.com>, 2017
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2017
+# e2f_cn c7 <e2f_cn_c7@outlook.com>, 2017
+# Xu Lei <xulei8@qq.com>, 2017
+# Gary Wei <Gary.wei@elico-corp.com>, 2017
+# e2f <projects@e2f.com>, 2018
+# e2f_cn c5 <jarvisn@ecinnovations.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-20 11:33+0000\n"
+"PO-Revision-Date: 2017-09-20 11:33+0000\n"
+"Last-Translator: e2f_cn c5 <jarvisn@ecinnovations.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "(with"
+msgstr "（与"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid ") on repository"
+msgstr "）在知识库"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid ", by"
+msgstr "，通过"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "<b>State :</b>"
+msgstr "<b>国家：</b>"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "<b>Title :</b>"
+msgstr "<b>标题 :</b>"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.mail_channel_github_view_form
+msgid ""
+"After that you can choose the events you want to follow in the channels. Be "
+"careful, only <i>Commit comment, Issues, Issue comment, Gollum, Pull "
+"request, Pull request review, Pull request review comment</i> and "
+"<i>Push</i> events are supported."
+msgstr ""
+"在此之后，您可以选择想要在渠道中关注的事件。注意，只支持<i>提交评论、发布问题、问题评论、Gollum、拉取请求审核、拉取请求审核评论</i>和<i>推送</i>事件。"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github_channel_ids
+msgid "Channels"
+msgstr "频道"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.mail_channel_github_view_form
+msgid "Channels allowed to follow repositories."
+msgstr "允许关注知识库的渠道。"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "Commit"
+msgstr "提交"
+
+#. module: mail_github
+#: model:ir.model.fields,help:mail_github.field_mail_channel_github_name
+msgid ""
+"Complete name of the github repository. e.i.: my-username/my-public-repo"
+msgstr "完成 github 网站知识库的名称。例如：我的用户名/我的公共知识库"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github_create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github_create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: mail_github
+#: model:ir.model,name:mail_github.model_mail_channel
+msgid "Discussion channel"
+msgstr "讨论频道"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github_display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github_enabled
+msgid "Enable listening to Github repositories"
+msgstr "启用 Github 知识库的通知功能"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_res_users_github_login
+msgid "GitHub Login"
+msgstr "Git Hub 登录"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.mail_channel_view_form
+msgid "Github"
+msgstr "Github"
+
+#. module: mail_github
+#: model:ir.actions.act_window,name:mail_github.mail_channel_github_action
+#: model:ir.ui.menu,name:mail_github.mail_channel_menu_github
+msgid "Github Repositories"
+msgstr "Github 知识库"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github_id
+msgid "ID"
+msgstr "ID"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "Issue"
+msgstr "问题"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github___last_update
+msgid "Last Modified on"
+msgstr "最后修改时间"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github_write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github_write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.mail_channel_github_view_form
+msgid ""
+"Once the repository is created in Odoo, create it on Github. Then, copy "
+"'Payload URL' and 'Secret' in Github interface."
+msgstr "如果在 Odoo 创建知识库，即在 Github 创建它。然后，在 Github 界面复制“有效载荷 URL”和“机密”。"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "PR"
+msgstr "采购需求单"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github_url_token
+msgid "Payload URL"
+msgstr "有效载荷 URL"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github_repo_ids
+msgid "Repositories"
+msgstr "知识库"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github_github_repository_id
+msgid "Repository ID"
+msgstr "知识库 ID"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.mail_channel_github_view_form
+msgid "Repository full name: user/repository."
+msgstr "知识库全称：用户/知识库。"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github_name
+msgid "Repository name"
+msgstr "知识库名称"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github_secret
+msgid "Secret"
+msgstr "机密"
+
+#. module: mail_github
+#: model:ir.model.fields,help:mail_github.field_mail_channel_github_repo_ids
+msgid "The Github repositories the channel will follow"
+msgstr "渠道将关注的 Github 知识库"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.mail_channel_github_view_form
+msgid "The signature to be pasted when setting up the webhook on Github"
+msgstr "在 Github 设置网络挂接时，要粘贴的签名"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.mail_channel_github_view_form
+msgid ""
+"The webhook 'Content Type' should be set to <b>application/x-www-form-"
+"urlencoded</b>."
+msgstr "网络挂接的“内容类型”应设置为 <b>application/x-www-form-urlencoded</b>。"
+
+#. module: mail_github
+#: model:ir.model.fields,help:mail_github.field_mail_channel_github_url_token
+msgid "URL to put as the payload target when configuring GitHub webhook"
+msgstr "在配置 GitHub 网络挂接时，放置作为有效载荷目标的 URL"
+
+#. module: mail_github
+#: model:ir.model,name:mail_github.model_res_users
+msgid "Users"
+msgstr "用户"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "commented"
+msgstr "备注过"
+
+#. module: mail_github
+#: code:addons/mail_github/controllers/main.py:174
+#, python-format
+msgid "commit"
+msgstr "提交"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "commit(s) on"
+msgstr "提交日期"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "created a new"
+msgstr "新建"
+
+#. module: mail_github
+#: code:addons/mail_github/controllers/main.py:197
+#, python-format
+msgid "issue"
+msgstr "问题"
+
+#. module: mail_github
+#: model:ir.model,name:mail_github.model_mail_channel_github
+msgid "mail.channel.github"
+msgstr "mail.channel.github"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "modified the following"
+msgstr "已修改以下内容"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "modifies wiki pages on repository"
+msgstr "在知识库中修改 Wiki 页面"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "on repository"
+msgstr "在知识库中"
+
+#. module: mail_github
+#: code:addons/mail_github/controllers/main.py:211
+#: code:addons/mail_github/controllers/main.py:218
+#, python-format
+msgid "pull request"
+msgstr "拉取请求"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "push"
+msgstr "推送"
+
+#. module: mail_github
+#: model:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "remove the following"
+msgstr "删除以下"

@@ -1,0 +1,194 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * helpdesk_timesheet
+# 
+# Translators:
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2017
+# Martin Trigaux, 2017
+# Gary Wei <Gary.wei@elico-corp.com>, 2017
+# 珠海-杜哥 <liangjia@qq.com>, 2017
+# waveyeung <waveyeung@qq.com>, 2017
+# 卓忆科技 <zhanghao@jointd.com>, 2017
+# v2exerer <9010446@qq.com>, 2017
+# e2f_cn c7 <e2f_cn_c7@outlook.com>, 2017
+# e2f <projects@e2f.com>, 2018
+# e2f_cn c5 <jarvisn@ecinnovations.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-20 11:33+0000\n"
+"PO-Revision-Date: 2017-09-20 11:33+0000\n"
+"Last-Translator: e2f_cn c5 <jarvisn@ecinnovations.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: helpdesk_timesheet
+#: model:ir.model.fields,field_description:helpdesk_timesheet.field_project_project_ticket_count
+msgid "# Tickets"
+msgstr "服务单编号"
+
+#. module: helpdesk_timesheet
+#: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_is_task_active
+msgid "Active"
+msgstr "有效"
+
+#. module: helpdesk_timesheet
+#: code:addons/helpdesk_timesheet/models/helpdesk.py:73
+#, python-format
+msgid ""
+"All timesheet hours will be assigned to the selected task on save. Discard "
+"to avoid the change."
+msgstr "保存时会将所有工时表时间分配到所选任务。放弃以避免更改。"
+
+#. module: helpdesk_timesheet
+#: model:ir.model,name:helpdesk_timesheet.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "分析行"
+
+#. module: helpdesk_timesheet
+#: code:addons/helpdesk_timesheet/models/helpdesk.py:19
+#: code:addons/helpdesk_timesheet/models/helpdesk.py:34
+#, python-format
+msgid "Closed"
+msgstr "已关闭"
+
+#. module: helpdesk_timesheet
+#: model:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
+msgid "Customer's task is closed."
+msgstr "客户任务已关闭。"
+
+#. module: helpdesk_timesheet
+#: model:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
+msgid "Description"
+msgstr "说明"
+
+#. module: helpdesk_timesheet
+#: model:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
+msgid "Description of the ticket..."
+msgstr "门票的说明..."
+
+#. module: helpdesk_timesheet
+#: model:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
+msgid "Duration"
+msgstr "时长"
+
+#. module: helpdesk_timesheet
+#: model:ir.model,name:helpdesk_timesheet.model_helpdesk_team
+msgid "Helpdesk Team"
+msgstr "服务台团队"
+
+#. module: helpdesk_timesheet
+#: model:ir.model.fields,field_description:helpdesk_timesheet.field_account_analytic_line_helpdesk_ticket_id
+msgid "Helpdesk Ticket"
+msgstr "帮助中心工单"
+
+#. module: helpdesk_timesheet
+#: code:addons/helpdesk_timesheet/models/helpdesk.py:18
+#: code:addons/helpdesk_timesheet/models/helpdesk.py:33
+#, python-format
+msgid "In Progress"
+msgstr "进行中"
+
+#. module: helpdesk_timesheet
+#: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_is_closed
+msgid "Is Closed"
+msgstr "已关闭"
+
+#. module: helpdesk_timesheet
+#: model:ir.model.fields,field_description:helpdesk_timesheet.field_project_task_type_is_closed
+msgid "Is a close stage"
+msgstr "是一个完结的阶段"
+
+#. module: helpdesk_timesheet
+#: model:ir.model,name:helpdesk_timesheet.model_project_project
+#: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_team_project_id
+#: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_project_id
+msgid "Project"
+msgstr "项目"
+
+#. module: helpdesk_timesheet
+#: model:ir.actions.act_window,name:helpdesk_timesheet.project_project_action_view_helpdesk_tickets
+msgid "Project Tickets"
+msgstr "项目服务单"
+
+#. module: helpdesk_timesheet
+#: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_task_id
+msgid "Task"
+msgstr "任务"
+
+#. module: helpdesk_timesheet
+#: model:ir.model,name:helpdesk_timesheet.model_project_task_type
+msgid "Task Stage"
+msgstr "任务阶段"
+
+#. module: helpdesk_timesheet
+#: model:ir.model.fields,help:helpdesk_timesheet.field_helpdesk_ticket_is_closed
+#: model:ir.model.fields,help:helpdesk_timesheet.field_project_task_type_is_closed
+msgid "Tasks in this stage are considered as closed."
+msgstr "在这个阶段的任务被认为已关闭。"
+
+#. module: helpdesk_timesheet
+#: model:ir.model.fields,help:helpdesk_timesheet.field_helpdesk_ticket_task_id
+msgid "The task must have the same customer as this ticket."
+msgstr "任务必须具有与此服务单相同的客户。"
+
+#. module: helpdesk_timesheet
+#: model:ir.model.fields,help:helpdesk_timesheet.field_helpdesk_ticket_use_helpdesk_timesheet
+msgid "This required to have project module installed."
+msgstr "这需要安装项目模块。"
+
+#. module: helpdesk_timesheet
+#: model:ir.model,name:helpdesk_timesheet.model_helpdesk_ticket
+msgid "Ticket"
+msgstr "门票"
+
+#. module: helpdesk_timesheet
+#: model:ir.model.fields,field_description:helpdesk_timesheet.field_project_project_ticket_ids
+#: model:ir.ui.view,arch_db:helpdesk_timesheet.project_project_view_form_inherit_helpdesk_timesheet
+msgid "Tickets"
+msgstr "门票"
+
+#. module: helpdesk_timesheet
+#: model:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
+msgid "Timesheet Activities"
+msgstr "工时表活动"
+
+#. module: helpdesk_timesheet
+#: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_use_helpdesk_timesheet
+msgid "Timesheet activated on Team"
+msgstr "已在“团队”上激活时间表"
+
+#. module: helpdesk_timesheet
+#: code:addons/helpdesk_timesheet/models/helpdesk.py:75
+#, python-format
+msgid ""
+"Timesheet hours will not be assigned to a customer task. Set a task to "
+"charge a customer."
+msgstr "时间表时间将分配至客户任务。设置任务以向客户收费。"
+
+#. module: helpdesk_timesheet
+#: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_timesheet_ids
+#: model:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
+msgid "Timesheets"
+msgstr "工时表"
+
+#. module: helpdesk_timesheet
+#: model:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
+msgid "Total hours"
+msgstr "总小时数"
+
+#. module: helpdesk_timesheet
+#: model:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
+msgid "View task."
+msgstr "查看任务。"
+
+#. module: helpdesk_timesheet
+#: code:addons/helpdesk_timesheet/models/helpdesk.py:78
+#, python-format
+msgid "Warning"
+msgstr "警告"

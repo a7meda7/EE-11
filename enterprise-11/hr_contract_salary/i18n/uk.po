@@ -1,0 +1,1223 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * hr_contract_salary
+# 
+# Translators:
+# Bohdan Lisnenko, 2017
+# Евгений Жердев <e.v.zherdev@gmail.com>, 2017
+# Martin Trigaux, 2017
+# ТАрас <tratatuta@i.ua>, 2017
+# Alina Semeniuk <alinasemeniuk1@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-19 14:22+0000\n"
+"PO-Revision-Date: 2018-02-19 14:22+0000\n"
+"Last-Translator: Alina Semeniuk <alinasemeniuk1@gmail.com>, 2017\n"
+"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: hr_contract_salary
+#: model:mail.template,subject:hr_contract_salary.mail_template_send_offer
+msgid "${object.company_id.name} : Job Offer - ${object.name}"
+msgstr "${object.company_id.name} : Job Offer - ${object.name}"
+
+#. module: hr_contract_salary
+#: model:mail.template,subject:hr_contract_salary.mail_template_data_notification_email_send_offer
+msgid "${object.subject}"
+msgstr "${object.subject}"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "+ International Communication"
+msgstr "+ Міжнародний зв'язок"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "+32 2 290 34 90"
+msgstr "+32 2 290 34 90"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "00.00.00-000.00"
+msgstr "00.00.00-000.00"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "110 €"
+msgstr "110 €"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "150 €"
+msgstr "150 €"
+
+#. module: hr_contract_salary
+#: model:mail.template,body_html:hr_contract_salary.mail_template_send_offer
+msgid ""
+"<?xml version=\"1.0\"?>\n"
+"<div>\n"
+"                    <h2>Congratulations!</h2>\n"
+"                    <p>You can configure your salary package by clicking on the link below.</p>\n"
+"                    <br/><br/>\n"
+"                    <center>\n"
+"                        <a href=\"${ctx.get('salary_package_url')}\" target=\"_blank\" style=\"background-color: #1abc9c; padding: 20px; text-decoration: none; color: #fff; border-radius: 5px; font-size: 16px;\" class=\"o_default_snippet_text\">Configure your package</a>\n"
+"                        <br/><br/><br/>\n"
+"                    </center>\n"
+"\n"
+"                </div>\n"
+"            "
+msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<div>\n"
+"                    <h2>Вітаємо!</h2>\n"
+"                    <p>Ви можете налаштувати свій пакет зарплат, натиснувши на посилання нижче.</p>\n"
+"                    <br/><br/>\n"
+"                    <center>\n"
+"                        <a href=\"${ctx.get('salary_package_url')}\" target=\"_blank\" style=\"background-color: #1abc9c; padding: 20px; text-decoration: none; color: #fff; border-radius: 5px; font-size: 16px;\" class=\"o_default_snippet_text\">Налаштуйте свій пакет</a>\n"
+"                        <br/><br/><br/>\n"
+"                    </center>\n"
+"\n"
+"                </div>\n"
+"            "
+
+#. module: hr_contract_salary
+#: model:mail.template,body_html:hr_contract_salary.mail_template_data_notification_email_send_offer
+msgid ""
+"<?xml version=\"1.0\"?>\n"
+"<html>\n"
+"                <head/>\n"
+"                % set record = ctx.get('record')\n"
+"                % set company = record and record.company_id or user.company_id\n"
+"                <body style=\"margin: 0; padding: 0;\">\n"
+"                <table border=\"0\" width=\"100%\" cellpadding=\"0\" bgcolor=\"#ededed\" style=\"padding: 20px; background-color: #ededed\" summary=\"o_mail_notification\">\n"
+"                    <tbody>\n"
+"\n"
+"                      <!-- HEADER -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px;\">\n"
+"                            <tr>\n"
+"                              <td valign=\"middle\">\n"
+"                                  <span style=\"font-size:20px; color:white; font-weight: bold;\">\n"
+"                                      ${object.record_name}\n"
+"                                  </span>\n"
+"                              </td>\n"
+"                              <td valign=\"middle\" align=\"right\">\n"
+"                                  <img src=\"/logo.png?company=${company.id}\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${company.name}\"/>\n"
+"                              </td>\n"
+"                            </tr>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"\n"
+"                      <!-- CONTENT -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#ffffff\" style=\"min-width: 590px; background-color: rgb(255, 255, 255); padding: 20px;\">\n"
+"                            <tbody>\n"
+"                              <td valign=\"top\" style=\"font-family:Arial,Helvetica,sans-serif; color: #555; font-size: 14px;\">\n"
+"                                ${object.body | safe}\n"
+"                              </td>\n"
+"                            </tbody>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"\n"
+"                      <!-- FOOTER -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px;\">\n"
+"                            <tr>\n"
+"                              <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                                ${company.name}<br/>\n"
+"                                ${company.phone or ''}\n"
+"                              </td>\n"
+"                              <td valign=\"middle\" align=\"right\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                                % if company.email:\n"
+"                                <a href=\"mailto:${company.email}\" style=\"text-decoration:none; color: white;\">${company.email}</a><br/>\n"
+"                                % endif\n"
+"                                % if company.website:\n"
+"                                    <a href=\"${company.website}\" style=\"text-decoration:none; color: white;\">\n"
+"                                        ${company.website}\n"
+"                                    </a>\n"
+"                                % endif\n"
+"                              </td>\n"
+"                            </tr>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"                      <tr>\n"
+"                        <td align=\"center\">\n"
+"                            Powered by <a target=\"_blank\" href=\"https://www.odoo.com\">Odoo</a>.\n"
+"                        </td>\n"
+"                      </tr>\n"
+"                    </tbody>\n"
+"                </table>\n"
+"                </body>\n"
+"                </html>\n"
+"            "
+msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<html>\n"
+"                <head/>\n"
+"                % set record = ctx.get('record')\n"
+"                % set company = record and record.company_id or user.company_id\n"
+"                <body style=\"margin: 0; padding: 0;\">\n"
+"                <table border=\"0\" width=\"100%\" cellpadding=\"0\" bgcolor=\"#ededed\" style=\"padding: 20px; background-color: #ededed\" summary=\"o_mail_notification\">\n"
+"                    <tbody>\n"
+"\n"
+"                      <!-- HEADER -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px;\">\n"
+"                            <tr>\n"
+"                              <td valign=\"middle\">\n"
+"                                  <span style=\"font-size:20px; color:white; font-weight: bold;\">\n"
+"                                      ${object.record_name}\n"
+"                                  </span>\n"
+"                              </td>\n"
+"                              <td valign=\"middle\" align=\"right\">\n"
+"                                  <img src=\"/logo.png?company=${company.id}\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${company.name}\"/>\n"
+"                              </td>\n"
+"                            </tr>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"\n"
+"                      <!-- CONTENT -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#ffffff\" style=\"min-width: 590px; background-color: rgb(255, 255, 255); padding: 20px;\">\n"
+"                            <tbody>\n"
+"                              <td valign=\"top\" style=\"font-family:Arial,Helvetica,sans-serif; color: #555; font-size: 14px;\">\n"
+"                                ${object.body | safe}\n"
+"                              </td>\n"
+"                            </tbody>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"\n"
+"                      <!-- FOOTER -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px;\">\n"
+"                            <tr>\n"
+"                              <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                                ${company.name}<br/>\n"
+"                                ${company.phone or ''}\n"
+"                              </td>\n"
+"                              <td valign=\"middle\" align=\"right\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                                % if company.email:\n"
+"                                <a href=\"mailto:${company.email}\" style=\"text-decoration:none; color: white;\">${company.email}</a><br/>\n"
+"                                % endif\n"
+"                                % if company.website:\n"
+"                                    <a href=\"${company.website}\" style=\"text-decoration:none; color: white;\">\n"
+"                                        ${company.website}\n"
+"                                    </a>\n"
+"                                % endif\n"
+"                              </td>\n"
+"                            </tr>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"                      <tr>\n"
+"                        <td align=\"center\">\n"
+"                            Зроблено <a target=\"_blank\" href=\"https://www.odoo.com\">Odoo</a>.\n"
+"                        </td>\n"
+"                      </tr>\n"
+"                    </tbody>\n"
+"                </table>\n"
+"                </body>\n"
+"                </html>\n"
+"            "
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-car fa-fw\"/> Transport"
+msgstr "<i class=\"fa fa-1x fa-car fa-fw\"/> Транспорт"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-crosshairs fa-fw fa-lg\"/> Commissions"
+msgstr "<i class=\"fa fa-1x fa-crosshairs fa-fw fa-lg\"/> Комісії"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-cutlery fa-fw\"/> Meal Vouchers"
+msgstr "<i class=\"fa fa-1x fa-cutlery fa-fw\"/> Ваучери на їжу"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-gift fa-fw fa-lg\"/> 13<sup>th</sup> Month"
+msgstr "<i class=\"fa fa-1x fa-gift fa-fw fa-lg\"/> 13<sup>те</sup> Місяць"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-globe fa-fw fa-lg\"/> Internet Subscription"
+msgstr "<i class=\"fa fa-1x fa-globe fa-fw fa-lg\"/> Онлайн-підписка"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-leaf fa-fw\"/> Eco Vouchers"
+msgstr "<i class=\"fa fa-1x fa-leaf fa-fw\"/>Еко ваучери"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-male fa-fw fa-lg\"/> Representation Fees"
+msgstr "<i class=\"fa fa-1x fa-male fa-fw fa-lg\"/> Представницькі збори"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-minus fa-fw\"/> Benefit in Kind (Company Car)"
+msgstr ""
+"<i class=\"fa fa-1x fa-minus fa-fw\"/>Вигода в добрі (автомобіль компанії)"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-minus fa-fw\"/> Benefit in Kind (Internet)"
+msgstr "<i class=\"fa fa-1x fa-minus fa-fw\"/> Вигода в добрі (Інтернет)"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<i class=\"fa fa-1x fa-minus fa-fw\"/> Benefit in Kind (Phone Subscription)"
+msgstr "<i class=\"fa fa-1x fa-minus fa-fw\"/>Вигода в добрі (телефонна підписка)"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-minus fa-fw\"/> Meal Vouchers"
+msgstr "<i class=\"fa fa-1x fa-minus fa-fw\"/> Ваучери на їжу"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-minus fa-fw\"/> Social contribution"
+msgstr "<i class=\"fa fa-1x fa-minus fa-fw\"/> Соціальний внесок"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-minus fa-fw\"/> Special social contribution"
+msgstr "<i class=\"fa fa-1x fa-minus fa-fw\"/> Спеціальний соціальний внесок"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-minus fa-fw\"/> Withholding Tax"
+msgstr "<i class=\"fa fa-1x fa-minus fa-fw\"/> Податок на утримання"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-mobile fa-fw fa-lg\"/> Phone Subscription"
+msgstr "<i class=\"fa fa-1x fa-mobile fa-fw fa-lg\"/> Телефонна підписка"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-plus fa-fw\"/> Benefit in Kind (Company Car)"
+msgstr ""
+"<i class=\"fa fa-1x fa-plus fa-fw\"/> Вигода в добрі (автомобіль компанії)"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-plus fa-fw\"/> Benefit in Kind (Internet)"
+msgstr "<i class=\"fa fa-1x fa-plus fa-fw\"/>Вигода в добрі (Інтернет)"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-plus fa-fw\"/> Benefit in Kind Phone (Subscription)"
+msgstr "<i class=\"fa fa-1x fa-plus fa-fw\"/>Перевага в добрі Телефон (підписка)"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-plus fa-fw\"/> Commissions on Target"
+msgstr "<i class=\"fa fa-1x fa-plus fa-fw\"/>Комісії на ціль"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-plus fa-fw\"/> Employment Bonus"
+msgstr "<i class=\"fa fa-1x fa-plus fa-fw\"/> Робочий бонус"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-plus fa-fw\"/> Representation Fees"
+msgstr "<i class=\"fa fa-1x fa-plus fa-fw\"/> Представницькі збори"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-plus fa-fw\"/> Withholding Tax Reductions"
+msgstr "<i class=\"fa fa-1x fa-plus fa-fw\"/> Скорочення податку на утримання"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-suitcase fa-fw\"/> Holiday Bonus"
+msgstr "<i class=\"fa fa-1x fa-suitcase fa-fw\"/> Святковий бонус"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-suitcase fa-fw\"/> Legal Leaves"
+msgstr "<i class=\"fa fa-1x fa-suitcase fa-fw\"/> Законні відпустки"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "<i class=\"fa fa-1x fa-tint fa-fw\"/> Fuel Card"
+msgstr "<i class=\"fa fa-1x fa-tint fa-fw\"/> Паливна картка"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package_thank_you
+msgid "<i class=\"fa fa-check-circle-o mr8\"/>Congratulations"
+msgstr "<i class=\"fa fa-check-circle-o mr8\"/>Вітання"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block mt8\" id=\"internet_tooltip\">Your internet "
+"subscription will be paid up to this amount.</span>"
+msgstr ""
+"<span class=\"help-block mt8\" id=\"internet_tooltip\">Ваша інтернет-"
+"підписка буде сплачена до цієї суми.</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block mt8\" id=\"mobile_tooltip\">Your mobile phone "
+"subscription will be paid up to this amount.</span>"
+msgstr ""
+"<span class=\"help-block mt8\" id=\"mobile_tooltip\">Підписку на мобільний "
+"телефон буде сплачено до цієї суми.</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block mt8\" name=\"holidays_20_days\" style=\"display: inline;\"> You will receive 20 days of paid leaves. However, if you only use </span>\n"
+"                                                        <span class=\"help-block\" style=\"display: inline;\" name=\"holidays_amount\">X</span>\n"
+"                                                        <span class=\"help-block\" style=\"display: inline;\"> days by the end of the year, you will receive a compensation of approximately </span>\n"
+"                                                        <span class=\"help-block\" style=\"display: inline;\" name=\"compensation_amount\">x</span>\n"
+"                                                        <span class=\"help-block\" style=\"display: inline;\"> €.</span><br/>"
+msgstr ""
+"<span class=\"help-block mt8\" name=\"holidays_20_days\" style=\"display: inline;\"> Ви отримаєте 20 днів оплачуваної відпустки. Однак, якщо ви тільки використовуєте </span>\n"
+"                                                        <span class=\"help-block\" style=\"display: inline;\" name=\"holidays_amount\">X</span>\n"
+"                                                        <span class=\"help-block\" style=\"display: inline;\"> днів до кінця року ви отримаєте компенсацію приблизно</span>\n"
+"                                                        <span class=\"help-block\" style=\"display: inline;\" name=\"compensation_amount\">x</span>\n"
+"                                                        <span class=\"help-block\" style=\"display: inline;\"> €.</span><br/>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block mt8\">Enter the monthly amount you spend on public "
+"transportation to go to work. The approximative amount reimbursed by the "
+"employer is calculated accordingly.</span>"
+msgstr ""
+"<span class=\"help-block mt8\">Введіть щомісячну суму, яку ви витрачаєте на "
+"громадському транспорті, щоб перейти на роботу. Апроксимаційна сума, "
+"відшкодована роботодавцем, розраховується відповідно.</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block mt8\">The cost of a car is depreciated by 8% per "
+"year, for 7 years. So, your gross salary increases automatically to keep the"
+" same employee budget. Once a car has 7 years, the car is fully depreciated "
+"and the only remaining costs are the maintenance, insurances and "
+"taxes.</span>"
+msgstr ""
+"<span class=\"help-block mt8\">Вартість автомобіля амортизується на 8% на "
+"рік, протягом 7 років. Таким чином, ваша валова зарплатня автоматично "
+"зростає, щоби зберегти такий же бюджет працівників. Як тільки автомобіль має"
+" 7 років, машина повністю амортизується, а залишаються лише витрати на "
+"обслуговування, страхування та податки.</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block\">Every month, you'll get 7.45€ per worked day on your meal voucher card.\n"
+"</span>"
+msgstr ""
+"<span class=\"help-block\">Щомісяця ви отримаєте 7,45 євро за день роботи на картку ваучера на їжу.\n"
+"</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block\">This is a monthly net amount, taken into account "
+"in your payslip.</span>"
+msgstr ""
+"<span class=\"help-block\">Це щомісячна чиста сума, врахована у вашому "
+"платіжному балансі.</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block\">You'll receive this amount around December. This "
+"amount may be different based on your working schedule and the number of "
+"worked days during the year.</span>"
+msgstr ""
+"<span class=\"help-block\">Ви отримаєте цю суму приблизно в грудні. Ця сума "
+"може бути різною залежно від вашого робочого графіка та кількості робочих "
+"днів протягом року.</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block\">You'll receive this amount around June. This "
+"amount may be different based on your working schedule and the number of "
+"worked days during the year.</span>"
+msgstr ""
+"<span class=\"help-block\">Ви отримаєте цю суму приблизно в червні. Ця сума "
+"може бути різною залежно від вашого робочого графіка та кількості робочих "
+"днів протягом року.</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"<span class=\"help-block\">You'll receive this amount in the form of Eco "
+"Vouchers around June. This amount may be different based on your working "
+"schedule and the number of worked days during the year. </span>"
+msgstr ""
+"<span class=\"help-block\">Ви отримаєте цю суму у вигляді екологічних "
+"ваучерів протягом червня. Ця сума може бути різною залежно від вашого "
+"робочого графіка та кількості робочих днів протягом року. </span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_applicant_view_form
+msgid "<span class=\"o_stat_text\">Contracts</span>"
+msgstr "<span class=\"o_stat_text\">Контракти</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
+msgid "<span class=\"o_stat_text\">Signature Requests</span>"
+msgstr "<span class=\"o_stat_text\">Запит на підпис</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
+msgid "Accept Request"
+msgstr "Прийняти запит"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_access_token_end_date
+msgid "Access Token Validity Date"
+msgstr "Токен доступу дати дійсності"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_active_employee
+msgid "Active"
+msgstr "Активно"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_employee_additional_note
+msgid "Additional Note"
+msgstr "Додаткова примітка"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Address"
+msgstr "Адреса"
+
+#. module: hr_contract_salary
+#: model:ir.model,name:hr_contract_salary.model_hr_applicant
+msgid "Applicant"
+msgstr "Заявник"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "BASIC SALARY"
+msgstr "ОСНОВНА ЗАРОБІТНА ПЛАТА"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "BE10 3631 0709 4104"
+msgstr "BE10 3631 0709 4104"
+
+#. module: hr_contract_salary
+#: selection:hr.employee,certificate:0
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Bachelor"
+msgstr "Бакалавр"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Bank account"
+msgstr "Банківський рахунок"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Batman"
+msgstr "Бетмен"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Birthdate"
+msgstr "Дата народження"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "CO2 Emission: <span name=\"co2\"/>"
+msgstr "Викиди CO2: <span name=\"co2\"/>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Cash"
+msgstr "Каса"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Certificate"
+msgstr "Сертифікат"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_employee_certificate
+msgid "Certificate Level"
+msgstr "Рівень сертифікату"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "City"
+msgstr "Місто"
+
+#. module: hr_contract_salary
+#: model:ir.actions.act_window,help:hr_contract_salary.action_hr_contract_templates
+msgid "Click here to create new contracts."
+msgstr "Натисніть тут, щоби створити нові контракти."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Company Car"
+msgstr "Авто компанії"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Computer Science"
+msgstr "Комп'ютерна наука"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_access_token_consumed
+msgid "Consumed Access Token"
+msgstr "Споживаний токен доступу"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Contact Information"
+msgstr "Контактна інформація"
+
+#. module: hr_contract_salary
+#: model:ir.actions.act_window,name:hr_contract_salary.action_hr_contract_templates
+#: model:ir.ui.menu,name:hr_contract_salary.hr_menu_contract_templates
+msgid "Contract Templates"
+msgstr "Шаблони контракту"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_job_contract_update_template_id
+msgid "Contract Update Document Template"
+msgstr "Оновлення контракту шаблону документа "
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_signature_request_template_id
+msgid "Contract template that the employee will have to sign."
+msgstr "Шаблон контракту, який працівник повинен буде підписати."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Country"
+msgstr "Країна"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_applicant_view_form
+msgid "Create Offer"
+msgstr "Створити пропозицію"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Customize your salary"
+msgstr "Налаштуйте вашу зарплату"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_res_config_settings_access_token_validity
+msgid "Default Access Token Validity Duration"
+msgstr "Тривалість дії токена за умовчанням"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_applicant_default_contract_id
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_job_default_contract_id
+msgid "Default Contract for New Employees"
+msgstr "Типовий контракт для нового співробітника"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,help:hr_contract_salary.field_hr_applicant_default_contract_id
+#: model:ir.model.fields,help:hr_contract_salary.field_hr_job_default_contract_id
+msgid "Default contract used when making an offer to an applicant."
+msgstr "Типовий контракт, який використовується при пропозиції заявнику."
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,help:hr_contract_salary.field_hr_job_signature_request_template_id
+msgid ""
+"Default document that the applicant will have to sign to accept a contract "
+"offer."
+msgstr ""
+"Типовий контракт, який заявник повинен буде підписати, щоб прийняти "
+"пропозицію щодо контракту."
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,help:hr_contract_salary.field_hr_job_contract_update_template_id
+msgid ""
+"Default document that the employee will have to sign to update his contract."
+msgstr ""
+"Типовий контракт, який працівник повинен буде підписати, щоб оновити свій "
+"контракт."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Details"
+msgstr "Деталі"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Disabled"
+msgstr "Інвалідність"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Disabled Children"
+msgstr "Disabled Children"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Disabled Spouse"
+msgstr "Disabled Spouse"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Disabled people <span class=\"help-block\">&amp;le; 65 years old</span>"
+msgstr "Людина з інвалідністю <span class=\"help-block\">&amp;le; 65 років</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Disabled seniors <span class=\"help-block\">&amp;ge; 65 years old</span>"
+msgstr "Люди з інвалідністю <span class=\"help-block\">&amp;ge; 65 років</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Divorced"
+msgstr "Розлучений"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_signature_request_template_id
+msgid "Document Template"
+msgstr "Шаблон документа"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Doors Number: <span name=\"door_number\"/>"
+msgstr "Номер дверей: <span name=\"door_number\"/>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_employee_view_form
+msgid "Education"
+msgstr "Освіта"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Email"
+msgstr "Ел. пошта"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_employee_emergency_contact
+msgid "Emergency Contact"
+msgstr "Терміновий контракт"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_employee_emergency_phone
+msgid "Emergency Phone"
+msgstr "Терміновий телефон"
+
+#. module: hr_contract_salary
+#: model:ir.model,name:hr_contract_salary.model_hr_employee
+msgid "Employee"
+msgstr "Співробітник"
+
+#. module: hr_contract_salary
+#: model:ir.model,name:hr_contract_salary.model_hr_contract
+msgid "Employee Contract"
+msgstr "Трудовий контракт"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Employer Cost"
+msgstr "Вартість роботодавця"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Female"
+msgstr "Жінка"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_employee_study_field
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Field of Study"
+msgstr "Поле освіти"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Fuel Type: <span name=\"fuel_type\"/>"
+msgstr "Тип палива:<span name=\"fuel_type\"/>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Full time equivalent employer cost"
+msgstr "Еквівалент вартості роботодавця за повний робочий час"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "GROSS SALARY"
+msgstr "ФОНД ОПЛАТИ ПРАЦІ"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Gross"
+msgstr "Загальний"
+
+#. module: hr_contract_salary
+#: model:signature.item.party,name:hr_contract_salary.signature_item_party_job_responsible
+msgid "HR Responsible"
+msgstr "Відповідальний відділ кадрів"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package_thank_you
+msgid ""
+"He/She will review your contract.<br/> Feel free to contact him/her if you "
+"have further questions."
+msgstr ""
+"Він/вона перегляне ваш контракт<br/> Не соромтеся зв'язатися з ним/нею, якщо"
+" у вас виникнуть додаткові запитання."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Hide <i class=\"fa fa-chevron-up\"/>"
+msgstr "Приховати <i class=\"fa fa-chevron-up\"/>"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_active_employee
+msgid ""
+"If the active field is set to False, it will allow you to hide the resource "
+"record without removing it."
+msgstr ""
+"Якщо активне поле встановлено як Помилкове, це дозволить вам приховати запис"
+" кадрів, не видаливши його."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Immatriculation Date: <span name=\"immatriculation\"/>"
+msgstr "Дата іммітації: <span name=\"immatriculation\"/>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "In case of emergency"
+msgstr "В екстреному випадку"
+
+#. module: hr_contract_salary
+#: model:ir.model,name:hr_contract_salary.model_hr_job
+msgid "Job Position"
+msgstr "Вакансія"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Last Odometer: <span name=\"odometer\"/>"
+msgstr "Останній пробіг:<span name=\"odometer\"/>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Legal Leaves"
+msgstr "Законні відпустки"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Male"
+msgstr "Чоловік"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Marital Status"
+msgstr "Цивільний стан"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Married / Legal Cohabitant"
+msgstr "Одружений/Законний співвласник"
+
+#. module: hr_contract_salary
+#: selection:hr.employee,certificate:0
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Master"
+msgstr "Основний"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Monthly Advantages"
+msgstr "Щомісячні переваги"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Monthly Advantages in Cash"
+msgstr "Щомісячні переваги в готівковій формі"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Monthly Advantages in Net"
+msgstr "Щомісячні переваги в чистому вигляді"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Monthly Benefit in Kind"
+msgstr "Щомісячна вигода "
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Monthly Equivalent"
+msgstr "Місячний еквівалент"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Monthly Salary"
+msgstr "Місячна зарплатня"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "NET SALARY"
+msgstr "Чиста зарплатня"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Name"
+msgstr "Назва"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "National Identification Number"
+msgstr "Національний ідентифікаційний номер"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Nationality"
+msgstr "Національність"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Nature"
+msgstr "Стать"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Net"
+msgstr "Чистий"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Net calculation"
+msgstr "Чистий розрахунок"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_job_signature_request_template_id
+msgid "New Contract Document Template"
+msgstr "Новий шаблон документа контракту"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "No"
+msgstr "Ні"
+
+#. module: hr_contract_salary
+#: code:addons/hr_contract_salary/controllers/main.py:293
+#, python-format
+msgid ""
+"No HR responsible defined on the job position. Please contact an "
+"administrator."
+msgstr ""
+"Жодна відповідальна особа не визначила посаду. Будь ласка, зв'яжіться з "
+"адміністратором."
+
+#. module: hr_contract_salary
+#: code:addons/hr_contract_salary/models/hr_contract.py:110
+#, python-format
+msgid "No home address defined on the employee!"
+msgstr "Жодна домашня адреса не вказана на працівнику!"
+
+#. module: hr_contract_salary
+#: code:addons/hr_contract_salary/controllers/main.py:290
+#, python-format
+msgid ""
+"No signature template defined on the job position. Please contact the HR "
+"responsible."
+msgstr ""
+"У вакансії немає шаблону підпису. Будь ласка, зв'яжіться з відповідальним з "
+"відділу кадрів."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Number of Dependent Children"
+msgstr "Кількість неповнолітніх дітей"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Number of Disabled Children"
+msgstr "Кількість дітей з інвалідністю"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_origin_contract_id
+msgid "Origin Contract"
+msgstr "Оригінальний контракт"
+
+#. module: hr_contract_salary
+#: selection:hr.employee,certificate:0
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Other"
+msgstr "Інше"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Other Dependent People"
+msgstr "Інші залежні люди"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "People <span class=\"help-block\">&amp;le; 65 years old</span>"
+msgstr "Люди <span class=\"help-block\">&amp;le; 65 років</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Person to call"
+msgstr "Особа для зв'язку"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Phone number"
+msgstr "Телефонний номер"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"Please note that this information may be inaccurate and should be used for "
+"reference only.<br/> The amounts are calculated  based on a full time "
+"permanent contract."
+msgstr ""
+"Будь-ласка, майте на увазі, що ця інформація може бути неточною і "
+"використовуватиметься лише для довідки.<br/> Суми обчислюються на підставі "
+"постійного договору повного дня."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_job_view_form
+msgid "Preview Contract"
+msgstr "Перегляд контракту"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_applicant_proposed_contracts
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_applicant_view_form
+msgid "Proposed Contracts"
+msgstr "Запропоновані контракти"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_applicant_proposed_contracts_count
+msgid "Proposed Contracts Count"
+msgstr "Підрахунок запропонованих контрактів"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Public Transportation"
+msgstr "Громадський транспорт"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
+msgid "Refuse Request"
+msgstr "Запит на відмову"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_signature_request_ids
+msgid "Requested Signatures"
+msgstr "Запитані підписи"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Review Contract &amp; Sign"
+msgstr "Переглянути контракт та підписати"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.res_config_settings_view_form
+msgid "Salary Package Configurator"
+msgstr "Конфігуратор пакета заробітної плати"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_employee_study_school
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "School"
+msgstr "Школа"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_access_token
+msgid "Security Token"
+msgstr "Token безпеки"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
+msgid "Send Contract Link"
+msgstr "Надіслати посилання на контракт"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
+msgid "Send Offer"
+msgstr "Надіслати пропозицію"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Seniors <span class=\"help-block\">&amp;ge; 65 years old</span>"
+msgstr "Пенсіонери<span class=\"help-block\">&amp;ge; 65 років</span>"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Show <i class=\"fa fa-chevron-down\"/>"
+msgstr "Показати <i class=\"fa fa-chevron-down\"/>"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_signature_request_count
+msgid "Signature Request Count"
+msgstr "Підрахунок запитів на підпис"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Single"
+msgstr "Неодружений/а/"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Spouse Net Revenue"
+msgstr "Чистий дохід чоловіка/дружини"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Spouse Other Net Revenue"
+msgstr "Інший чистий дохід чоловіка/дружини"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "State"
+msgstr "Область"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Street"
+msgstr "Вулиця"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Street 2"
+msgstr "Вулиця 2"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "TAXABLE INCOME"
+msgstr "ПОДАТКОВИЙ ДОХІД"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Tax status for spouse"
+msgstr "Податковий статус для подружжя"
+
+#. module: hr_contract_salary
+#: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_origin_contract_id
+msgid "The contract from which this contract has been duplicated."
+msgstr "Контракт, з якого цей контракт був дубльований."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"The number of days you get depends on your working schedule, the number of "
+"days used in your previous job and the number of months worked previously."
+msgstr ""
+"Кількість днів, які ви отримуєте, залежить від вашого робочого графіка, "
+"кількості днів, що використовувались у вашій попередній роботі, та кількості"
+" раніше відпрацьованих місяців."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"This commission is only effective if the target is reached. The commissions "
+"are paid using warrants that you receive every three months. This results to"
+" a net warrant value of"
+msgstr ""
+"Ця комісія є ефективною лише у випадку досягнення мети. Комісії виплачуються"
+" за допомогою ордерів, які ви отримуєте кожні три місяці. Це призводить до "
+"чистої вартості ордера"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid ""
+"This cost simulation is only for information. If you want to choose another "
+"car model, please contact your HR manager."
+msgstr ""
+"Це моделювання витрат призначено лише для інформації. Якщо ви хочете вибрати"
+" іншу модель автомобіля, зверніться до свого менеджера з персоналу."
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Total"
+msgstr "Разом"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.res_config_settings_view_form
+msgid "Validity duration for salary package requests for new applicants"
+msgstr "Тривалість терміну дії запитів на оплату зарплати для нових заявників"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Widower"
+msgstr "Вдівець/вдова"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "With Income"
+msgstr "З доходом"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Without Income"
+msgstr "Без доходу"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Yearly Advantages"
+msgstr "Щорічні переваги"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Yearly Advantages in Cash"
+msgstr "Щорічні переваги у готівці"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Yes"
+msgstr "Так"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Your Personal Information"
+msgstr "Ваша особиста інформація"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package_thank_you
+msgid "Your contract has been sent to:"
+msgstr "Ваш контракт був надісланий до:"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "Zip Code"
+msgstr "Zip код"
+
+#. module: hr_contract_salary
+#: model:ir.ui.view,arch_db:hr_contract_salary.salary_package
+msgid "day(s)"
+msgstr "день(дні)"
+
+#. module: hr_contract_salary
+#: model:ir.model,name:hr_contract_salary.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"

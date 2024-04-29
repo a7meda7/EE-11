@@ -1,0 +1,284 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * account_taxcloud
+# 
+# Translators:
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2017
+# Ted Wang <feiyuwang2012@gmail.com>, 2017
+# liAnGjiA <liangjia@qq.com>, 2017
+# Gary Wei <Gary.wei@elico-corp.com>, 2017
+# Martin Trigaux, 2017
+# waveyeung <waveyeung@qq.com>, 2017
+# e2f_cn c7 <e2f_cn_c7@outlook.com>, 2017
+# Jeff Yu - Elico Corp <jeff.yu@elico-corp.com>, 2017
+# e2f <projects@e2f.com>, 2018
+# e2f_cn c5 <jarvisn@ecinnovations.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-20 11:33+0000\n"
+"PO-Revision-Date: 2017-09-20 11:33+0000\n"
+"Last-Translator: e2f_cn c5 <jarvisn@ecinnovations.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_taxcloud
+#: model:ir.ui.view,arch_db:account_taxcloud.res_config_settings_view_form
+msgid "<i class=\"fa fa-fw fa-arrow-right\"/>Create Account &amp; Get Credentials"
+msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>创建账号 &amp; 获取授权"
+
+#. module: account_taxcloud
+#: model:ir.ui.view,arch_db:account_taxcloud.res_config_settings_view_form
+msgid "API ID"
+msgstr "API ID"
+
+#. module: account_taxcloud
+#: model:ir.ui.view,arch_db:account_taxcloud.res_config_settings_view_form
+msgid "API KEY"
+msgstr "API 密钥"
+
+#. module: account_taxcloud
+#: model:ir.model,name:account_taxcloud.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_product_tic_category_create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_product_tic_category_create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: account_taxcloud
+#: model:ir.ui.view,arch_db:account_taxcloud.res_config_settings_view_form
+msgid "Default Category"
+msgstr "默认类别"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_res_company_tic_category_id
+#: model:ir.model.fields,field_description:account_taxcloud.field_res_config_settings_tic_category_id
+msgid "Default TIC Code"
+msgstr "默认TIC 代码"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,help:account_taxcloud.field_res_company_tic_category_id
+#: model:ir.model.fields,help:account_taxcloud.field_res_config_settings_tic_category_id
+msgid ""
+"Default TICs(Taxability information codes) code to get sales tax from "
+"TaxCloud by product category."
+msgstr "默认 TIC （征税信息代码）代码，用于按产品类别从 TaxCloud 获取销售税。"
+
+#. module: account_taxcloud
+#: model:ir.ui.view,arch_db:account_taxcloud.res_config_settings_view_form
+msgid "Default TaxCloud category for new products"
+msgstr "新产品的默认 TaxCloud 类别"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_product_tic_category_display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_account_fiscal_position_tax_state_ids
+#: model:ir.model.fields,field_description:account_taxcloud.field_account_fiscal_position_tax_template_state_ids
+msgid "Federal States"
+msgstr "联邦政府"
+
+#. module: account_taxcloud
+#: model:ir.model,name:account_taxcloud.model_account_fiscal_position
+msgid "Fiscal Position"
+msgstr "财政状况"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_product_tic_category_id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_taxcloud
+#: model:ir.model,name:account_taxcloud.model_account_invoice
+msgid "Invoice"
+msgstr "发票"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_product_tic_category___last_update
+msgid "Last Modified on"
+msgstr "最后修改时间"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_product_tic_category_write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_product_tic_category_write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: account_taxcloud
+#: model:ir.ui.view,arch_db:account_taxcloud.account_taxcloud_tic_category_search
+msgid "Product TIC Categories"
+msgstr "产品TIC类别"
+
+#. module: account_taxcloud
+#: model:ir.model,name:account_taxcloud.model_product_template
+msgid "Product Template"
+msgstr "产品模板"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_account_fiscal_position_tax_template_tic_category_ids
+#: model:ir.model.fields,field_description:account_taxcloud.field_account_fiscal_position_tax_tic_category_ids
+#: model:ir.ui.view,arch_db:account_taxcloud.account_taxcloud_tic_category_tree
+msgid "TIC Category"
+msgstr "TIC 类别"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_product_tic_category_code
+msgid "TIC Category Code"
+msgstr "TIC 类别代码"
+
+#. module: account_taxcloud
+#: model:ir.ui.view,arch_db:account_taxcloud.account_taxcloud_tic_category_search
+msgid "TIC Code"
+msgstr "TIC 代码"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_product_tic_category_description
+msgid "TIC Description"
+msgstr "TIC说明"
+
+#. module: account_taxcloud
+#: model:ir.ui.view,arch_db:account_taxcloud.product_template_taxcloud_inherit_form
+msgid "TaxCloud"
+msgstr "TaxCloud"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_res_config_settings_taxcloud_api_id
+msgid "TaxCloud API ID"
+msgstr "TaxCloud API ID"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_res_config_settings_taxcloud_api_key
+msgid "TaxCloud API KEY"
+msgstr "TaxCloud API 密钥"
+
+#. module: account_taxcloud
+#: model:ir.actions.act_window,name:account_taxcloud.account_taxcloud_tic_category_action
+#: model:ir.ui.menu,name:account_taxcloud.menu_taxcloud_tic_category_action
+msgid "TaxCloud Categories"
+msgstr "TaxCloud 类别"
+
+#. module: account_taxcloud
+#: model:ir.ui.view,arch_db:account_taxcloud.res_config_settings_view_form
+msgid "TaxCloud Categories (TIC)"
+msgstr "TaxCloud 类别 (TIC)"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_product_product_tic_category_id
+#: model:ir.model.fields,field_description:account_taxcloud.field_product_template_tic_category_id
+#: model:ir.ui.view,arch_db:account_taxcloud.product_template_taxcloud_inherit_form
+msgid "TaxCloud Category"
+msgstr "TaxCloud 类别"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,help:account_taxcloud.field_product_product_tic_category_id
+#: model:ir.model.fields,help:account_taxcloud.field_product_template_tic_category_id
+msgid ""
+"TaxCloud uses Taxability Information Codes (TIC) to make sure each item in "
+"your catalog is taxed at the right rate (or, for tax-exempt items, not taxed"
+" at all), so it's important to make sure that each item is assigned a TIC. "
+"If you can't find the right tax category for an item in your catalog, you "
+"can assign it to the 'General Goods and Services' TIC, 00000. TaxCloud "
+"automatically assigns products to this TIC as a default, so unless you've "
+"changed an item's TIC in the past, it should already be set to 00000."
+msgstr ""
+"TaxCloud 使用征税信息代码 (TIC) "
+"确保以正确的税率向目录中每个项目征税（或者，对于免税项目，不征收任何税），因此有必要确保为每个项目都分配一个 "
+"TIC。如果您无法为目录中的项目找到正确的税种，可将其分配到“一般商品和服务”TIC (00000)。默认情况下，TaxCloud 会自动将产品分配到此"
+" TIC，因此除非您更改过项目的 TIC ，否则它应该已被设置为 00000。"
+
+#. module: account_taxcloud
+#: model:ir.model,name:account_taxcloud.model_account_fiscal_position_tax
+msgid "Taxes Fiscal Position"
+msgstr "税金财政状况"
+
+#. module: account_taxcloud
+#: model:ir.model,name:account_taxcloud.model_account_fiscal_position_tax_template
+msgid "Template Tax Fiscal Position"
+msgstr "模板税金财政状况"
+
+#. module: account_taxcloud
+#: model:ir.model,name:account_taxcloud.model_account_fiscal_position_template
+msgid "Template for Fiscal Position"
+msgstr "财政状况模板"
+
+#. module: account_taxcloud
+#: code:addons/account_taxcloud/models/account_fiscal_position.py:99
+#: code:addons/account_taxcloud/models/account_invoice.py:48
+#: code:addons/account_taxcloud/models/res_config_settings.py:40
+#, python-format
+msgid "The configuration of TaxCloud is in the Accounting app, Settings menu."
+msgstr "TaxCloud 的配置位于“会计”应用的“设置”菜单中。"
+
+#. module: account_taxcloud
+#: code:addons/account_taxcloud/models/account_invoice.py:119
+#, python-format
+msgid ""
+"The source document on the refund is not valid and thus the refunded cart "
+"won't be logged on your taxcloud account"
+msgstr "有关退款的源单据无效，因此已退款的购物车将不会记录在您的 taxcloud 账户中"
+
+#. module: account_taxcloud
+#: code:addons/account_taxcloud/models/account_invoice.py:89
+#, python-format
+msgid ""
+"The tax rates have been updated, you may want to check it before validation"
+msgstr "税率已被更新，你可能需要先验证检查"
+
+#. module: account_taxcloud
+#: code:addons/account_taxcloud/models/account_fiscal_position.py:99
+#: code:addons/account_taxcloud/models/account_invoice.py:48
+#: code:addons/account_taxcloud/models/res_config_settings.py:40
+#, python-format
+msgid "Unable to retrieve taxes from TaxCloud: "
+msgstr "无法从 TaxCloud 检索税款："
+
+#. module: account_taxcloud
+#: model:ir.actions.server,name:account_taxcloud.action_account_invoice_update_taxes
+msgid "Update taxes with Taxcloud"
+msgstr "使用 Taxcloud 更新税款"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_account_fiscal_position_is_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_account_fiscal_position_template_is_taxcloud
+msgid "Use TaxCloud API"
+msgstr "使用TaxCloud API"
+
+#. module: account_taxcloud
+#: model:ir.model.fields,field_description:account_taxcloud.field_account_fiscal_position_tax_template_zip_codes
+#: model:ir.model.fields,field_description:account_taxcloud.field_account_fiscal_position_tax_zip_codes
+msgid "Zip"
+msgstr "邮政编码"
+
+#. module: account_taxcloud
+#: code:addons/account_taxcloud/models/product.py:28
+#, python-format
+msgid "[%s] %s"
+msgstr "[%s] %s"
+
+#. module: account_taxcloud
+#: model:ir.model,name:account_taxcloud.model_product_tic_category
+msgid "product.tic.category"
+msgstr "product.tic.category"
+
+#. module: account_taxcloud
+#: model:ir.model,name:account_taxcloud.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"

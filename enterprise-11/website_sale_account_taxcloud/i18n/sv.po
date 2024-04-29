@@ -1,0 +1,49 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * website_sale_account_taxcloud
+# 
+# Translators:
+# Chrille Hedberg <hedberg.chrille@gmail.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-20 11:33+0000\n"
+"PO-Revision-Date: 2017-09-20 11:33+0000\n"
+"Last-Translator: Chrille Hedberg <hedberg.chrille@gmail.com>, 2018\n"
+"Language-Team: Swedish (https://www.transifex.com/odoo/teams/41243/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: website_sale_account_taxcloud
+#: model:ir.ui.view,arch_db:website_sale_account_taxcloud.res_config_settings_view_form_inherit_website_taxcloud
+msgid "<i class=\"fa fa-fw fa-arrow-right\"/>Create Account &amp; Get Credentials"
+msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>Skapa konto"
+
+#. module: website_sale_account_taxcloud
+#: model:ir.ui.view,arch_db:website_sale_account_taxcloud.res_config_settings_view_form_inherit_website_taxcloud
+msgid "API ID"
+msgstr "API ID"
+
+#. module: website_sale_account_taxcloud
+#: model:ir.ui.view,arch_db:website_sale_account_taxcloud.res_config_settings_view_form_inherit_website_taxcloud
+msgid "API KEY"
+msgstr "API NYCKEL"
+
+#. module: website_sale_account_taxcloud
+#: model:ir.ui.view,arch_db:website_sale_account_taxcloud.res_config_settings_view_form_inherit_website_taxcloud
+msgid "Compute tax rates based on U.S. ZIP codes"
+msgstr "Beräkna moms baserat på amerikanska postnummer"
+
+#. module: website_sale_account_taxcloud
+#: model:ir.ui.view,arch_db:website_sale_account_taxcloud.res_config_settings_view_form_inherit_website_taxcloud
+msgid "Default Category"
+msgstr "Standardkategori"
+
+#. module: website_sale_account_taxcloud
+#: model:ir.ui.view,arch_db:website_sale_account_taxcloud.res_config_settings_view_form_inherit_website_taxcloud
+msgid "TaxCloud"
+msgstr "TaxCloud"

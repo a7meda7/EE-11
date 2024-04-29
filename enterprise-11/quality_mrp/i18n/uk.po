@@ -1,0 +1,621 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * quality_mrp
+# 
+# Translators:
+# Martin Trigaux, 2017
+# Bohdan Lisnenko, 2017
+# ТАрас <tratatuta@i.ua>, 2017
+# Alina Lisnenko <alinasemeniuk1@gmail.com>, 2018
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-19 14:22+0000\n"
+"PO-Revision-Date: 2017-09-20 12:11+0000\n"
+"Last-Translator: Alina Lisnenko <alinasemeniuk1@gmail.com>, 2018\n"
+"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_production_view_form_inherit_quality
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_inherit_quality
+msgid ""
+"<span class=\"o_stat_text text-success\" attrs=\"{'invisible': [('quality_check_fail', '=', True)]}\">Quality Checks</span>\n"
+"                    <span class=\"o_stat_text text-danger\" attrs=\"{'invisible': [('quality_check_fail', '!=', True)]}\">Quality Checks</span>"
+msgstr ""
+"<span class=\"o_stat_text text-success\" attrs=\"{'invisible': [('quality_check_fail', '=', True)]}\">Перевірки якості</span>\n"
+"                    <span class=\"o_stat_text text-danger\" attrs=\"{'invisible': [('quality_check_fail', '!=', True)]}\">Перевірки якості</span>"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_production_view_form_inherit_quality
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_inherit_quality
+msgid "<span class=\"o_stat_text\">Quality Alert</span>"
+msgstr "<span class=\"o_stat_text\">Якість попередження</span>"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_production_quality_alert_ids
+msgid "Alerts"
+msgstr "Застереження"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_allow_producing_quantity_change
+msgid "Allow Changes to the Produced Quantity"
+msgstr "Дозволити зміни у вироблену кількість"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_point_test_type_allow_registration
+msgid "Allow Registration"
+msgstr "Дозволити реєстрацію"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet_menu
+msgid "Block"
+msgstr "Блок"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_check_ids
+msgid "Check"
+msgstr "Перевірка"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_production_check_ids
+msgid "Checks"
+msgstr "Перевірки"
+
+#. module: quality_mrp
+#. openerp-web
+#: code:addons/quality_mrp/static/src/xml/widget_template.xml:9
+#, python-format
+msgid "Clear"
+msgstr "Очистити"
+
+#. module: quality_mrp
+#: model:ir.actions.act_window,help:quality_mrp.mrp_workorder_action_tablet
+msgid "Click to start a new work order."
+msgstr "Натисніть, щоб почати нове робоче замовлення."
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_component_id
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_check_component_id
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_point_component_id
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Component"
+msgstr "Компонент"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Continue"
+msgstr "Далі"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_control_date
+msgid "Control Date"
+msgstr "Дата контролю"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.quality_alert_view_form_inherit_mrp
+msgid "Create Work Order Message"
+msgstr "Створити повідомлення робочого замовлення"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_current_quality_check_id
+msgid "Current Quality Check"
+msgstr "Поточна перевірка якості"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_inherit_quality
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Date"
+msgstr "Дата"
+
+#. module: quality_mrp
+#: model:ir.model.fields,help:quality_mrp.field_mrp_workorder_component_uom_id
+#: model:ir.model.fields,help:quality_mrp.field_quality_check_component_uom_id
+msgid "Default Unit of Measure used for all stock operation."
+msgstr ""
+"Одиниця вимірювання за замовчуванням, що використовується для всіх операцій "
+"складу."
+
+#. module: quality_mrp
+#: selection:quality.point,worksheet:0
+msgid "Do not update page"
+msgstr "Не оновлюйте сторінку"
+
+#. module: quality_mrp
+#: code:addons/quality_mrp/models/quality.py:105
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_qty_done
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_check_qty_done
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_inherit_quality
+#, python-format
+msgid "Done"
+msgstr "Готово"
+
+#. module: quality_mrp
+#. openerp-web
+#: code:addons/quality_mrp/static/src/xml/widget_template.xml:8
+#, python-format
+msgid "Edit"
+msgstr "Редагувати"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Fail"
+msgstr "Невдалий"
+
+#. module: quality_mrp
+#: code:addons/quality_mrp/models/quality.py:112
+#, python-format
+msgid "Failure"
+msgstr "Невдача"
+
+#. module: quality_mrp
+#: code:addons/quality_mrp/models/mrp_workorder.py:163
+#, python-format
+msgid "Failure Message"
+msgstr "Повідомлення про помилку"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Finish steps"
+msgstr "Завершіть кроки"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_finished_product_check_ids
+msgid "Finished Product Check"
+msgstr "Перевірка готової продукції"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_check_finished_product_sequence
+msgid "Finished Product Sequence Number"
+msgstr "Номер послідовності готового товару"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_inherit_quality
+msgid "Finished Steps"
+msgstr "Завершені кроки"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_is_first_step
+msgid "Is First Step"
+msgstr "Є першим кроком"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_is_last_step
+msgid "Is Last Step"
+msgstr "Є останнім кроком"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_is_last_lot
+msgid "Is Last lot"
+msgstr "Є останньою партією"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_lot_id
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Lot"
+msgstr "Партія"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Lot:"
+msgstr "Партія:"
+
+#. module: quality_mrp
+#: model:ir.model,name:quality_mrp.model_mrp_production
+msgid "Manufacturing Order"
+msgstr "Замовлення на виробництво"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Mark as Done"
+msgstr "Позначте, як зроблено"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_measure
+msgid "Measure"
+msgstr "Міра"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_measure_success
+msgid "Measure Success"
+msgstr "Виміряйте успіх"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Measure:"
+msgstr "Міра:"
+
+#. module: quality_mrp
+#: code:addons/quality_mrp/models/mrp_workorder.py:270
+#, python-format
+msgid "Menu"
+msgstr "Меню"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_move_line_id
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_check_move_line_id
+msgid "Move Line"
+msgstr "Рядок проведень"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Next"
+msgstr "Далі"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_note
+msgid "Note"
+msgstr "Примітка"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.quality_check_failure_message
+msgid "OK"
+msgstr "Ок"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_alert_workorder_id
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_check_workorder_id
+msgid "Operation"
+msgstr "Операція"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_inherit_quality
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Operator"
+msgstr "Оператор"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_check_parent_id
+msgid "Parent Quality Check"
+msgstr "Перевірка батьківської якості "
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_point_routing_id
+msgid "Parent Routing"
+msgstr "Батьківський маршрут"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Pass"
+msgstr "Проходження"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Pause"
+msgstr "Пауза"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_picture
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_check_picture
+msgid "Picture"
+msgstr "Зображення"
+
+#. module: quality_mrp
+#: code:addons/quality_mrp/models/quality.py:120
+#, python-format
+msgid "Picture Uploaded"
+msgstr "Зображення завантажено"
+
+#. module: quality_mrp
+#: model:ir.actions.act_window,help:quality_mrp.mrp_workorder_action_tablet
+msgid "Plan some work orders from your manufacturing orders."
+msgstr "Заплануйте деякі робочі замовлення з ваших замовлень на виробництво."
+
+#. module: quality_mrp
+#: code:addons/quality_mrp/models/mrp_workorder.py:84
+#: code:addons/quality_mrp/models/mrp_workorder.py:171
+#, python-format
+msgid ""
+"Please ensure the quantity to produce is nonnegative and does not exceed the"
+" remaining quantity."
+msgstr ""
+"Будь ласка, впевніться, що кількість, яку потрібно виготовити, є неотриманою"
+" і не перевищує залишкову кількість."
+
+#. module: quality_mrp
+#: code:addons/quality_mrp/models/mrp_workorder.py:90
+#, python-format
+msgid "Please enter a Lot/SN."
+msgstr "Будь ласка, введіть партію/серійний номер."
+
+#. module: quality_mrp
+#: code:addons/quality_mrp/models/mrp_workorder.py:92
+#, python-format
+msgid "Please enter a positive quantity."
+msgstr "Будь ласка, введіть кількість вище нуля."
+
+#. module: quality_mrp
+#: code:addons/quality_mrp/models/mrp_workorder.py:86
+#, python-format
+msgid "Please upload a picture."
+msgstr "Будь ласка, завантажте фотографію."
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Previous"
+msgstr "Попередній"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_inherit_quality
+msgid "Process"
+msgstr "Обробити"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_alert_production_id
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_check_production_id
+msgid "Production Order"
+msgstr "Заявка на виробництво"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Production Workcenter"
+msgstr "Робочий центр виробництва"
+
+#. module: quality_mrp
+#: model:ir.model,name:quality_mrp.model_quality_alert
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_quality_alert_ids
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_production_view_form_inherit_quality
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workcenter_view_kanban_inherit_quality_mrp
+msgid "Quality Alert"
+msgstr "Якісне сповіщення "
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_production_quality_alert_count
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_quality_alert_count
+msgid "Quality Alert Count"
+msgstr "Якість попередження кількості"
+
+#. module: quality_mrp
+#: model:ir.model,name:quality_mrp.model_quality_check
+msgid "Quality Check"
+msgstr "Перевірка якості"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_production_quality_check_fail
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_quality_check_fail
+msgid "Quality Check Fail"
+msgstr "Помилка перевірки якості"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_production_quality_check_todo
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_quality_check_todo
+msgid "Quality Check Todo"
+msgstr "Зробити перевірку якості"
+
+#. module: quality_mrp
+#: model:ir.actions.act_window,name:quality_mrp.quality_check_action_mo
+#: model:ir.actions.act_window,name:quality_mrp.quality_check_action_wo
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_production_view_form_inherit_quality
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_inherit_quality
+msgid "Quality Checks"
+msgstr "Перевірки якості"
+
+#. module: quality_mrp
+#: model:ir.model,name:quality_mrp.model_quality_point
+msgid "Quality Point"
+msgstr "Пункт якості"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet_menu
+msgid "Quality alert"
+msgstr "Сповіщення якості"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Quantity"
+msgstr "Кількість"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Record production"
+msgstr "Запис виробництва"
+
+#. module: quality_mrp
+#: code:addons/quality_mrp/models/quality.py:99
+#, python-format
+msgid "Register component(s)"
+msgstr "Реєстр компонентів"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_component_remaining_qty
+msgid "Remaining Quantity for Component"
+msgstr "Залишок кількості компонентів"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_user_id
+msgid "Responsible"
+msgstr "Відповідальний"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_check_result
+msgid "Result"
+msgstr "Результат"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "SN"
+msgstr "SN"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "SN:"
+msgstr "SN:"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet_menu
+msgid "Scrap"
+msgstr "Брак"
+
+#. module: quality_mrp
+#: selection:quality.point,worksheet:0
+msgid "Scroll to specific page"
+msgstr "Перейдіть до конкретної сторінки"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Skip"
+msgstr "Пропустити"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_skip_completed_checks
+msgid "Skip Completed Checks"
+msgstr "Пропустіть завершені перевірки"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_skipped_check_ids
+msgid "Skipped Check"
+msgstr "Пропущена перевірка"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_quality_state
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_check_quality_state_for_summary
+msgid "Status"
+msgstr "Статус"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_point_operation_id
+msgid "Step"
+msgstr "Крок"
+
+#. module: quality_mrp
+#: model:ir.actions.act_window,name:quality_mrp.action_quality_mrp_show_steps
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_routing_view_form_inherit_quality
+msgid "Steps"
+msgstr "Кроки"
+
+#. module: quality_mrp
+#: code:addons/quality_mrp/models/quality.py:112
+#, python-format
+msgid "Success"
+msgstr "Успіх"
+
+#. module: quality_mrp
+#. openerp-web
+#: code:addons/quality_mrp/static/src/xml/widget_template.xml:18
+#, python-format
+msgid "Take a Picture"
+msgstr "Зробити знімок"
+
+#. module: quality_mrp
+#: model:ir.model,name:quality_mrp.model_quality_point_test_type
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_test_type
+msgid "Test Type"
+msgstr "Тип тесту"
+
+#. module: quality_mrp
+#: model:ir.model.fields,help:quality_mrp.field_quality_point_routing_id
+msgid ""
+"The routing contains all the Work Centers used and for how long. This will "
+"create work orders afterwards which alters the execution of the "
+"manufacturing order."
+msgstr ""
+"Маршрут містить усі використовувані робочі центри та на який термін. Після "
+"цього буде створено робоче замовлення, що змінить виконання замовлення на "
+"виробництво."
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_check_title
+msgid "Title"
+msgstr "Заголовок"
+
+#. module: quality_mrp
+#: code:addons/quality_mrp/models/quality.py:105
+#, python-format
+msgid "To Do"
+msgstr "Зробити"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_component_tracking
+msgid "Tracking"
+msgstr "Відстеження"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_point_code
+msgid "Type of Operation"
+msgstr "Тип операції"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet_menu
+msgid "Unblock"
+msgstr "Розблокувати"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_component_uom_id
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_norm_unit
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_check_component_uom_id
+msgid "Unit of Measure"
+msgstr "Одиниця виміру"
+
+#. module: quality_mrp
+#. openerp-web
+#: code:addons/quality_mrp/static/src/xml/widget_template.xml:11
+#, python-format
+msgid "Uploading..."
+msgstr "Вивантажується..."
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet
+msgid "Validate"
+msgstr "Підтвердити"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_alert_workcenter_id
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_check_workcenter_id
+msgid "Work Center"
+msgstr "Робочий центр"
+
+#. module: quality_mrp
+#: model:ir.model,name:quality_mrp.model_mrp_workorder
+msgid "Work Order"
+msgstr "Наряд"
+
+#. module: quality_mrp
+#: code:addons/quality_mrp/models/quality.py:53
+#, python-format
+msgid "Work Order Messages"
+msgstr "Повідомлення робочого замовлення"
+
+#. module: quality_mrp
+#: model:ir.actions.act_window,name:quality_mrp.mrp_workorder_action_tablet
+msgid "Work Orders"
+msgstr "Наряди"
+
+#. module: quality_mrp
+#: model:ir.ui.view,arch_db:quality_mrp.mrp_workorder_view_form_tablet_menu
+msgid "Workorder Actions"
+msgstr "Дії робочого замовлення"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_point_worksheet
+msgid "Worksheet"
+msgstr "Робочий аркуш"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_point_worksheet_page
+msgid "Worksheet Page"
+msgstr "Сторінка робочого стола"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_workorder_worksheet_page
+msgid "Worksheet page"
+msgstr "Сторінка робочого стола"
+
+#. module: quality_mrp
+#: code:addons/quality_mrp/models/mrp_workorder.py:387
+#, python-format
+msgid "You should provide a lot for the final product"
+msgstr "Ви повинні багато чого зробити для кінцевого товару"
+
+#. module: quality_mrp
+#: code:addons/quality_mrp/models/mrp_production.py:93
+#: code:addons/quality_mrp/models/mrp_workorder.py:385
+#, python-format
+msgid "You still need to do the quality checks!"
+msgstr "Вам досі потрібно перевірити якість!"

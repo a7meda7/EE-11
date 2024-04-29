@@ -1,0 +1,306 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * inter_company_rules
+# 
+# Translators:
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2017
+# e2f_cn c7 <e2f_cn_c7@outlook.com>, 2017
+# Liping Wang <lynn.config@gmail.com>, 2017
+# Martin Trigaux, 2017
+# waveyeung <waveyeung@qq.com>, 2017
+# e2f_cn c5 <jarvisn@ecinnovations.com>, 2017
+# Jeff Yu - Elico Corp <jeff.yu@elico-corp.com>, 2017
+# 苏州远鼎 <tiexinliu@126.com>, 2017
+# 老窦 北京 <2662059195@qq.com>, 2018
+# e2f <projects@e2f.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-02 11:50+0000\n"
+"PO-Revision-Date: 2017-10-02 11:50+0000\n"
+"Last-Translator: e2f <projects@e2f.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: inter_company_rules
+#: code:addons/inter_company_rules/models/account_invoice.py:89
+#, python-format
+msgid " Invoice: "
+msgstr "发票"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,field_description:inter_company_rules.field_account_invoice_auto_generated
+msgid "Auto Generated Document"
+msgstr "自动生成的文档"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,field_description:inter_company_rules.field_purchase_order_auto_generated
+msgid "Auto Generated Purchase Order"
+msgstr "自动生成的采购单"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,field_description:inter_company_rules.field_sale_order_auto_generated
+msgid "Auto Generated Sales Order"
+msgstr "自动生成的销售订单"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,field_description:inter_company_rules.field_res_config_settings_auto_validation
+#: model:ir.ui.view,arch_db:inter_company_rules.res_config_settings_view_form
+msgid "Auto-validate Sales/Purchase Orders"
+msgstr "自动审核销售/采购订单"
+
+#. module: inter_company_rules
+#: model:ir.model,name:inter_company_rules.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: inter_company_rules
+#: model:ir.ui.view,arch_db:inter_company_rules.res_config_settings_view_form
+msgid "Company"
+msgstr "公司"
+
+#. module: inter_company_rules
+#: code:addons/inter_company_rules/models/purchase_order.py:82
+#: code:addons/inter_company_rules/models/sale_order.py:77
+#, python-format
+msgid ""
+"Configure correct warehouse for company(%s) from Menu: "
+"Settings/Users/Companies"
+msgstr "在菜单：设置/用户/公司中，为公司(%s)配置正确的仓库"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,field_description:inter_company_rules.field_res_company_auto_generate_invoices
+msgid ""
+"Create Invoices/Credit Notes when encoding invoices/credit notes made to "
+"this company"
+msgstr "在向该公司编码发票/信用票据时，创建发票/信用票据"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,field_description:inter_company_rules.field_res_company_po_from_so
+#: model:ir.model.fields,field_description:inter_company_rules.field_res_config_settings_po_from_so
+msgid "Create Purchase Orders when selling to this company"
+msgstr "向该公司销售时创建采购订单"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,field_description:inter_company_rules.field_res_company_so_from_po
+#: model:ir.model.fields,field_description:inter_company_rules.field_res_config_settings_so_from_po
+msgid "Create Sales Orders when buying to this company"
+msgstr "在向该公司购买的时候创建销售订单"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,help:inter_company_rules.field_res_config_settings_warehouse_id
+msgid ""
+"Default value to set on Purchase Orders that will be created based on Sales "
+"Orders made to this company."
+msgstr "在该公司销售订单的基础上建立的采购订单的默认值。"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,help:inter_company_rules.field_res_company_warehouse_id
+msgid ""
+"Default value to set on Purchase(Sales) Orders that will be created based on"
+" Sale(Purchase) Orders made to this company"
+msgstr "在该公司销售（采购）订单的基础上建立的采购（销售）订单的默认值"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,help:inter_company_rules.field_res_company_auto_generate_invoices
+msgid ""
+"Generate Customer/Vendor Bills (and credit notes) when encoding invoices (or credit notes) made to this company.\n"
+" e.g: Generate a Customer Invoice when a Vendor Bill with this company as vendor is created."
+msgstr ""
+"在向该公司编码发票（或信用票据）时，生成客户/供应商账单（和信用票据）。\n"
+" 例如：当该公司作为供应商创建供应商账单时，生成客户发票。"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,help:inter_company_rules.field_res_config_settings_po_from_so
+msgid ""
+"Generate a Purchase Order when a Sale Order with this company as customer is"
+" created."
+msgstr "在该公司作为客户时的销售订单生成一张采购订单。"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,help:inter_company_rules.field_res_company_po_from_so
+msgid ""
+"Generate a Purchase Order when a Sales Order with this company as customer is created.\n"
+" The intercompany user must at least be Purchase User."
+msgstr ""
+"当该公司作为客户创建销售订单时生成采购订单。\n"
+" 公司间用户必须至少是采购用户。"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,help:inter_company_rules.field_res_config_settings_so_from_po
+msgid ""
+"Generate a Sale Order when a Purchase Order with this company as vendor is "
+"created."
+msgstr "当该公司作为供应商的采购订单创建时生成销售订单"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,help:inter_company_rules.field_res_company_so_from_po
+msgid ""
+"Generate a Sales Order when a Purchase Order with this company as vendor is created.\n"
+" The intercompany user must at least be Sale User."
+msgstr ""
+"当该公司作为供应商创建采购订单时生成销售订单。\n"
+" 公司间用户必须至少是销售用户。"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,field_description:inter_company_rules.field_res_company_intercompany_user_id
+msgid "Inter Company User"
+msgstr "公司间用户"
+
+#. module: inter_company_rules
+#: code:addons/inter_company_rules/models/purchase_order.py:42
+#: code:addons/inter_company_rules/models/sale_order.py:46
+#, python-format
+msgid "Inter company user of company %s doesn't have enough access rights"
+msgstr "公司 %s 的公司间用户没有足够的访问权"
+
+#. module: inter_company_rules
+#: model:ir.ui.view,arch_db:inter_company_rules.view_company_inter_change_inherit_form
+msgid "Inter-Company Rules"
+msgstr "公司间规则"
+
+#. module: inter_company_rules
+#: model:ir.model,name:inter_company_rules.model_account_invoice
+msgid "Invoice"
+msgstr "发票"
+
+#. module: inter_company_rules
+#: code:addons/inter_company_rules/models/account_invoice.py:81
+#, python-format
+msgid "Please define %s journal for this company: \"%s\" (id:%d)."
+msgstr " 请定义%s日记账到该公司\"%s\" (id:%d)."
+
+#. module: inter_company_rules
+#: code:addons/inter_company_rules/models/purchase_order.py:39
+#, python-format
+msgid "Provide at least one user for inter company relation for % "
+msgstr "请为%提供公司间关系的至少一个用户"
+
+#. module: inter_company_rules
+#: code:addons/inter_company_rules/models/account_invoice.py:44
+#: code:addons/inter_company_rules/models/sale_order.py:43
+#, python-format
+msgid "Provide one user for intercompany relation for % "
+msgstr "请为%提供一个公司间关系的用户"
+
+#. module: inter_company_rules
+#: model:ir.model,name:inter_company_rules.model_purchase_order
+msgid "Purchase Order"
+msgstr "采购订单"
+
+#. module: inter_company_rules
+#: model:ir.model,name:inter_company_rules.model_sale_order
+msgid "Quotation"
+msgstr "报价单"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,help:inter_company_rules.field_res_company_intercompany_user_id
+msgid ""
+"Responsible user for creation of documents triggered by intercompany rules."
+msgstr "用户负责对公司内部规则触发的文件创建。"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,field_description:inter_company_rules.field_res_config_settings_rule_type
+msgid "Rule Type"
+msgstr "规则类型"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,field_description:inter_company_rules.field_res_company_auto_validation
+msgid "Sale/Purchase Orders Auto Validation"
+msgstr "销售/采购订单自动确认"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,field_description:inter_company_rules.field_res_config_settings_rules_company_id
+msgid "Select Company"
+msgstr "请选择公司"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,help:inter_company_rules.field_res_config_settings_rules_company_id
+msgid "Select company to setup Inter company rules."
+msgstr "选择公司以建立公司内部规则。"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,help:inter_company_rules.field_res_config_settings_rule_type
+msgid "Select the type to setup inter company rules in selected company."
+msgstr "在选择的公司中，选择类型用来建立公司间规则。"
+
+#. module: inter_company_rules
+#: selection:res.config.settings,rule_type:0
+msgid "Send Invoices & Credit Notes"
+msgstr "发送发票和信用票据"
+
+#. module: inter_company_rules
+#: selection:res.config.settings,rule_type:0
+msgid "Send Sales & Purchase Orders"
+msgstr "发送销售和采购订单"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,field_description:inter_company_rules.field_account_invoice_auto_invoice_id
+msgid "Source Invoice"
+msgstr "源发票"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,field_description:inter_company_rules.field_sale_order_auto_purchase_order_id
+msgid "Source Purchase Order"
+msgstr "原始采购订单"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,field_description:inter_company_rules.field_purchase_order_auto_sale_order_id
+msgid "Source Sales Order"
+msgstr "源销售订单"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,field_description:inter_company_rules.field_res_company_warehouse_id
+msgid "Warehouse"
+msgstr "仓库"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,field_description:inter_company_rules.field_res_config_settings_warehouse_id
+msgid "Warehouse For Purchase Orders"
+msgstr "采购订单的仓库"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,help:inter_company_rules.field_res_config_settings_auto_validation
+msgid ""
+"When a Sale Order or a Purchase Order is created by a multi\n"
+"            company rule for this company, it will automatically validate it."
+msgstr ""
+"当销售订单或者采购订单由此公司的多个\n"
+"            公司规则创建，将自动验证这些创建的订单。"
+
+#. module: inter_company_rules
+#: model:ir.model.fields,help:inter_company_rules.field_res_company_auto_validation
+msgid ""
+"When a Sales Order or a Purchase Order is created by a multi company rule "
+"for this company, it will automatically validate it"
+msgstr "当该公司的销售订单或者采购订单按公司间的规则创建时，将自动验证这些创建的订单"
+
+#. module: inter_company_rules
+#: code:addons/inter_company_rules/models/purchase_order.py:47
+#, python-format
+msgid ""
+"You cannot create SO from PO because sale price list currency is different "
+"than purchase price list currency."
+msgstr "因为销售价格表和采购价格表的币种不一致，所以你不能以采购订单创建销售订单。"
+
+#. module: inter_company_rules
+#: code:addons/inter_company_rules/models/res_company.py:32
+#, python-format
+msgid ""
+"You cannot select to create invoices based on other invoices\n"
+"                    simultaneously with another option ('Create Sales Orders when buying to this\n"
+"                    company' or 'Create Purchase Orders when selling to this company')!"
+msgstr ""
+"您不能选择同时基于其他发票 \n"
+"和另一选项（“向该公司购买时创建销售订单” \n"
+" 或“向该公司出售时创建采购订单”）创建发票！"
+
+#. module: inter_company_rules
+#: model:ir.model,name:inter_company_rules.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"

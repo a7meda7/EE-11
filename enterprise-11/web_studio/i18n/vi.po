@@ -1,0 +1,2006 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * web_studio
+# 
+# Translators:
+# Martin Trigaux, 2017
+# fanha99 <fanha99@hotmail.com>, 2017
+# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
+# lam nguyen <lamev.inc@gmail.com>, 2017
+# Phạm Lân <phamquanglan@gmail.com>, 2017
+# Tuan Tran <tmtuan.projects@gmail.com>, 2017
+# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
+# Thang Duong Bao <nothingctrl@gmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-26 08:34+0000\n"
+"PO-Revision-Date: 2018-02-26 08:34+0000\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
+"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:421
+#, python-format
+msgid "%s Report"
+msgstr "%s Báo cáo"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/studio_report_kanban.js:92
+#, python-format
+msgid "(e.g. Sales order)"
+msgstr "(ví dụ: Đơn bán hàng)"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/studio_report_kanban.js:96
+#, python-format
+msgid "(empty report with footer and header)"
+msgstr "(báo cáo trống với chân trang và đầu trang)"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editor_sidebar.js:390
+#, python-format
+msgid ""
+"<div><p>The <strong>%s</strong> property is only applied to records matching"
+" this filter.</p></div>"
+msgstr ""
+"<div><p>Thuộc tính<strong>%s</strong> chỉ được áp dụng cho các bản ghi khớp "
+"với bộ lọc này.</p></div>"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_ir_model_abstract
+msgid "Abstract"
+msgstr "Abstract"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:44
+#, python-format
+msgid "Access Control Lists"
+msgstr "Danh sách kiểm soát truy cập"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:37
+#, python-format
+msgid "Access Controls"
+msgstr "Kiểm soát quyền truy cấp"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_res_groups
+msgid "Access Groups"
+msgstr "Access Groups"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/web_client.js:24
+#, python-format
+msgid "Access error"
+msgstr "Lỗi truy cập"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:42
+#, python-format
+msgid "Action's title"
+msgstr "Tiêu đề hành động"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/new_view_dialog.js:30
+#: code:addons/web_studio/static/src/xml/action_editor.xml:31
+#, python-format
+msgid "Activate View"
+msgstr "Kích hoạt chế độ xem"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:110
+#, python-format
+msgid "Add"
+msgstr "Thêm"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_ir_cron_channel_ids
+msgid "Add Channels"
+msgstr "Thêm Kênh theo dõi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editors/form_editor.js:204
+#, python-format
+msgid "Add Chatter Widget"
+msgstr "Thêm tiện ích trò chuyện"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_ir_cron_partner_ids
+msgid "Add Followers"
+msgstr "Thêm theo dõi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:93
+#, python-format
+msgid ""
+"Add a <b>chatter widget</b> to allow discussions on your document: by email "
+"or inline."
+msgstr ""
+"Thêm một <b>khu vực trò chuyện</b> để cho phép thảo luận trên tài liệu của "
+"bạn: qua email hoặc trong tài liệu."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editors/new_buttonbox_dialog.js:27
+#, python-format
+msgid "Add a Button"
+msgstr "Thêm một nút"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/new_field_dialog.js:28
+#, python-format
+msgid "Add a field"
+msgstr "Thêm một trường"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editors/kanban_record_editor.js:200
+#, python-format
+msgid "Add a priority"
+msgstr "Thêm mức độ ưu tiên"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editors/kanban_record_editor.js:222
+#, python-format
+msgid "Add an image"
+msgstr "Thêm một ảnh"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:85
+#, python-format
+msgid "Add in the print menu"
+msgstr "Thêm trình đơn in"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editors/kanban_record_editor.js:131
+#, python-format
+msgid "Add tags"
+msgstr "Thêm thẻ"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:242
+#, python-format
+msgid "All Day"
+msgstr "Cả ngảy"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:331
+#, python-format
+msgid "Allow Link to List View"
+msgstr "Cho phép liên với chế độ xem danh sách"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_res_company_background_image
+msgid "App Switcher Background Image"
+msgstr "Ảnh nền trình chuyển ứng dụng"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editor_sidebar.js:481
+#, python-format
+msgid "Are you sure you want to remove this %s from the view?"
+msgstr "Có thật bạn muốn xóa cái này %s từ chế độ xem?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/search_renderer.xml:14
+#, python-format
+msgid "Autocompletion Fields"
+msgstr "Trường tự hoàn tất"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_base_automation
+msgid "Automated Action"
+msgstr "Thực hiện tự động"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:62
+#, python-format
+msgid "Automated Actions"
+msgstr "Hành động tự động"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:35
+#, python-format
+msgid "Automations"
+msgstr "Tự động hóa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:438
+#, python-format
+msgid "Bold"
+msgstr "In Đậm"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:129
+#, python-format
+msgid "Can Create"
+msgstr "Có thể tạo"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:145
+#, python-format
+msgid "Can Delete"
+msgstr "Có thể xóa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:137
+#, python-format
+msgid "Can Edit"
+msgstr "Có thể sửa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/edit_menu.js:82
+#: code:addons/web_studio/static/src/js/edit_menu.js:282
+#: code:addons/web_studio/static/src/js/new_field_dialog.js:35
+#: code:addons/web_studio/static/src/js/new_view_dialog.js:34
+#: code:addons/web_studio/static/src/js/view_editors/kanban_record_editor.js:378
+#: code:addons/web_studio/static/src/js/view_editors/new_buttonbox_dialog.js:34
+#: model:ir.ui.view,arch_db:web_studio.simplified_form_view_import_module
+#, python-format
+msgid "Cancel"
+msgstr "Hủy"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:11
+#, python-format
+msgid "Change Background"
+msgstr "Đổi Nền"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:638
+#, python-format
+msgid "Change Image"
+msgstr "Đổi ảnh"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:24
+#, python-format
+msgid "Change the <b>background</b>, make it yours."
+msgstr "Thay đổi <b>ảnh nền</b>, theo ý bạn."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:124
+#, python-format
+msgid "Checkbox"
+msgstr "Hộp kiểm"
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_ir_model_data_studio
+msgid "Checked if it has been edited with Studio."
+msgstr "Đánh dấu nếu nó đã được chỉnh sửa với Studio"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:32
+#, python-format
+msgid "Choose an app name"
+msgstr "Chọn tên ứng dụng"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:40
+#, python-format
+msgid "Choose your first object name"
+msgstr "Chọn tên đối tượng đầu tiên của bạn"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:20
+#, python-format
+msgid "Click here."
+msgstr "Bấm vào đây."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:97
+#, python-format
+msgid "Click to edit."
+msgstr "Bấm để sửa."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/menu.js:95
+#: model:ir.ui.view,arch_db:web_studio.simplified_form_view_import_module
+#, python-format
+msgid "Close"
+msgstr "Đóng"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:233
+#, python-format
+msgid "Color"
+msgstr "Màu sắc"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:51
+#, python-format
+msgid "Columns"
+msgstr "Cột"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_res_company
+msgid "Companies"
+msgstr "Công ty"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editor_sidebar.js:249
+#, python-format
+msgid "Components"
+msgstr "Thành phần"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:406
+#: code:addons/web_studio/static/src/xml/sidebar.xml:419
+#: code:addons/web_studio/static/src/xml/sidebar.xml:429
+#, python-format
+msgid "Conditional"
+msgstr "Điều kiện"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/edit_menu.js:78
+#: code:addons/web_studio/static/src/js/edit_menu.js:278
+#: code:addons/web_studio/static/src/js/new_field_dialog.js:31
+#: code:addons/web_studio/static/src/js/view_editors/kanban_record_editor.js:374
+#: code:addons/web_studio/static/src/js/view_editors/new_buttonbox_dialog.js:30
+#, python-format
+msgid "Confirm"
+msgstr "Xác nhận"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:315
+#, python-format
+msgid "Consolidate"
+msgstr "Hợp nhất"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:505
+#, python-format
+msgid "Context"
+msgstr "Ngữ cảnh"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/edit_menu.js:275
+#, python-format
+msgid "Create a new Menu"
+msgstr "Tạo một trình đơn mới"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:85
+#, python-format
+msgid ""
+"Create your <b>drop down list</b>, one value per line. (e.g.: Romance, "
+"Polar, Fantasy, etc.)"
+msgstr ""
+"Tạo <b>danh sách thả xuống</b> của bạn, một giá trị trên mỗi dòng. (ví dụ: "
+"Lãng mạn, Cực, Ảo, v.v.)"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:30
+#, python-format
+msgid "Create your App"
+msgstr "Tạo ứng dụng của bạn"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/app_creator.js:100
+#, python-format
+msgid "Create your app"
+msgstr "Tạo ứng dụng của bạn"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:38
+#, python-format
+msgid "Create your first Menu"
+msgstr "Tạo trình đơn đầu tiên của bạn"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:6
+#, python-format
+msgid "Customizations"
+msgstr "Tuỳ chỉnh"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_actions_report_xml.py:25
+#: code:addons/web_studio/models/ir_actions_report_xml.py:26
+#, python-format
+msgid "Customize : "
+msgstr "Tùy chỉnh:"
+
+#. module: web_studio
+#: model:ir.actions.client,name:web_studio.action_web_studio_report_editor
+msgid "Customize Report"
+msgstr "Tùy chỉnh báo cáo"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:114
+#, python-format
+msgid "Date"
+msgstr "Ngày tháng"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:119
+#, python-format
+msgid "Date & Time"
+msgstr "Ngày & giờ"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:295
+#, python-format
+msgid "Day"
+msgstr "Ngày"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:99
+#, python-format
+msgid "Decimal Number"
+msgstr "Số thập phân"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:443
+#, python-format
+msgid "Default"
+msgstr "Mặc định"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:252
+#, python-format
+msgid "Default Display Mode"
+msgstr "Chế độ hiển thị mặc định"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:187
+#: code:addons/web_studio/static/src/xml/sidebar.xml:302
+#, python-format
+msgid "Default Group by"
+msgstr "Nhóm theo mặc định"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editor_manager.js:1232
+#: code:addons/web_studio/static/src/xml/sidebar.xml:349
+#, python-format
+msgid "Default Values"
+msgstr "Giá trị mặc định"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:482
+#, python-format
+msgid "Default value"
+msgstr "Giá trị mặc định"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:224
+#: code:addons/web_studio/static/src/xml/sidebar.xml:281
+#, python-format
+msgid "Delay Field"
+msgstr "Trường trễ"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/icon_creator.xml:15
+#, python-format
+msgid "Design your Icon"
+msgstr "Thiết kế biểu tượng của bạn"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor.xml:49
+#, python-format
+msgid "Disable"
+msgstr "Vô hiệu hóa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/icon_creator.xml:9
+#, python-format
+msgid "Discard Upload"
+msgstr "Hủy tải lên"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:441
+#, python-format
+msgid "Display"
+msgstr "Hiển thị"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:339
+#, python-format
+msgid "Display Count"
+msgstr "Số lượng hiển thị"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_mixin_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editors/kanban_record_editor.js:184
+#, python-format
+msgid "Do you want to add a dropdown with colors?"
+msgstr "Bạn có muốn thêm trình đơn thả xuống có màu không?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:500
+#, python-format
+msgid "Domain"
+msgstr "Miền"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:80
+#, python-format
+msgid ""
+"Drag & drop <b>another field</b>. Let’s try with a <i>selection field</i>."
+msgstr ""
+"Kéo & thả <b>trường khác</b>.  Hãy thử với một <i> lựa chọn trường</i>"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:46
+#, python-format
+msgid "Drag a menu to the right to create a sub-menu"
+msgstr "Kéo một trình đơn về bên phải để tạo trình đơn con"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:290
+#, python-format
+msgid "Duration Unit"
+msgstr "Đơn vị thời gian"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_manager.xml:5
+#, python-format
+msgid "Edit Form View"
+msgstr "Sửa Form View"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_manager.xml:4
+#, python-format
+msgid "Edit List View"
+msgstr "Sửa List View"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/edit_menu.js:74
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:6
+#, python-format
+msgid "Edit Menu"
+msgstr "Sửa Trình đơn"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:160
+#, python-format
+msgid "Editable"
+msgstr "Có thể chỉnh sửa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:585
+#, python-format
+msgid "Email Alias"
+msgstr "Email bí danh"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_ir_cron_template_id
+msgid "Email Template"
+msgstr "Mẫu Email"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_mail_template
+msgid "Email Templates"
+msgstr "Mẫu thư điện tử"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:46
+#, python-format
+msgid "Empty List Message"
+msgstr "Danh sách thông điệp trống"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:184
+#, python-format
+msgid "Enable Stages"
+msgstr "Bật trạng thái"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:676
+#, python-format
+msgid "Enter one value per line:"
+msgstr "Nhập một giá trị cho từng dòng:"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/main.js:398
+#, python-format
+msgid "Error"
+msgstr "Lỗi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editor_sidebar.js:284
+#, python-format
+msgid "Existing Fields"
+msgstr "Trường tồn tại"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:22
+#, python-format
+msgid "Export"
+msgstr "Xuất"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:623
+#, python-format
+msgid "Fadeout Speed"
+msgstr "Tốc độ xuất ra"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:625
+#, python-format
+msgid "Fast"
+msgstr "Nhanh"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/search_renderer.xml:53
+#, python-format
+msgid "Favourites"
+msgstr "Ưa thích"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/kanban_editor.xml:5
+#, python-format
+msgid "Field"
+msgstr "Trường"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_model_fields
+msgid "Fields"
+msgstr "Trường"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:134
+#, python-format
+msgid "File"
+msgstr "Tập tin"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:57
+#, python-format
+msgid "Filter"
+msgstr "Bộ lọc"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:573
+#, python-format
+msgid "Filter Domain"
+msgstr "Lọc tên miền"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/controllers/main.py:80
+#: code:addons/web_studio/static/src/xml/submenu.xml:38
+#, python-format
+msgid "Filter Rules"
+msgstr "Quy tắt bộ lọc"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/search_renderer.xml:27
+#: model:ir.model,name:web_studio.model_ir_filters
+#, python-format
+msgid "Filters"
+msgstr "Các Bộ lọc"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/studio_report_kanban.js:63
+#, python-format
+msgid ""
+"First, quit Odoo Studio to create a new entity. Then, open Odoo Studio to "
+"create or edit reports."
+msgstr ""
+"Đầu tiên, thoát khỏi Hệ thống Studio để tạo một thực thể mới. Sau đó, mở Hệ "
+"thống Studio để tạo hoặc chỉnh sửa báo cáo."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:445
+#, python-format
+msgid "Full Width"
+msgstr "Chiều rộng đầy đủ"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:314
+#, python-format
+msgid "Gantt"
+msgstr "Gantt"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor.xml:9
+#, python-format
+msgid "General Views"
+msgstr "Tạo chế độ xem"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/new_view_dialog.js:27
+#, python-format
+msgid "Generate %s View"
+msgstr "Tạo %s chế độ xem"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:49
+#, python-format
+msgid "Go on, you are almost done!"
+msgstr "Tiếp tục, bạn sắp hoàn tất!"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:76
+#, python-format
+msgid "Good job! To add more <b>fields</b>, come back to the <i>Add tab</i>."
+msgstr ""
+"Làm tốt lắm! Để thêm các <b>trường</b> khác, hãy quay lại <i>Thêm tab</i>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/search_renderer.xml:40
+#, python-format
+msgid "Group by"
+msgstr "Nhóm theo"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:454
+#, python-format
+msgid "Help Tooltip"
+msgstr "Công cụ trợ giúp Chú giải"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:71
+#, python-format
+msgid ""
+"Here, you can <b>name</b> your field (e.g. Book reference, ISBN, Internal "
+"Note, etc.)."
+msgstr ""
+"Tại đây, bạn có thể đặt <b>tên</b> cho trường của mình (ví dụ: Tham chiếu "
+"sách, ISBN, Ghi chú nội bộ, v.v.)."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:294
+#, python-format
+msgid "Hour"
+msgstr "Giờ"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:40
+#, python-format
+msgid "How do you want to <b>name</b> your app? Library, Academy, …?"
+msgstr ""
+"Bạn muốn đặt <b>tên ứng dụng</b> của mình như thế nào? Thư viện, Học viện,…?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:53
+#, python-format
+msgid "How do you want to name your first <b>menu</b>? My books, My courses?"
+msgstr ""
+"Bạn muốn đặt tên cho <b>trình đơn</b> đầu tiên của mình như thế nào? Sách "
+"của tôi, khóa học của tôi?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:104
+#, python-format
+msgid "Html"
+msgstr "Html"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:36
+#, python-format
+msgid ""
+"I bet you can <b>build an app</b> in 5 minutes. Ready for the challenge?"
+msgstr ""
+"Tôi đặt cược bạn có thể <b>xây dựng một ứng dụng</b> trong 5 phút. Sẵn sàng "
+"cho thử thách?"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_mixin_id
+msgid "ID"
+msgstr "ID"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_buttonbox_dialog.xml:10
+#: code:addons/web_studio/static/src/xml/sidebar.xml:603
+#, python-format
+msgid "Icon"
+msgstr "Biểu tượng"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:198
+#, python-format
+msgid "Image"
+msgstr "Hình ảnh"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:21
+#: model:ir.ui.view,arch_db:web_studio.simplified_form_view_import_module
+#, python-format
+msgid "Import"
+msgstr "Nhập"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:94
+#, python-format
+msgid "Integer number"
+msgstr "Số nguyên"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:405
+#, python-format
+msgid "Invisible"
+msgstr "Không hiển thị"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_buttonbox_dialog.xml:6
+#: code:addons/web_studio/static/src/xml/sidebar.xml:449
+#: code:addons/web_studio/static/src/xml/sidebar.xml:528
+#: code:addons/web_studio/static/src/xml/sidebar.xml:538
+#: code:addons/web_studio/static/src/xml/sidebar.xml:667
+#, python-format
+msgid "Label"
+msgstr "Nhãn"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:554
+#: code:addons/web_studio/static/src/xml/sidebar.xml:570
+#, python-format
+msgid "Label Text"
+msgstr "Nhãn văn bản"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_mixin___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:819
+#, python-format
+msgid "Left Title"
+msgstr "Tiêu đề bên trái"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:105
+#, python-format
+msgid ""
+"Let’s check the result. Close Odoo Studio to get an <b>overview of your "
+"app</b>."
+msgstr ""
+"Hãy kiểm tra kết quả. Đóng Odoo Studio để <b>xem tổng quan về ứng dụng của "
+"bạn</b>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:50
+#: code:addons/web_studio/static/src/xml/sidebar.xml:96
+#: code:addons/web_studio/static/src/xml/sidebar.xml:512
+#, python-format
+msgid "Limit visibility to groups"
+msgstr "Giới hạn khả năng hiển thị cho các nhóm"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:140
+#, python-format
+msgid "Many2many"
+msgstr "Many2many"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:150
+#, python-format
+msgid "Many2one"
+msgstr "Many2one"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:626
+#, python-format
+msgid "Medium"
+msgstr "Trung bình"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:619
+#, python-format
+msgid "Message"
+msgstr "Thông điệp"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:293
+#, python-format
+msgid "Minute"
+msgstr "Phút"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:52
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:62
+#, python-format
+msgid "Model"
+msgstr "Mô hình"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_model
+msgid "Models"
+msgstr "Models"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_module_module
+msgid "Module"
+msgstr "Mô đun"
+
+#. module: web_studio
+#: model:ir.ui.view,arch_db:web_studio.simplified_form_view_import_module
+msgid "Module file (.zip)"
+msgstr "Tệp Module (.zip)"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:109
+#, python-format
+msgid "Monetary"
+msgstr "Tiền tệ"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:297
+#, python-format
+msgid "Month"
+msgstr "Tháng"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:5
+#, python-format
+msgid "More"
+msgstr "Xem thêm"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:89
+#, python-format
+msgid "Multiline Text"
+msgstr "Văn bản nhiều dòng"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor.xml:18
+#, python-format
+msgid "Multiple Records Views"
+msgstr "Chế độ xem nhiều bản ghi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_buttonbox_dialog.xml:7
+#, python-format
+msgid "My Button"
+msgstr "Nút của tôi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:59
+#, python-format
+msgid "My Menu"
+msgstr "Trình dơn của tôi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:58
+#: code:addons/web_studio/static/src/xml/sidebar.xml:66
+#, python-format
+msgid "Name"
+msgstr "Tên"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:61
+#, python-format
+msgid "New App"
+msgstr "Ứng dụng mới"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/kanban_editor.xml:7
+#, python-format
+msgid "New Field"
+msgstr "Trường mới"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editor_sidebar.js:262
+#, python-format
+msgid "New Fields"
+msgstr "Trường mới"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:50
+#, python-format
+msgid "New Menu"
+msgstr "Trình đơn mới"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/app_creator.js:78
+#: code:addons/web_studio/static/src/js/app_creator.js:171
+#, python-format
+msgid "Next"
+msgstr "Tiếp"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:62
+#, python-format
+msgid ""
+"Nicely done! Let’s build your screen now; <b>drag</b> a <i>text field</i> "
+"and <b>drop</b> it in your view, on the right."
+msgstr ""
+"Làm tốt lắm! Bây giờ, hãy tạo màn hình của bạn; <b>kéo</b> một <i>trường văn"
+" bản</i> và <b>thả</b> nó trong chế độ xem của bạn, ở bên phải."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:628
+#, python-format
+msgid "No"
+msgstr "No"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/studio_report_kanban.js:61
+#, python-format
+msgid "No record to display."
+msgstr "Không có bản ghi để hiển thị."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/menu.js:112
+#, python-format
+msgid "Notes"
+msgstr "Ghi chú"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:130
+#, python-format
+msgid "Now you’re on your own. Enjoy your <b>super power</b>."
+msgstr ""
+"Bây giờ bạn đang ở không gian của riêng bạn. Tận hưởng <b>sức mạnh siêu "
+"việt</b> của bạn."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:45
+#, python-format
+msgid "Now, customize your icon. Make it yours."
+msgstr "Bây giờ, hãy tùy chỉnh biểu tượng của bạn. Làm cho nó thành của bạn."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:25
+#, python-format
+msgid "Odoo Studio"
+msgstr "Hệ thống Studio"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/systray.xml:7
+#, python-format
+msgid "Odoo Studio Icon"
+msgstr "Biểu tượng hệ thống Studio"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:145
+#, python-format
+msgid "One2many"
+msgstr "One2many"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:76
+#, python-format
+msgid "Paper format"
+msgstr "Định trạng Trang in"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:467
+#, python-format
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:469
+#, python-format
+msgid "Placeholder Text"
+msgstr "Placeholder Text"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:316
+#, python-format
+msgid "Planning"
+msgstr "Kế hoạch"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:1085
+#, python-format
+msgid "Please specify a field."
+msgstr "Vui lòng chỉ định một trường."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/studio_report_kanban.js:95
+#, python-format
+msgid "Preview Blank Document"
+msgstr "Xem trước tài liệu trống"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/studio_report_kanban.js:91
+#, python-format
+msgid "Preview Business Document"
+msgstr "Xem trước tài liệu doanh nghiệp"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:71
+#, python-format
+msgid "Printed Report Name"
+msgstr "Tên báo cáo được in"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:210
+#, python-format
+msgid "Priority"
+msgstr "Mức độ ưu tiên"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:116
+#, python-format
+msgid "Properties"
+msgstr "Thuộc tính"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:444
+#, python-format
+msgid "Pull Right"
+msgstr "Kéo sang phải"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:176
+#: code:addons/web_studio/static/src/xml/sidebar.xml:204
+#, python-format
+msgid "Quick Create"
+msgstr "Tạo nhanh"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:615
+#, python-format
+msgid "Rainbow Effect"
+msgstr "Hiệu ứng cầu vồng"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:608
+#, python-format
+msgid "Rainbow Man"
+msgstr "Người cầu vồng"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:428
+#, python-format
+msgid "Read only"
+msgstr "Chỉ đọc"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:69
+#, python-format
+msgid "Redo"
+msgstr "Làm lại"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:216
+#: code:addons/web_studio/static/src/xml/sidebar.xml:460
+#, python-format
+msgid "Related Field"
+msgstr "Trường liên quan"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:685
+#, python-format
+msgid "Relation:"
+msgstr "Quan hệ:"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:93
+#, python-format
+msgid "Reload from attachment"
+msgstr "Tải lại từ tệp đính kèm"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:9
+#, python-format
+msgid "Remove from View"
+msgstr "Xóa khỏi Chế độ xem"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor.xml:21
+#, python-format
+msgid "Reporting & Presenting Views"
+msgstr " Chế độ xem Báo cáo & Trình bày"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/controllers/main.py:98
+#: code:addons/web_studio/static/src/xml/submenu.xml:36
+#, python-format
+msgid "Reports"
+msgstr "Báo cáo"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:418
+#, python-format
+msgid "Required"
+msgstr "Bắt buộc"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:639
+#, python-format
+msgid "Reset Image"
+msgstr "Đặt lại ảnh"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:820
+#, python-format
+msgid "Right Title"
+msgstr "Tiêu đề bên phải"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:113
+#, python-format
+msgid "Save."
+msgstr "Lưu."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editors/kanban_record_editor.js:372
+#, python-format
+msgid "Select a Field"
+msgstr "Chọn một trường"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_buttonbox_dialog.xml:18
+#, python-format
+msgid "Select a related field"
+msgstr "Chọn một trường liên quan"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editors/new_buttonbox_dialog.js:88
+#, python-format
+msgid "Select a related field."
+msgstr "Chọn một trường liên quan."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:681
+#, python-format
+msgid "Select a related field:"
+msgstr "Chọn một trường liên quan:"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/studio_report_kanban.js:84
+#, python-format
+msgid "Select a report template"
+msgstr "Chọn một mẫu báo cáo"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/main.js:368
+#, python-format
+msgid "Select a view"
+msgstr "Chọn một giao diện (view)"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:129
+#, python-format
+msgid "Selection"
+msgstr "Lựa chọn"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:591
+#, python-format
+msgid "Send a"
+msgstr "Gửi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:63
+#, python-format
+msgid "Separator"
+msgstr "Phần ngăn cách"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:101
+#, python-format
+msgid ""
+"Set an <b>email alias</b>. Then, try to send an email to this address; it "
+"will create a document automatically for you. Pretty cool, huh?"
+msgstr ""
+"Đặt một <b>email bí danh</b>. Khi đó, thử gửi một email đến địa chỉ này; nó "
+"sẽ tự động tạo một tài liệu cho bạn. Thật tuyệt, đúng không?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor.xml:47
+#, python-format
+msgid "Set another view"
+msgstr "Đặt chế độ xem khác"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor.xml:43
+#, python-format
+msgid "Set as Default"
+msgstr "Đặt mặc định"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:155
+#, python-format
+msgid "Show invisible elements"
+msgstr "Hiển thị các phần ẩn"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:627
+#, python-format
+msgid "Slow"
+msgstr "Chậm"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editor_manager.js:901
+#, python-format
+msgid "Stage"
+msgstr "Trạng thái"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_view_dialog.xml:7
+#: code:addons/web_studio/static/src/xml/sidebar.xml:207
+#: code:addons/web_studio/static/src/xml/sidebar.xml:264
+#, python-format
+msgid "Start Date Field"
+msgstr "Trường ngày bắt đầu"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_view_dialog.xml:15
+#: code:addons/web_studio/static/src/xml/sidebar.xml:215
+#: code:addons/web_studio/static/src/xml/sidebar.xml:272
+#, python-format
+msgid "Stop Date Field"
+msgstr "Trường ngày kết thúc"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/main.js:71
+#: model:ir.model.fields,field_description:web_studio.field_ir_model_data_studio
+#, python-format
+msgid "Studio"
+msgstr "Studio"
+
+#. module: web_studio
+#: model:ir.actions.client,name:web_studio.action_web_studio_app_creator
+msgid "Studio App Creator"
+msgstr "Trình tạo ứng dụng Studio"
+
+#. module: web_studio
+#: model:ir.ui.view,arch_db:web_studio.studio_customizations_filter
+msgid "Studio Customizations"
+msgstr "Tùy chỉnh Studio"
+
+#. module: web_studio
+#: model:ir.actions.client,name:web_studio.action_web_studio_main
+msgid "Studio Main"
+msgstr "Studio chính"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/web_client.js:23
+#, python-format
+msgid "Studio is only available for the Administrator"
+msgstr "Studio chỉ hiển thị với Tài khoản hệ thống"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/submenu.js:65
+#, python-format
+msgid "Subview "
+msgstr "Subview"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:45
+#, python-format
+msgid "Tabs"
+msgstr "Tabs"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:204
+#, python-format
+msgid "Tags"
+msgstr "Từ khóa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_components.js:84
+#, python-format
+msgid "Text"
+msgstr "Văn bản"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:26
+#, python-format
+msgid "The fastest way to create a web application."
+msgstr "Cách nhanh nhất để tạo một ứng dụng web."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:1106
+#: code:addons/web_studio/controllers/main.py:1147
+#, python-format
+msgid "The field %s does not exist."
+msgstr "Trường %s không tồn tại."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:227
+#, python-format
+msgid "The icon has not a correct format"
+msgstr "Biểu tượng không đúng định dạng"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:222
+#, python-format
+msgid "The icon is not linked to an attachment"
+msgstr "Biểu tượng không được liên kết với tệp đính kèm"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:1082
+#: code:addons/web_studio/controllers/main.py:1125
+#, python-format
+msgid "The model %s does not exist."
+msgstr "Model %s không tồn tại."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:863
+#, python-format
+msgid "The related field of a button has to be a many2one to %s."
+msgstr "Trường liên quan của một nút phải có liên kết many2one đến %s."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/main.js:25
+#, python-format
+msgid ""
+"The requested change caused an error in the view. It could be because a "
+"field was deleted, but still used somewhere else."
+msgstr ""
+"Thay đổi được yêu cầu đã gây ra lỗi trong chế độ xem. Có thể là do một "
+"trường đã bị xóa nhưng vẫn được sử dụng ở một nơi khác."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/web_client.js:325
+#, python-format
+msgid "This action is not editable by Studio"
+msgstr "Hành động này không thể sửa với Studio"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:13
+#, python-format
+msgid ""
+"This field is placed after another element that is only displayed under "
+"certain conditions."
+msgstr ""
+"Trường này được đặt sau một phần tử khác chỉ được hiển thị trong các điều "
+"kiện nhất định."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editor_manager.js:766
+#, python-format
+msgid "This field type cannot be dropped on this model."
+msgstr "Kiểu trường này không thể bị loại bỏ trên model này."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/main.js:24
+#, python-format
+msgid "This operation caused an error, probably because a xpath was broken"
+msgstr "Thao tác này đã gây ra lỗi, có thể do một đường nối bị hỏng"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor.xml:8
+#, python-format
+msgid "This report cannot be customized with Odoo Studio."
+msgstr "Không thể tùy chỉnh báo cáo này với Hệ thống Studio."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor.xml:12
+#, python-format
+msgid "Timeline Views"
+msgstr "Chế độ xem dòng thời gian"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:67
+#, python-format
+msgid "To <b>customize a field</b>, click on its <i>label</i>."
+msgstr "Để <b>tùy chỉnh một trường</b>, bấm vào <i>nhãn</i> của nó."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/systray.xml:6
+#: code:addons/web_studio/static/src/xml/systray.xml:7
+#, python-format
+msgid "Toggle Studio"
+msgstr "Chuyển đổi Studio"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:156
+#, python-format
+msgid "Translate view"
+msgstr "Hiển thị dịch ngôn ngữ"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:33
+#, python-format
+msgid "Translations"
+msgstr "Dịch thuật"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:311
+#, python-format
+msgid "Type"
+msgstr "Loại"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:70
+#, python-format
+msgid "Undo"
+msgstr "Hủy bỏ"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:49
+#, python-format
+msgid "Use an existing Model"
+msgstr "Sử dụng một Model đã tồn tại"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:677
+#, python-format
+msgid ""
+"Value A\n"
+"Value B\n"
+"Value C"
+msgstr ""
+"Giá trị A\n"
+"Giá trị B\n"
+"Giá trị C"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:113
+#, python-format
+msgid "View"
+msgstr "View"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/submenu.js:153
+#: code:addons/web_studio/static/src/xml/submenu.xml:31
+#, python-format
+msgid "Views"
+msgstr "Views"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:122
+#, python-format
+msgid "Want more fun? Let’s create more <b>views</b>."
+msgstr "Muốn thật hay? Hãy tạo nhiều <b>chế độ xem</b> hơn."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:15
+#, python-format
+msgid "Want to customize the background? Let’s activate <b>Odoo Studio</b>."
+msgstr "Muốn tùy chỉnh ảnh nền? Hãy kích hoạt <b>Hệ thống Studio</b>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:296
+#, python-format
+msgid "Week"
+msgstr "Tuần"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:24
+#, python-format
+msgid "Welcome to"
+msgstr "Chào mừng đến"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:126
+#, python-format
+msgid "What about a <b>Kanban view</b>?"
+msgstr "Cái gì là <b>chế độ xem Kanban</b>?"
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_ir_model_abstract
+msgid "Wheter this model is abstract"
+msgstr "Liệu mô hình này có trừu tượng hay không"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:472
+#, python-format
+msgid "Widget"
+msgstr "Widget"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/web_client.js:96
+#, python-format
+msgid "Wizards are not editable with Studio."
+msgstr "Thuật sĩ này không thể chỉnh sửa với Studio."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:118
+#, python-format
+msgid ""
+"Wow, nice! And I’m sure you can make it even better! Use this icon to open "
+"<b>Odoo Studio</b> and customize any screen."
+msgstr ""
+"Wow, đẹp quá! Và tôi chắc rằng bạn có thể làm cho nó tốt hơn nữa! Sử dụng "
+"biểu tượng này để mở <b>Hệ thống Studio</b> và tùy chỉnh bất kỳ màn hình "
+"nào."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:25
+#, python-format
+msgid "XML"
+msgstr "XML"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:298
+#, python-format
+msgid "Year"
+msgstr "Năm"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tour.js:58
+#, python-format
+msgid "You are just one click away from <b>generating your first app</b>."
+msgstr ""
+"Bạn chỉ cần một cú nhấp chuột để <b>tạo ứng dụng</b> đầu tiên của mình."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/new_field_dialog.js:129
+#, python-format
+msgid "You cannot create an empty related field."
+msgstr "Bạn không thể tạo một trường liên quan rỗng."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editors/kanban_record_editor.js:139
+#, python-format
+msgid "You first need to create a many2many field in the form view."
+msgstr "Bạn trước hết cần tạo một trường many2many trong form view này."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/view_editors/kanban_record_editor.js:230
+#, python-format
+msgid ""
+"You first need to create a many2one field to Partner or User in the form "
+"view."
+msgstr ""
+"Đầu tiên bạn cần tạo một trường many2one đến Đối tác hoặc Người dùng trong "
+"form view."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/new_field_dialog.js:111
+#: code:addons/web_studio/static/src/js/new_field_dialog.js:137
+#, python-format
+msgid "You must select a related field"
+msgstr "Bạn phải chọn một trường liên quan"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/new_field_dialog.js:117
+#, python-format
+msgid "You must select a relation"
+msgstr "Bạn phải chọn một liên quan"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:13
+#, python-format
+msgid "You need to be part of these groups to see this field:"
+msgstr "Bạn cần tham gia các nhóm này để xem trường này:"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_base
+msgid "base"
+msgstr "cơ bản"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:164
+#, python-format
+msgid "bottom"
+msgstr "dưới"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:255
+#, python-format
+msgid "day"
+msgstr "ngày"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:41
+#, python-format
+msgid "e.g. Properties"
+msgstr "e.g. Properties"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:33
+#, python-format
+msgid "e.g. Real Estate"
+msgstr "e.g. Real Estate"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_actions_act_window
+msgid "ir.actions.act_window"
+msgstr "ir.actions.act_window"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_actions_act_window_view
+msgid "ir.actions.act_window.view"
+msgstr "ir.actions.act_window.view"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_actions_report
+msgid "ir.actions.report"
+msgstr "ir.actions.report"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_actions_server
+msgid "ir.actions.server"
+msgstr "ir.actions.server"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_model_access
+msgid "ir.model.access"
+msgstr "ir.model.access"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_model_data
+msgid "ir.model.data"
+msgstr "ir.model.data"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_rule
+msgid "ir.rule"
+msgstr "ir.rule"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_ui_menu
+msgid "ir.ui.menu"
+msgstr "ir.ui.menu"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_ui_view
+msgid "ir.ui.view"
+msgstr "ir.ui.view"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:257
+#, python-format
+msgid "month"
+msgstr "tháng"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/icon_creator.xml:28
+#, python-format
+msgid "or"
+msgstr "hoặc"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:1222
+#, python-format
+msgid "stages"
+msgstr "trạng thái"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_studio_mixin
+msgid "studio.mixin"
+msgstr "studio.mixin"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:592
+#, python-format
+msgid "test email"
+msgstr "kiểm tra email"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:163
+#, python-format
+msgid "top"
+msgstr "phía trên"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/icon_creator.xml:28
+#, python-format
+msgid "upload it"
+msgstr "tải nó lên"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar.xml:256
+#, python-format
+msgid "week"
+msgstr "tuần"

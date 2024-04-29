@@ -1,0 +1,49 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * website_sale_account_taxcloud
+# 
+# Translators:
+# Seongseok Shin <shinss61@hotmail.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-20 11:33+0000\n"
+"PO-Revision-Date: 2017-09-20 11:33+0000\n"
+"Last-Translator: Seongseok Shin <shinss61@hotmail.com>, 2018\n"
+"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: website_sale_account_taxcloud
+#: model:ir.ui.view,arch_db:website_sale_account_taxcloud.res_config_settings_view_form_inherit_website_taxcloud
+msgid "<i class=\"fa fa-fw fa-arrow-right\"/>Create Account &amp; Get Credentials"
+msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>계정 생성 및 &amp; 암호 받기"
+
+#. module: website_sale_account_taxcloud
+#: model:ir.ui.view,arch_db:website_sale_account_taxcloud.res_config_settings_view_form_inherit_website_taxcloud
+msgid "API ID"
+msgstr "API ID"
+
+#. module: website_sale_account_taxcloud
+#: model:ir.ui.view,arch_db:website_sale_account_taxcloud.res_config_settings_view_form_inherit_website_taxcloud
+msgid "API KEY"
+msgstr "API 키"
+
+#. module: website_sale_account_taxcloud
+#: model:ir.ui.view,arch_db:website_sale_account_taxcloud.res_config_settings_view_form_inherit_website_taxcloud
+msgid "Compute tax rates based on U.S. ZIP codes"
+msgstr "미국 우편번호 기반 세율 계산"
+
+#. module: website_sale_account_taxcloud
+#: model:ir.ui.view,arch_db:website_sale_account_taxcloud.res_config_settings_view_form_inherit_website_taxcloud
+msgid "Default Category"
+msgstr "기본 카테고리"
+
+#. module: website_sale_account_taxcloud
+#: model:ir.ui.view,arch_db:website_sale_account_taxcloud.res_config_settings_view_form_inherit_website_taxcloud
+msgid "TaxCloud"
+msgstr "TaxCloud"
